@@ -28,7 +28,7 @@ CREATE TABLE PROFESOR(
     idUsuario VARCHAR2(25) NOT NULL,
     titulo VARCHAR2(50) NOT NULL,
     experienciaAnios INT NOT NULL,
-    tipoContrato TCONTRATO NOT NULL
+    tipoContrato VARCHAR2(10) NOT NULL
 );
 
 CREATE TABLE ESTUDIANTE (
@@ -70,7 +70,7 @@ CREATE TABLE CANCELACION (
     fecha TIMESTAMP NOT NULL,
     motivo VARCHAR2(100),
     estado VARCHAR2(10) NOT NULL,
-    asesoria BOOLEAN NOT NULL,
+    asesoria CHAR(1) NOT NULL,
     idMateria VARCHAR2(25) NOT NULL,
     idNotificacion VARCHAR2(25) NOT NULL
 );
