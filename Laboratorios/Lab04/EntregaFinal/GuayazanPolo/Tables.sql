@@ -206,3 +206,54 @@ INSERT INTO Cliente (cedula, nombre, descuento, direccion, correo) VALUES (12345
 INSERT INTO Cliente (cedula, nombre, descuento, direccion, correo) VALUES (123456789012345, 'Cliente 1', 10, 'Direccion 1', 'hola@mail.com');
 SELECT * FROM Cliente;
 -- Error: Duplicated entry for 'cédula'
+
+
+-- Restricción de eliminación de campañas si tienen anuncios asociados
+CREATE OR REPLACE TRIGGER trg_prevent_delete_campaña
+BEFORE DELETE ON Campaña
+FOR EACH ROW
+DECLARE
+  v_count NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO v_count FROM Fisico WHERE id_campaña = :OLD.id;
+  IF v_count > 0 THEN
+    RAISE_APPLICATION_ERROR(-20001, 'No se puede eliminar una campaña con anuncios asociados.');
+  END IF;
+END;
+/
+
+-- Restricción de modificación de facturas ya generadas
+CREATE OR REPLACE TRIGGER trg_prevent_update_factura
+BEFORE UPDATE ON Factura
+FOR EACH ROW
+BEGIN
+  IF :OLD.estado != 'N' THEN
+    RAISE_APPLICATION_ERROR(-20002, 'No se pueden modificar facturas ya generadas.');
+  END IF;
+END;
+/
+
+-- Restricción para eliminar clientes solo si no tienen facturas
+CREATE OR REPLACE TRIGGER trg_prevent_delete_cliente
+BEFORE DELETE ON Cliente
+FOR EACH ROW
+DECLARE
+  v_count NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO v_count FROM Factura WHERE cedula_cliente = :OLD.cedula;
+  IF v_count > 0 THEN
+    RAISE_APPLICATION_ERROR(-20003, 'No se puede eliminar un cliente con facturas activas.');
+  END IF;
+END;
+/
+
+-- Restricción para solo permitir eliminar facturas en estado 'F' (finalizada)
+CREATE OR REPLACE TRIGGER trg_prevent_delete_factura
+BEFORE DELETE ON Factura
+FOR EACH ROW
+BEGIN
+  IF :OLD.estado != 'F' THEN
+    RAISE_APPLICATION_ERROR(-20004, 'Solo se pueden eliminar facturas en estado "F".');
+  END IF;
+END;
+/
