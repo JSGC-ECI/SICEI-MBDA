@@ -1,15 +1,11 @@
-CREATE TABLE USUARIOS(
+CREATE TABLE DIRECTORES(
     idUsuario VARCHAR2(25) NOT NULL,
     nombre VARCHAR2(100) NOT NULL,
     correo VARCHAR2(50),
     contraseña VARCHAR2(50) NOT NULL,
     telefono VARCHAR2(10),
     direccion VARCHAR2(100) NOT NULL,
-    fechaRegistro DATE NOT NULL
-);
-
-CREATE TABLE DIRECTORES(
-    idUsuario VARCHAR2(25) NOT NULL,
+    fechaRegistro DATE NOT NULL,
     fechaNombramiento DATE NOT NULL,
     nivelJerarquico VARCHAR2(10) NOT NULL,
     informesGenerados VARCHAR2(100) NOT NULL,
@@ -18,6 +14,12 @@ CREATE TABLE DIRECTORES(
 
 CREATE TABLE PROFESORES (
     idUsuario VARCHAR2(25) NOT NULL,
+    nombre VARCHAR2(100) NOT NULL,
+    correo VARCHAR2(50),
+    contraseña VARCHAR2(50) NOT NULL,
+    telefono VARCHAR2(10),
+    direccion VARCHAR2(100) NOT NULL,
+    fechaRegistro DATE NOT NULL,
     titulo VARCHAR2(50) NOT NULL,
     experienciaAnios INTEGER NOT NULL,
     tipoContrato VARCHAR2(10) NOT NULL
@@ -25,6 +27,12 @@ CREATE TABLE PROFESORES (
 
 CREATE TABLE ESTUDIANTES (
     idUsuario VARCHAR2(25) NOT NULL,
+    nombre VARCHAR2(100) NOT NULL,
+    correo VARCHAR2(50),
+    contraseña VARCHAR2(50) NOT NULL,
+    telefono VARCHAR2(10),
+    direccion VARCHAR2(100) NOT NULL,
+    fechaRegistro DATE NOT NULL,
     fechaIngreso DATE NOT NULL,
     documentoIdentidad VARCHAR2(12) NOT NULL,
     idCancelacion VARCHAR2(25) NOT NULL,
