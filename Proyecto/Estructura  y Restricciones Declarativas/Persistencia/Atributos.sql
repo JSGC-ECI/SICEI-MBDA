@@ -1,14 +1,34 @@
 ALTER TABLE PROFESORES ADD CONSTRAINT chk_TContrato
     CHECK (tipoContrato IN ('Planta', 'Catedra'));
 
-ALTER TABLE USUARIOS ADD CONSTRAINT chk_TCorreo
+ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_TCorreo_ESTUDIANTES
     CHECK (correo LIKE '%@escuelaing.edu.co' OR correo LIKE '%@mail.escuelaing.edu.co');
 
-ALTER TABLE USUARIOS ADD CONSTRAINT chk_TDireccion
+ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_TDireccion_ESTUDIANTES
     CHECK (direccion LIKE 'Calle%' OR direccion LIKE 'Carrera%' OR direccion LIKE 'Avenida%'
         OR direccion LIKE 'Transversal%' OR direccion LIKE 'Diagonal%' OR direccion LIKE 'Circular%');
 
-ALTER TABLE USUARIOS ADD CONSTRAINT chk_TId
+ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_TId_ESTUDIANTES
+    CHECK (REGEXP_LIKE(idUsuario, '^[A-Z]{4}[0-9]*$'));
+
+ALTER TABLE PROFESORES ADD CONSTRAINT chk_TCorreo_PROFESORES
+    CHECK (correo LIKE '%@escuelaing.edu.co' OR correo LIKE '%@mail.escuelaing.edu.co');
+
+ALTER TABLE PROFESORES ADD CONSTRAINT chk_TDireccion_PROFESORES
+    CHECK (direccion LIKE 'Calle%' OR direccion LIKE 'Carrera%' OR direccion LIKE 'Avenida%'
+        OR direccion LIKE 'Transversal%' OR direccion LIKE 'Diagonal%' OR direccion LIKE 'Circular%');
+
+ALTER TABLE PROFESORES ADD CONSTRAINT chk_TId_PROFESORES
+    CHECK (REGEXP_LIKE(idUsuario, '^[A-Z]{4}[0-9]*$'));
+
+ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TCorreo_DIRECTORES
+    CHECK (correo LIKE '%@escuelaing.edu.co' OR correo LIKE '%@mail.escuelaing.edu.co');
+
+ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TDireccion_DIRECTORES
+    CHECK (direccion LIKE 'Calle%' OR direccion LIKE 'Carrera%' OR direccion LIKE 'Avenida%'
+        OR direccion LIKE 'Transversal%' OR direccion LIKE 'Diagonal%' OR direccion LIKE 'Circular%');
+
+ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TId_DIRECTORES
     CHECK (REGEXP_LIKE(idUsuario, '^[A-Z]{4}[0-9]*$'));
 
 ALTER TABLE NOTIFICACIONES ADD CONSTRAINT chk_TEstado
