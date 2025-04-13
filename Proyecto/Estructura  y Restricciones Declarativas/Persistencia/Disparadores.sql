@@ -78,6 +78,7 @@ BEGIN
     WHERE idNotificacion = :NEW.idNotificacion;
 END;
 
+-- Trigger para validar los prerequisitos de una materia al insertar una preinscripción
 CREATE OR REPLACE TRIGGER trg_validar_prerequisitos
 BEFORE INSERT ON PREINSCRIPCIONES
 FOR EACH ROW
