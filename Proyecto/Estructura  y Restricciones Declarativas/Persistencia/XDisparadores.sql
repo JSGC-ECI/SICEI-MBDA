@@ -7,3 +7,4 @@ DROP TRIGGER trg_validar_telefono_profesor;
 DROP TRIGGER trg_validar_telefono_director;
 DROP TRIGGER trg_validar_telefono_estudiante;
 DROP TRIGGER trg_actualizar_notificacion;
+DROP TRIGGER trg_validar_prerequisitos;

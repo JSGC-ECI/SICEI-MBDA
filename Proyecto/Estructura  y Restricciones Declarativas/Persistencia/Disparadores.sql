@@ -77,3 +77,24 @@ BEGIN
     SET estado = 'enviado'
     WHERE idNotificacion = :NEW.idNotificacion;
 END;
+
+CREATE OR REPLACE TRIGGER trg_validar_prerequisitos
+BEFORE INSERT ON PREINSCRIPCIONES
+FOR EACH ROW
+DECLARE
+    v_faltan INTEGER;
+BEGIN
+    SELECT COUNT(*)
+    INTO v_faltan
+    FROM PREREQUISITOSMATERIAS prereq
+    WHERE prereq.idMateria = :NEW.idMateria
+    AND prereq.idMateriaRequisito NOT IN (
+        SELECT idMateria
+        FROM MATERIASPORESTUDIANTE
+        WHERE idEstudiante = :NEW.idEstudiante
+    );
+
+    IF v_faltan > 0 THEN
+        RAISE_APPLICATION_ERROR(-20003, 'El estudiante no ha cumplido con los prerequisitos de esta materia');
+    END IF;
+END;
