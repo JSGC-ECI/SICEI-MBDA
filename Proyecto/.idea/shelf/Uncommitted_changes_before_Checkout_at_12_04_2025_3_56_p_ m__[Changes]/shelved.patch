@@ -1,0 +1,54 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bb975ca4-0339-4e54-b25b-d8a709acadd5\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2un8CDH9eYmuBV0zO6Jaf3kohj2\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/jsegu/Documents/2025-1/MBDA/Guayazan-Polo-2025-1/Proyecto&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;DatabaseDriversLRU&quot;: [\r\n      &quot;oracle&quot;\r\n    ],\r\n    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [\r\n      &quot;OracleSqlPlus&quot;,\r\n      &quot;Oracle&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 089605a837375d15960f0726c95fb02c0a7dc761)
++++ b/.idea/workspace.xml	(date 1743223999312)
+@@ -4,8 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="bb975ca4-0339-4e54-b25b-d8a709acadd5" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" beforeDir="false" />
++    <list default="true" id="bb975ca4-0339-4e54-b25b-d8a709acadd5" name="Changes" comment="Lab 4: base">
++      <change afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Consultas.sql" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarNoOK.sql" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarOK.sql" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/XPoblar.sql" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -15,6 +19,18 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "JuanSebastianGuayazanClavijoECI"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/JuanSebastianGuayazanClavijoECI/Guayazan-Polo-2025-1",
++    "accountId": "00d93a04-9509-4d8b-aa37-63926624c5b9"
++  }
++}]]></component>
+   <component name="ProjectColorInfo">{
+   &quot;customColor&quot;: &quot;&quot;,
+   &quot;associatedIndex&quot;: 3
+@@ -44,6 +60,11 @@
+   }
+ }</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Definition of unique keys" />
++    <MESSAGE value="Lab 4: base" />
++    <option name="LAST_COMMIT_MESSAGE" value="Lab 4: base" />
++  </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
+     <select />
