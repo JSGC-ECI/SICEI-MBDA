@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06688381-955f-46a0-b856-1151f11babed" name="Changes" comment="Ultimos cambios antes de entrega">
-      <change beforePath="$PROJECT_DIR$/../Laboratorios/Lab03/Keys.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorios/Lab03/Keys.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laboratorios/Lab03/Tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorios/Lab03/Tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laboratorios/Lab03/XTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorios/Lab03/XTables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2025_3_56_p_m___Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2025_3_56_p_m___Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2025_3_56_p_ m__[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2025_3_56_p_ m__[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_04_2025_10_46_p_m___Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_04_2025_10_46_p_ m__[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_04_2025_10_50_p_m___Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_04_2025_10_50_p_ m__[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/Acciones.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/Disparadores.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/XDisparadores.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/AccionesOK.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/DisparadoresNoOK.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/DisparadoresOK.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/TuplasNoOK.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/TuplasOK.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +32,9 @@
     &quot;accountId&quot;: &quot;00d93a04-9509-4d8b-aa37-63926624c5b9&quot;
   }
 }</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2wE93uqv427p0HFIs8SNq1bGcB5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -68,7 +45,7 @@
     "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "desarrollo",
+    "git-widget-placeholder": "Juan-Guayazán",
     "last_opened_file_path": "C:/Users/jsegu",
     "settings.editor.selected.configurable": "database.query.execution"
   }
