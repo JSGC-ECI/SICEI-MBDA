@@ -34,7 +34,7 @@ CREATE TABLE ESTUDIANTES (
     direccion VARCHAR2(100) NOT NULL,
     fechaRegistro DATE NOT NULL,
     fechaIngreso DATE NOT NULL,
-    documentoIdentidad VARCHAR2(12) NOT NULL,
+    documentoIdentidad CHAR(12) NOT NULL,
     idCancelacion VARCHAR2(25) NOT NULL,
     estadoAcademico VARCHAR2(3) NOT NULL
 );

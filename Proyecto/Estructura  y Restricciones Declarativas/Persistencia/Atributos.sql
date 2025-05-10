@@ -8,6 +8,10 @@ ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TDireccionA
     CHECK (direccion LIKE 'Calle%' OR direccion LIKE 'Carrera%' OR direccion LIKE 'Avenida%'
         OR direccion LIKE 'Transversal%' OR direccion LIKE 'Diagonal%' OR direccion LIKE 'Circular%');
 
+ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_telefono
+    CHECK (REGEXP_LIKE(documentoIdentidad, '^[0-9]+$'));
+
+
 ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TMoneda
     CHECK (presupuestoAsignados BETWEEN 1 AND 99999999);
 
