@@ -8,7 +8,7 @@ ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TDireccionA
     CHECK (direccion LIKE 'Calle%' OR direccion LIKE 'Carrera%' OR direccion LIKE 'Avenida%'
         OR direccion LIKE 'Transversal%' OR direccion LIKE 'Diagonal%' OR direccion LIKE 'Circular%');
 
-ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_telefono
+ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_documentoIdentidad
     CHECK (REGEXP_LIKE(documentoIdentidad, '^[0-9]+$'));
 
 
