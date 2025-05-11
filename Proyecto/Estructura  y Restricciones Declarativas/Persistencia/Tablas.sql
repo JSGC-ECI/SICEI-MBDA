@@ -21,7 +21,7 @@ CREATE TABLE PROFESORES (
     direccion VARCHAR2(100) NOT NULL,
     fechaRegistro DATE NOT NULL,
     titulo VARCHAR2(50) NOT NULL,
-    experienciaAnios INTEGER NOT NULL,
+    experienciaAnos INTEGER NOT NULL,
     tipoContrato VARCHAR2(10) NOT NULL
 );
 

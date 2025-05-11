@@ -9,51 +9,51 @@ SELECT idDepartamento, nombre, idDirector
 FROM DEPARTAMENTOS;
 
 -- AREAS
-CREATE VIEW vista_areas AS
+CREATE VIEW areasE AS
 SELECT idArea, nombre, idDepartamento, idDirector
 FROM AREAS;
 
 -- NUCLEOSDEFORMACION
-CREATE VIEW vista_nucleosdeformacion AS
+CREATE VIEW nucleosdeformacionE AS
 SELECT idNucleoFormacion, nombre
 FROM NUCLEOSDEFORMACION;
 
 -- MATERIAS
-CREATE VIEW vista_materias AS
+CREATE VIEW materiasE AS
 SELECT idMateria, nombre, creditos, horasTeoricas, horasPracticas, nivel, modalidad, idArea, idCentroDeEstudios, idNucleoDeFormacion
 FROM MATERIAS;
 
 -- ESTUDIANTES
-CREATE VIEW vista_estudiantes AS
+CREATE VIEW estudiantesE AS
 SELECT idUsuario, nombre, correo, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico
 FROM ESTUDIANTES;
 
 -- NOTAS
-CREATE VIEW vista_notas AS
+CREATE VIEW notasE AS
 SELECT idNota, tipoDeEvaluacion, valor, idMateria, idEstudiante
 FROM NOTAS;
 
 -- CANCELACIONES
-CREATE VIEW vista_cancelaciones AS
+CREATE VIEW cancelacionesE AS
 SELECT idCancelacion, fecha, motivo, estado, idMateria
 FROM CANCELACIONES;
 
 -- MATERIASPORESTUDIANTE
-CREATE VIEW vista_materiasporestudiante AS
+CREATE VIEW materiasporestudianteE AS
 SELECT idMateria, idEstudiante
 FROM MATERIASPORESTUDIANTE;
 
 -- PREREQUISITOSMATERIAS
-CREATE VIEW vista_prerequisitosmaterias AS
+CREATE VIEW prerequisitosmateriasE AS
 SELECT idMateria, idMateriaRequisito
 FROM PREREQUISITOSMATERIAS;
 
 -- NOTIFICACIONES
-CREATE VIEW vista_notificaciones AS
+CREATE VIEW notificacionesE AS
 SELECT idNotificacion, mensaje, fecha, estado
 FROM NOTIFICACIONES;
 
 -- PROGRAMASPORESTUDIANTES
-CREATE VIEW vista_programasporestudiantes AS
+CREATE VIEW programasporestudiantesE AS
 SELECT idPrograma, idEstudiante
 FROM PROGRAMASPORESTUDIANTES;
