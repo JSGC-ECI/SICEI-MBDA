@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06688381-955f-46a0-b856-1151f11babed" name="Changes" comment="SQL query">
+    <list default="true" id="06688381-955f-46a0-b856-1151f11babed" name="Changes" comment="Attempt to enter incorrect data protected by data types, definition of nulls and primary, unique and foreign keys.">
+      <change afterPath="$PROJECT_DIR$/Componentes/Persistencia/CRUDE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Componentes/Persistencia/CRUDI.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Componentes/Persistencia/XCRUD.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Componentes/Pruebas/CRUDNoOK.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Componentes/Pruebas/CRUDOK.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Indices.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Vistas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Indices y Vistas/Persistencia/XIndicesVistas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Indices y Vistas/Pruebas/IndicesVistasOK.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTablas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTablas.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarNoOk.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarNoOk.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarOK.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarOK.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +108,7 @@
     <MESSAGE value="Creating tables (Removing unnecessary attributes)" />
     <MESSAGE value="Update" />
     <MESSAGE value="SQL query" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQL query" />
+    <MESSAGE value="Attempt to enter incorrect data protected by data types, definition of nulls and primary, unique and foreign keys." />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempt to enter incorrect data protected by data types, definition of nulls and primary, unique and foreign keys." />
   </component>
 </project>
