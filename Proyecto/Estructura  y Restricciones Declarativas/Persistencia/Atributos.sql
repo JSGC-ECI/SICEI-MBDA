@@ -8,6 +8,9 @@ ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TDireccionA
     CHECK (direccion LIKE 'Calle%' OR direccion LIKE 'Carrera%' OR direccion LIKE 'Avenida%'
         OR direccion LIKE 'Transversal%' OR direccion LIKE 'Diagonal%' OR direccion LIKE 'Circular%');
 
+ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TNivelL
+    CHECK (nivelJerarquico BETWEEN 1 AND 3);
+
 ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_documentoIdentidad
     CHECK (REGEXP_LIKE(documentoIdentidad, '^[0-9]+$'));
 
@@ -28,8 +31,8 @@ ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_TDireccionB
 ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_estado_academico
         CHECK (REGEXP_LIKE(EstadoAcademico, '^[AF]-[1-9]$'));
 
-ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_TIdC
-    CHECK (REGEXP_LIKE(idCancelacion, '^[A-Z]{4}[0-9]*$'));
+ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdC
+    CHECK (REGEXP_LIKE(idEstudiante, '^[A-Z]{4}[0-9]*$'));
 
 ALTER TABLE PROFESORES ADD CONSTRAINT chk_TIdD
     CHECK (REGEXP_LIKE(idUsuario, '^[A-Z]{4}[0-9]*$'));

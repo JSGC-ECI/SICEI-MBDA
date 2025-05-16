@@ -20,7 +20,6 @@ CREATE TABLE PROFESORES (
     telefono VARCHAR2(10),
     direccion VARCHAR2(100) NOT NULL,
     fechaRegistro DATE NOT NULL,
-    titulo VARCHAR2(50) NOT NULL,
     experienciaAnos INTEGER NOT NULL,
     tipoContrato VARCHAR2(10) NOT NULL
 );
@@ -35,7 +34,6 @@ CREATE TABLE ESTUDIANTES (
     fechaRegistro DATE NOT NULL,
     fechaIngreso DATE NOT NULL,
     documentoIdentidad CHAR(12) NOT NULL,
-    idCancelacion VARCHAR2(25) NOT NULL,
     estadoAcademico VARCHAR2(3) NOT NULL
 );
 
@@ -74,7 +72,8 @@ CREATE TABLE CANCELACIONES (
     estado VARCHAR2(10) NOT NULL,
     asesoria CHAR(1) NOT NULL,
     idMateria VARCHAR2(25) NOT NULL,
-    idNotificacion VARCHAR2(25) NOT NULL
+    idNotificacion VARCHAR2(25) NOT NULL,
+    idEstudiante VARCHAR2(25) NOT NULL
 );
 
 CREATE TABLE AREAS (
@@ -90,11 +89,20 @@ CREATE TABLE MATERIAS (
     creditos INTEGER NOT NULL,
     horasTeoricas INTEGER NOT NULL,
     horasPracticas INTEGER NOT NULL,
-    nivel VARCHAR2(10) NOT NULL,
+    nivel INTEGER NOT NULL,
     modalidad VARCHAR2(10) NOT NULL,
-    idArea VARCHAR2(25) NOT NULL,
-    idCentroDeEstudios VARCHAR2(25) NOT NULL,
+    idArea VARCHAR2(25),
+    idCentroDeEstudios VARCHAR2(25),
     idNucleoDeFormacion VARCHAR2(25) NOT NULL,
+    idEstudiante VARCHAR2(25) NOT NULL
+);
+
+CREATE TABLE NOTAS (
+    idNota VARCHAR2(25) NOT NULL,
+    valor NUMBER(3,1) NOT NULL,
+    fechaRegistro DATE NOT NULL,
+    tipoDeEvaluacion VARCHAR2(15) NOT NULL,
+    idMateria VARCHAR2(25) NOT NULL,
     idEstudiante VARCHAR2(25) NOT NULL
 );
 
@@ -112,7 +120,7 @@ CREATE TABLE PREREQUISITOSMATERIAS (
 
 CREATE TABLE CENTROSDEESTUDIOS (
     idCentroEstudios VARCHAR2(25) NOT NULL,
-    nombre VARCHAR2(35),
+    nombre VARCHAR2(50),
     idDirector VARCHAR2(25) NOT NULL,
     idProgramaAcademico VARCHAR2(25) NOT NULL
 );
@@ -122,23 +130,19 @@ CREATE TABLE NUCLEOSDEFORMACION (
     nombre VARCHAR2(35)
 );
 
-CREATE TABLE NOTAS (
-    idNota VARCHAR2(25) NOT NULL,
-    valor NUMBER(3,1) NOT NULL,
-    fechaRegistro DATE NOT NULL,
-    tipoDeEvaluacion VARCHAR2(15) NOT NULL,
-    idMateria VARCHAR2(25) NOT NULL,
-    idEstudiante VARCHAR2(25) NOT NULL
-);
 
 CREATE TABLE PROGRAMASACADEMICOS (
     idPrograma VARCHAR2(25) NOT NULL,
-    nombre VARCHAR2(35),
+    nombre VARCHAR2(50),
     duracionSemestres INTEGER NOT NULL
 );
 
 CREATE TABLE PROGRAMASPORESTUDIANTES (
     idPrograma VARCHAR2(25) NOT NULL,
-    idEstudiante VARCHAR2(25) NOT NULL,
-    programa VARCHAR2(50) NOT NULL
+    idEstudiante VARCHAR2(25) NOT NULL
+);
+
+CREATE TABLE TITULOS (
+    titulo VARCHAR2(60) NOT NULL,
+    idProfesor VARCHAR2(25) NOT NULL
 );

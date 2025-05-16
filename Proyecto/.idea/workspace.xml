@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb975ca4-0339-4e54-b25b-d8a709acadd5" name="Changes" comment="Actualizar">
-      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Foraneas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Foraneas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Primarias.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Primarias.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTablas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTablas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarOK.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarOK.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SICEI.asta" beforeDir="false" afterPath="$PROJECT_DIR$/SICEI.asta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JuanSebastianGuayazanClavijoECI&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JuanSebastianGuayazanClavijoECI/Guayazan-Polo-2025-1&quot;,
+    &quot;accountId&quot;: &quot;00d93a04-9509-4d8b-aa37-63926624c5b9&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -29,7 +49,7 @@
     &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#16 on desarrollo&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/jsegu/Documents/2025-1/MBDA/Guayazan-Polo-2025-1/Proyecto&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
