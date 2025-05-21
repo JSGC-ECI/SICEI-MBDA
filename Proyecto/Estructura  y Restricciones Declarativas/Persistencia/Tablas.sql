@@ -7,7 +7,7 @@ CREATE TABLE DIRECTORES(
     direccion VARCHAR2(100) NOT NULL,
     fechaRegistro DATE NOT NULL,
     fechaNombramiento DATE NOT NULL,
-    nivelJerarquico INTEGER NOT NULL,
+    nivelJerarquico VARCHAR2(10) NOT NULL,
     informesGenerados VARCHAR2(100) NOT NULL,
     presupuestoAsignados number(10,2) NOT NULL
 );
@@ -146,3 +146,17 @@ CREATE TABLE TITULOS (
     titulo VARCHAR2(60) NOT NULL,
     idProfesor VARCHAR2(25) NOT NULL
 );
+
+--Tablas
+--Atributos
+--PKs
+--UKs
+--FKs
+
+--Consultas y Poblar?
+
+--Tuplas
+--Acciones
+--Triggers
+--Indices
+--Vistas
