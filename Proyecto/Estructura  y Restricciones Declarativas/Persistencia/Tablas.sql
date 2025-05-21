@@ -7,7 +7,7 @@ CREATE TABLE DIRECTORES(
     direccion VARCHAR2(100) NOT NULL,
     fechaRegistro DATE NOT NULL,
     fechaNombramiento DATE NOT NULL,
-    nivelJerarquico VARCHAR2(10) NOT NULL,
+    nivelJerarquico INTEGER NOT NULL,
     informesGenerados VARCHAR2(100) NOT NULL,
     presupuestoAsignados number(10,2) NOT NULL
 );
