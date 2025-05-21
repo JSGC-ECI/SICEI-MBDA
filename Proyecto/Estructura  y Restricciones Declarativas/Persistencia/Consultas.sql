@@ -1,3 +1,8 @@
+
+
+
+-- CICLO 1
+
 -- Consultar profesores por materias
 
 SELECT m.nombre, m.idMateria, p.nombre
@@ -27,7 +32,9 @@ SELECT n.idNota, n.tipoDeEvaluacion, m.nombre, n.valor
 FROM notas n
          JOIN materias m ON n.idMateria = m.idMateria;
 
--- Consultar materia de la cual mas se han realizado solicitud de cancelacion
+-- CICLO 2
+
+-- Consultar materia de la cual se ha realizado mas solicitud de cancelaciones
 
 SELECT m.nombre, m.idMateria, COUNT(c.idCancelacion) AS NumeroDeCancelaciones
 FROM materias m
