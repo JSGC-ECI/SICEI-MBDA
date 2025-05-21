@@ -29,7 +29,7 @@ ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_TDireccionB
         OR direccion LIKE 'Transversal%' OR direccion LIKE 'Diagonal%' OR direccion LIKE 'Circular%');
 
 ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_estado_academico
-    CHECK (REGEXP_LIKE(EstadoAcademico, '^A/[1-9][0-9]*$|^I$|^R$'));
+        CHECK (REGEXP_LIKE(EstadoAcademico, '^[AF]-[1-9]$'));
 
 ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdC
     CHECK (REGEXP_LIKE(idEstudiante, '^[A-Z]{4}[0-9]*$'));
@@ -177,3 +177,19 @@ ALTER TABLE PROGRAMASPORESTUDIANTES ADD CONSTRAINT chk_TIdAK
 
 ALTER TABLE PROGRAMASPORESTUDIANTES ADD CONSTRAINT chk_TIdAL
     CHECK (REGEXP_LIKE(idEstudiante, '^[A-Z]{4}[0-9]*$'));
+
+-- Restricción para validar que el teléfono de los estudiantes tenga 10 dígitos
+ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_telefono_estudiantes
+    CHECK (telefono IS NULL OR LENGTH(telefono) = 10);
+
+-- Restricción para validar que el teléfono de los profesores tenga 10 dígitos
+ALTER TABLE PROFESORES ADD CONSTRAINT chk_telefono_profesores
+    CHECK (telefono IS NULL OR LENGTH(telefono) = 10);
+
+-- Restricción para validar que el teléfono de los directores tenga 10 dígitos
+ALTER TABLE DIRECTORES ADD CONSTRAINT chk_telefono_directores
+    CHECK (telefono IS NULL OR LENGTH(telefono) = 10);
+
+-- Restricción para validar que las notas estén entre 0.0 y 5.0
+ALTER TABLE NOTAS ADD CONSTRAINT chk_rango_notas
+    CHECK (valor >= 0.0 AND valor <= 5.0);

@@ -7,16 +7,7 @@ BEGIN
 END;
 /
 
--- Trigger para evitar notas mayores a 5.0
-CREATE TRIGGER trg_validar_nota
-BEFORE INSERT OR UPDATE ON Notas
-FOR EACH ROW
-BEGIN
-    IF :NEW.valor > 5.0 THEN
-        RAISE_APPLICATION_ERROR(-20001, 'La nota no puede ser mayor a 5.0');
-    END IF;
-END;
-/
+-- NOTA: La validación de que las notas no sean mayores a 5.0 se realiza mediante una restricción CHECK en Atributos.sql
 
 -- Trigger para establecer el presupuesto asignado al insertar un nuevo director
 CREATE TRIGGER trg_presupuesto_director
@@ -27,35 +18,11 @@ BEGIN
 END;
 /
 
--- Trigger para validar el formato del teléfono al insertar o actualizar un profesor
-CREATE TRIGGER trg_validar_telefono_profesor
-BEFORE INSERT OR UPDATE ON PROFESORES
-FOR EACH ROW
-BEGIN
-    IF LENGTH(:NEW.telefono) != 10 THEN
-        RAISE_APPLICATION_ERROR(-20001, 'El teléfono debe tener 10 dígitos');
-    END IF;
-END;
+-- NOTA: La validación del formato del teléfono para profesores se realiza mediante una restricción CHECK en Atributos.sql
 
--- Trigger para validar el formato del teléfono al insertar o actualizar un director
-CREATE OR REPLACE TRIGGER trg_validar_telefono_director
-BEFORE INSERT OR UPDATE ON DIRECTORES
-FOR EACH ROW
-BEGIN
-    IF LENGTH(:NEW.telefono) != 10 THEN
-        RAISE_APPLICATION_ERROR(-20001, 'El teléfono debe tener 10 dígitos');
-    END IF;
-END;
+-- NOTA: La validación del formato del teléfono para directores se realiza mediante una restricción CHECK en Atributos.sql
 
--- Trigger para validar el formato del teléfono al insertar o actualizar un estudiante
-CREATE OR REPLACE TRIGGER trg_validar_telefono_estudiante
-BEFORE INSERT OR UPDATE ON ESTUDIANTES
-FOR EACH ROW
-BEGIN
-    IF LENGTH(:NEW.telefono) != 10 THEN
-        RAISE_APPLICATION_ERROR(-20001, 'El teléfono debe tener 10 dígitos');
-    END IF;
-END;
+-- NOTA: La validación del formato del teléfono para estudiantes se realiza mediante una restricción CHECK en Atributos.sql
 
 -- Trigger para actualizar el estado de la notificación al insertar una cancelación
 CREATE OR REPLACE TRIGGER trg_actualizar_notificacion
@@ -78,16 +45,7 @@ BEGIN
 END;
 /
 
--- Trigger para evitar notas menores a 0 en la tabla Notas
-CREATE OR REPLACE TRIGGER trg_validar_nota_minima
-BEFORE INSERT OR UPDATE ON Notas
-FOR EACH ROW
-BEGIN
-    IF :NEW.valor < 0 THEN
-        RAISE_APPLICATION_ERROR(-20003, 'La nota no puede ser menor a 0');
-    END IF;
-END;
-/
+-- NOTA: La validación de que las notas no sean menores a 0 se realiza mediante una restricción CHECK en Atributos.sql
 
 -- Trigger para verificar que el cupo máximo en grupos sea un número positivo
 CREATE OR REPLACE TRIGGER trg_verificar_cupo_grupo
