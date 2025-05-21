@@ -1,4 +1,3 @@
-// filepath: c:\Users\maria\Downloads\Guayazan-Polo-2025-1-desarrollo\Proyecto\Estructura  y Restricciones Declarativas\Persistencia\Tuplas.sql
 -- RESTRICCIONES DE TUPLAS - SISTEMA DE GESTIÓN ACADÉMICA
 
 -- Las horas prácticas y teóricas deben sumar al menos el número de créditos
@@ -38,15 +37,19 @@ CHECK (nivel < 7 OR creditos >= 3);
 ALTER TABLE GRUPOS
 ADD CONSTRAINT ck_cupo_duracion
 CHECK (
-  CASE
-    WHEN horario IN ('07:00 - 08:30', '08:30 - 10:00', '10:00 - 11:30', '11:30 - 13:00', 
-                     '13:00 - 14:30', '14:30 - 16:00', '16:00 - 17:30', '17:30 - 19:00')
-      THEN cupoMaximo <= 40  -- 1.5 horas (~ 40 estudiantes máximo)
-    WHEN horario IN ('07:00 - 10:00', '08:30 - 11:30', '10:00 - 13:00', '11:30 - 14:30',
-                     '13:00 - 16:00', '14:30 - 17:30', '16:00 - 19:00')
-      THEN cupoMaximo <= 70  -- 3 horas (~ 70 estudiantes máximo)
-    ELSE cupoMaximo <= 30    -- Default para otros casos
-  END
+  (horario IN ('07:00 - 08:30', '08:30 - 10:00', '10:00 - 11:30', '11:30 - 13:00',
+              '13:00 - 14:30', '14:30 - 16:00', '16:00 - 17:30', '17:30 - 19:00')
+   AND cupoMaximo <= 40) -- 1.5 horas (~ 40 estudiantes máximo)
+  OR
+  (horario IN ('07:00 - 10:00', '08:30 - 11:30', '10:00 - 13:00', '11:30 - 14:30',
+              '13:00 - 16:00', '14:30 - 17:30', '16:00 - 19:00')
+   AND cupoMaximo <= 70) -- 3 horas (~ 70 estudiantes máximo)
+  OR
+  (horario NOT IN ('07:00 - 08:30', '08:30 - 10:00', '10:00 - 11:30', '11:30 - 13:00',
+                  '13:00 - 14:30', '14:30 - 16:00', '16:00 - 17:30', '17:30 - 19:00',
+                  '07:00 - 10:00', '08:30 - 11:30', '10:00 - 13:00', '11:30 - 14:30',
+                  '13:00 - 16:00', '14:30 - 17:30', '16:00 - 19:00')
+   AND cupoMaximo <= 30) -- Default para otros casos
 );
 
 -- Una materia no puede ser prerrequisito de sí misma
@@ -68,10 +71,11 @@ CHECK (modalidad != 'Virtual' OR horasTeoricas > horasPracticas);
 ALTER TABLE DIRECTORES
 ADD CONSTRAINT ck_presupuesto_nivel
 CHECK (
-  CASE
-    WHEN nivelJerarquico = '1' THEN presupuestoAsignados <= 100000
-    WHEN nivelJerarquico = '2' THEN presupuestoAsignados <= 500000
-    WHEN nivelJerarquico = '3' THEN presupuestoAsignados <= 1000000
-    ELSE presupuestoAsignados <= 50000
-  END
+  (nivelJerarquico = '1' AND presupuestoAsignados <= 100000)
+  OR
+  (nivelJerarquico = '2' AND presupuestoAsignados <= 500000)
+  OR
+  (nivelJerarquico = '3' AND presupuestoAsignados <= 1000000)
+  OR
+  (nivelJerarquico NOT IN ('1', '2', '3') AND presupuestoAsignados <= 50000)
 );
