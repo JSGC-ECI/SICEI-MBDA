@@ -1,3 +1,280 @@
+-- CICLO 1
+
+-- ESTUDIANTES
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000093986', 'Marianella Polo Peña', 'marianella.polo-p@mail.escuelaing.edu.co', 'password123', '1029220411', 'Calle 123', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '000123456789', 'A/8');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000096208', 'Juan Sebastián Guayazán Clavijo', 'juan.guayazan-c@mail.escuelaing.edu.co', 'password321', '1025523810', 'Calle 321', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '000987654321',  'A/4');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000090700', 'María Paula Robinson Hidalgo', 'maria.robinson-h@mail.escuelaing.edu.co', 'jS4%U(%0!j', '', 'Avenida 127 #54-34', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '012345678901',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000090709', 'Nicolas Felipe Bernal Gallo', 'nicolas.bernal-g@mail.escuelaing.edu.co', 'xM5&.}F!mxf8Lv<=', '', 'Avenida 9 #36-25', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '123456789012',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000092309', 'Rafael Santiago Moreno Velasquez', 'rafael.moreno-v@mail.escuelaing.edu.co', 'pP4@DYyNOH_@r', '', 'Carrera 122 #31-32', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '234567890123',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000100162', 'Cristian Santiago Moreno Ruiz', 'cristian.moreno-r@mail.escuelaing.edu.co', 'mO1/hMD@h?', '', 'Avenida 140 #84-45', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '345678901234',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000095732', 'María Juliana Rodríguez Caicedo', 'maria.rcaicedo@mail.escuelaing.edu.co', 'vH8{5PrJ', '', 'Diagonal 74 #42-31', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '456789012345',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000100827', 'Diego Fabian Andrade Durán', 'diego.andrade-d@mail.escuelaing.edu.co', 'gC7&Jqpw*_', '', 'Avenida 131 #8-41', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '567890123456',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000092366', 'Felipe Eduardo Calvache Gallego', 'felipe.calvache-g@mail.escuelaing.edu.co', 'gV5@nb!uKC{', '', 'Diagonal 19 #49-38', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '678901234567',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000095923', 'Mateo Eliecer Moreno Tenjica', 'mateo.moreno-t@mail.escuelaing.edu.co', 'rR7@%<<)>8R', '', 'Avenida 123 #99-33', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '789012345678',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000098136', 'Juan Sebastian Ortega Muñoz', 'juan.ortega-m@mail.escuelaing.edu.co', 'lT9~Qb\*B>g1A', '', 'Diagonal 74 #69-16', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '890123456789',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000100519', 'Juan David Gómez Cuellar', 'juan.gcuellar@mail.escuelaing.edu.co', 'gQ6}F%uUmbjR', '', 'Circular 114 #51-33', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '901234567890',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000097900', 'Tomas Espitia Quiroga', 'tomas.espitia-q@mail.escuelaing.edu.co', 'wU8\<jst{a4@%C', '', 'Calle 8 #30-33', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '112233445566',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000099463', 'Carlos Mario Piedrahita Arango', 'carlos.piedrahita-a@mail.escuelaing.edu.co', 'oM4+FN./3ng', '', 'Avenida 98 #84-10', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '223344556677',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000090827', 'Hernán David Sánchez Alarcón', 'hernan.sanchez-a@mail.escuelaing.edu.co', 'lB2/O"!,tnV/P', '', 'Circular 13 #78-26', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '334455667788',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000091956', 'Juan Daniel Bogotá Fuentes', 'juan.bogota-f@mail.escuelaing.edu.co', 'zG8\u&4D4/,t', '', 'Avenida 45 #86-38', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '445566778899',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000097274', 'Elizabeth Correa Suarez', 'elizabeth.correa-s@mail.escuelaing.edu.co', 'dP6''/}<9g', '', 'Circular 76 #94-41', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '556677889900',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000096481', 'Cristian José González Rodríguez', 'cristian.gonzalez-r@mail.escuelaing.edu.co', 'hR0''VlZ/cm', '', 'Avenida 60 #92-36', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '667788990011',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000099499', 'Julián David Castiblanco Real', 'julian.castiblanco-r@mail.escuelaing.edu.co', 'wU7%fxe5<', '', 'Calle 136 #76-6', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '778899001122',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000095092', 'Juan Diego Valderrama Gaviria', 'juan.valderrama-g@mail.escuelaing.edu.co', 'zM6.XZHcD5R', '', 'Transversal 73 #46-10', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '889900112233',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000099249', 'Jeyder Nicolay León Lancheros', 'jeyder.leon-l@mail.escuelaing.edu.co', 'iB5~Q4(5!Rr', '', 'Transversal 97 #46-15', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '990011223344',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000100514', 'Karol Estefany Estupiñan Viancha', 'karol.estupinan-v@mail.escuelaing.edu.co', 'aE4%GqjIT5(', '', 'Calle 128 #35-35', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '101010101010',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000100296', 'Mariana Malagón Tochoy', 'mariana.malagon-t@mail.escuelaing.edu.co', 'tA1_ho}c&LvjVM', '', 'Avenida 98 #56-35', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '202020202020',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU1000095428', 'Kevyn Daniel Forero Gonzalez', 'kevyn.forero-g@mail.escuelaing.edu.co', 'gB4<Lv4)JT6M0"O', '', 'Calle 140 #48-48', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '303030303030',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU25', 'Estudiante 25', 'estudiante25@mail.escuelaing.edu.co', 'lD6,\\y9n1X=', '2525', 'Calle 110 #70-22', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '707070707070',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU26', 'Estudiante 26', 'estudiante26@mail.escuelaing.edu.co', 'rS7+Y,)W=', '2626', 'Diagonal 74 #25-3', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '808080808080',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU27', 'Estudiante 27', 'estudiante27@mail.escuelaing.edu.co', 'dY7`ud=Uu$ak=', '2727', 'Calle 15 #32-49', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '909090909090',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU28', 'Estudiante 28', 'estudiante28@mail.escuelaing.edu.co', 'xX5&jPAlUWY', '2828', 'Calle 15 #32-49', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '505050505050',  '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU29', 'Estudiante 29', 'estudiante29@mail.escuelaing.edu.co', 'sI6}=Elg<}Zg5IG<', '2929', 'Transversal 96 #76-18', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '606060606060', '');
+
+INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
+VALUES  ('ESTU30', 'Estudiante 30', 'estudiante30@mail.escuelaing.edu.co', 'yQ6_W0z%T6/d?', '3030', 'Transversal 87 #84-34', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '6546546565', '');
+
+-- PROFESORES
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF100000', 'Daniela Sepulveda Alzate', 'daniela.sepulveda@escuelaing.edu.co', 'aU7%z)/zjdDC', '0', 'Calle 45 #10-20', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000006664', 'Laura Catalina Herrera Correa', 'laura.herrera@escuelaing.edu.co', 'iR0''Hsw2r?/@m7ZR', '223', 'Carrera 106 #35-48', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1067961563', 'Orlando Antonio Gelves', 'orlando.gelves@escuelaing.edu.co', 'xV3!TRwzbF', '0', 'Avenida 38 #100-31', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000007379', 'Carlos Andres Medina Rivas', 'carlos.medina-ri@escuelaing.edu.co', 'wF9/FAJ$', '', 'Transversal 102 #81-28', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000003443', 'Maria Alejandra Goenaga Zamor', 'maria.goenaga@escuelaing.edu.co', 'jB7%pIc$@q?"', '0', 'Transversal 120 #46-39', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000000407', 'María Irma Díaz Rozo', 'maria.diaz@escuelaing.edu.co', 'bI4\T|s_(', '220', 'Avenida 65 #88-8', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Planta');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000007948', 'Rodrigo Humberto Gualtero Martinez', 'rodrigo.gualtero-m@escuelaing.edu.co', 'oD6~u!hb584`', '0', 'Diagonal 76 #89-32', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000007963', 'John David Ibañez Rodriguez', 'john.ibanez@escuelaing.edu.co', 'hI3`q4<5n1', '1193065771', 'Transversal 138 #40-34', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000012018', 'Angie Tatiana Medina Gil', 'angie.medina@escuelaing.edu.co', 'oM3.W__)M', '', 'Calle 110 #71-3', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000009295', 'Ana Maria Rincon Casallas', 'ana.rincon-c@escuelaing.edu.co', 'iS4)hU#0u', '1032503412', 'Calle 12 #35-6', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000005841', 'Santiago Rocha Duran', 'santiago.rocha@escuelaing.edu.co', 'eO1@BGuy', '1019136956', 'Carrera 10 #54-42', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF', 'Alejandro Anzola Avila', 'alejandro.anzola@escuelaing.edu.co', 'aP1>K_?1,o\''', '', 'Circular 113 #55-13', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000003322', 'Sebastian Camilo Martinez Reyes', 'sebastian.martinez@escuelaing.edu.co', 'dU0(LYh`\n64w', '223', 'Avenida 26 #70-49', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF', 'Oscar David Ospina Rodriguez', 'oscar.ospina-r@escuelaing.edu.co', 'fB8=4N\g!,%|y', '223', 'Circular 104 #23-44', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF', 'Diego Andres Triviño Gonzalez', 'diego.trivino@escuelaing.edu.co', 'vA5|n1kbj2b22TV', '0', 'Diagonal 8 #49-38', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF', 'Javier Ivan Toquica Barrera', 'javier.toquica@escuelaing.edu.co', 'eC6\qtgtH', '0', 'Diagonal 92 #40-36', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000000666', 'Diego Alejandro Jara Arango', 'diego.jara@escuelaing.edu.co', 'xH0*sqvcC6G&Y', '223', 'Transversal 40 #89-24', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF', 'Santiago Carrillo Barbosa', 'santiago.carrillo@escuelaing.edu.co', 'mK0}''7|}W9m1S6L', '', 'Transversal 67 #9-38', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000004495', 'Ana Maria Cortes Murcia', 'ana.cortes@escuelaing.edu.co', 'vX0*#iq%0=.=', '', 'Carrera 18 #90-18', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000009432', 'Diego Fernando Rodriguez Rodriguez', 'diego.rodriguez-r@escuelaing.edu.co', 'sU9.c8,#}_', '0', 'Diagonal 38 #20-33', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000000143', 'Oswaldo Castillo Navetty', 'oswaldo.castillo@escuelaing.edu.co', 'oL6"1t~H', '371', 'Calle 104 #44-45', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000000672', 'Luis Daniel Benavides Navarro', 'luis.benavides@escuelaing.edu.co', 'tR7&j{eeh*2ei', '220', 'Transversal 90 #41-24', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000000607', 'Gerardo Ospina Hernandez', 'gerardo.ospina@escuelaing.edu.co', 'qW1''ZrtuC"', '220', 'Transversal 106 #20-38', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000000451', 'Claudia Patricia Santiago Cely', 'claudia.santiago@escuelaing.edu.co', 'zQ6#`qPmJy)@w', '377', 'Diagonal 123 #57-49', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000010723', 'John Alexander Pachon Pinzon', 'john.pachon@escuelaing.edu.co', 'qN9''ENMNi)hL1?8', '10', 'Carrera 64 #36-9', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF', 'Fabian Eduardo Sierra Sanchez', 'fabian.sierra@escuelaing.edu.co', 'yB0(P~H0?g''j&', '0', 'Calle 78 #59-17', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000002175', 'Diego Alejandro Murcia Cespedes', 'diego.murcia@escuelaing.edu.co', 'gJ9\A_<EKq|', '1004678728', 'Diagonal 90 #87-18', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000000264', 'Raul Alfredo Chaparro Aguilar', 'raul.chaparro@escuelaing.edu.co', 'yE7&4,x_Dv', '223', 'Avenida 136 #73-37', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000000860', 'Juan Esteban Cortes Garzon', 'juan.cortes@escuelaing.edu.co', 'uH3,<DjxG`\!H}dP', '317', 'Diagonal 82 #8-42', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
+
+INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
+VALUES ('PROF1000000929', 'Daniela Andrea Perez Velasco', 'daniela.perez@escuelaing.edu.co', 'cC5{T/f3N_Yi', '321', 'Calle 18 #62-27', TO_DATE('', 'YYYY-MM-DD'),  0, 'Catedra');
+
+-- DIRECTORES
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000563', 'Nancy Torres Castellanos', 'nancy.torres@escuelaing.edu.co', 'bC5>{!Qh4&20Vjd', '539/228', 'Carrera 106 #35-48', TO_DATE('2025-04-20', 'YYYY-MM-DD'), TO_DATE('2022-06-15', 'YYYY-MM-DD'), 1, 'http://example.com/report1', 15432.50);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000334', 'Lina Ximena Garzón Avila', 'lina.garzon@escuelaing.edu.co', 'mJ4~S7\0gY', '581', 'Avenida 38 #100-31', TO_DATE('2025-05-05', 'YYYY-MM-DD'), TO_DATE('2023-11-20', 'YYYY-MM-DD'), 2, 'http://example.com/report2', 789423.90);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000597', 'Héctor Alfonso Rodríguez Díaz', 'alfonso.rodriguez@escuelaing.edu.co', 'hG4$FE{B>bVo*hev', '218', 'Transversal 102 #81-28', TO_DATE('2025-04-28', 'YYYY-MM-DD'), TO_DATE('2021-04-10', 'YYYY-MM-DD'), 3, 'http://example.com/report3', 982300.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000466', 'Paula Ximena Ríos Reyes', 'paula.rios@escuelaing.edu.co', 'zN6#h24"y80', '588', 'Transversal 120 #46-39', TO_DATE('2025-05-10', 'YYYY-MM-DD'), TO_DATE('2024-03-23', 'YYYY-MM-DD'), 1, 'http://example.com/report4', 654200.75);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000193', 'Jairo Alberto Romero Rojas', 'jairo.romero@escuelaing.edu.co', 'wM8*1/3mNzFf|Gy', '234', 'Avenida 65 #88-8', TO_DATE('2025-04-17', 'YYYY-MM-DD'), TO_DATE('2020-12-01', 'YYYY-MM-DD'), 2, 'http://example.com/report5', 1025400.30);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000226', 'Hugo Iván Forero Bernal', 'hugo.forero@escuelaing.edu.co', 'hN5.,1OhyXZ3H', '369', 'Diagonal 64 #11-30', TO_DATE('2025-04-26', 'YYYY-MM-DD'), TO_DATE('2021-09-19', 'YYYY-MM-DD'), 1, 'http://example.com/report6', 45567.45);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000436', 'Victoria Eugenia Ospina Becerra', 'victoria.ospina@escuelaing.edu.co', 'aU4$''Y\Q\b+', '156', 'Calle 33 #60-39', TO_DATE('2025-05-03', 'YYYY-MM-DD'), TO_DATE('2023-01-29', 'YYYY-MM-DD'), 3, 'http://example.com/report7', 3103000.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000451', 'Claudia Patricia Santiago Cely', 'claudia.santiago@escuelaing.edu.co', 'qD4)#67Lj+qCOz5', '377', 'Diagonal 1 #4-18', TO_DATE('2025-04-25', 'YYYY-MM-DD'), TO_DATE('2022-07-15', 'YYYY-MM-DD'), 2, 'http://example.com/report8', 99800.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000803', 'Wilmer Edicson Garzón Alfonso', 'wilmer.garzon@escuelaing.edu.co', 'yD3_G<p=Id72''O', '555', 'Diagonal 88 #57-10', TO_DATE('2025-04-19', 'YYYY-MM-DD'), TO_DATE('2020-10-20', 'YYYY-MM-DD'), 1, 'http://example.com/report9', 75500.30);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000617', 'Hugo René Sarmiento Espinosa', 'hugo.sarmiento@escuelaing.edu.co', 'gV9{''oKf', '163', 'Circular 35 #11-27', TO_DATE('2025-05-07', 'YYYY-MM-DD'), TO_DATE('2021-06-06', 'YYYY-MM-DD'), 3, 'http://example.com/report10', 158340.55);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000442', 'Luz Angélica Rodríguez Bello', 'angelica.rodriguez@escuelaing.edu.co	', 'yA2{I!u=)wIGf''$D', '254-314', 'Calle 95 #64-19', TO_DATE('2025-04-22', 'YYYY-MM-DD'), TO_DATE('2023-04-05', 'YYYY-MM-DD'), 2, 'http://example.com/report11', 495900.75);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000', 'Adriana Esguerra Arce', 'adriana.esguerra@escuelaing.edu.co', 'yV6#Z><","', '', 'Avenida 9 #32-39', TO_DATE('2025-05-02', 'YYYY-MM-DD'), TO_DATE('2021-11-30', 'YYYY-MM-DD'), 1, 'http://example.com/report12', 1000000.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000667', 'Alexander Pérez Ruiz', 'alexander.perez@escuelaing.edu.co', 'iA4<8uz"!r0g3CzZ', '330', 'Diagonal 110 #66-45', TO_DATE('2025-05-06', 'YYYY-MM-DD'), TO_DATE('2022-08-15', 'YYYY-MM-DD'), 3, 'http://example.com/report13', 765430.45);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000321', 'Nubia Edith Cárdenas Zabala', 'nubia.cardenas@escuelaing.edu.co', 'wU4_|>yo22CX6''', '530', 'Calle 133 #90-20', TO_DATE('2025-04-30', 'YYYY-MM-DD'), TO_DATE('2024-02-22', 'YYYY-MM-DD'), 1, 'http://example.com/report14', 432200.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000578', 'Carlos Andrés Pérez Tristancho', 'carlos.perez@escuelaing.edu.co', 'bB3"S_(owzhh$yk/', '530', 'Avenida 19 #46-31', TO_DATE('2025-05-04', 'YYYY-MM-DD'), TO_DATE('2020-07-18', 'YYYY-MM-DD'), 2, 'http://example.com/report15', 302140.30);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000242', 'Juan Antonio Acosta Gempeler', 'juan.acosta@escuelaing.edu.co', 'fW5,`cZt{$gK(3E)', '378', 'Avenida 84 #39-1', TO_DATE('2025-05-01', 'YYYY-MM-DD'), TO_DATE('2023-03-11', 'YYYY-MM-DD'), 3, 'http://example.com/report16', 820000.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000169', 'Luis Eduardo Rodríguez Cheu', 'luis.rodriguez@escuelaing.edu.co	', 'nH7%|2ZT*H,', '208', 'Diagonal 94 #3-46', TO_DATE('2025-04-29', 'YYYY-MM-DD'), TO_DATE('2021-12-27', 'YYYY-MM-DD'), 1, 'http://example.com/report17', 125400.75);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000622', 'Hector Jaime Martínez Covaleda', 'hector.martinez@escuelaing.edu.co', 'eR1(aOdBv3(%C#!', '148', 'Avenida 40 #19-42', TO_DATE('2025-05-08', 'YYYY-MM-DD'), TO_DATE('2022-05-30', 'YYYY-MM-DD'), 3, 'http://example.com/report18', 98000.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000800', 'Juan Carlos Illera Correal', 'juan.illera@escuelaing.edu.co', 'cB8(IO0,=%%j', '154', 'Transversal 48 #89-25', TO_DATE('2025-04-18', 'YYYY-MM-DD'), TO_DATE('2024-01-15', 'YYYY-MM-DD'), 2, 'http://example.com/report19', 75900.30);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000113', 'Carlos Abel Álvarez Pérez', 'carlos.alvarez@escuelaing.edu.co', 'fT0`Ltt1p`J>', '391', 'Calle 146 #71-2', TO_DATE('2025-05-09', 'YYYY-MM-DD'), TO_DATE('2020-09-10', 'YYYY-MM-DD'), 1, 'http://example.com/report20', 200000.55);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000564', 'Martha Edith Rolón Ramírez', 'martha.rolon@escuelaing.edu.co', 'hO3\1Z~FCm', '599', 'Carrera 27 #41-30', TO_DATE('2025-04-21', 'YYYY-MM-DD'), TO_DATE('2023-10-12', 'YYYY-MM-DD'), 2, 'http://example.com/report21', 478300.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000324', 'Yuly Andrea Sanchez Londoño', 'yuly.sanchez@escuelaing.edu.co', 'tM7&Xwys{Fr', '', 'Transversal 52 #88-34', TO_DATE('2025-05-05', 'YYYY-MM-DD'), TO_DATE('2021-05-09', 'YYYY-MM-DD'), 3, 'http://example.com/report22', 123400.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000986', 'Yesid Esteban Clavijo Penagos', 'yesid.clavijo@escuelaing.edu.co', 'hN2)jSl0\LJ}UA''6', '578', 'Transversal 116 #12-9', TO_DATE('2025-04-23', 'YYYY-MM-DD'), TO_DATE('2022-03-21', 'YYYY-MM-DD'), 1, 'http://example.com/report23', 89000.75);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000294', 'Claudia Patricia Castañeda Bermudez', 'patricia.castaneda@escuelaing.edu.co', 'dZ9~Apv2Um', '220', 'Transversal 11 #43-8', TO_DATE('2025-04-20', 'YYYY-MM-DD'), TO_DATE('2020-11-25', 'YYYY-MM-DD'), 2, 'http://example.com/report24', 220000.30);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000007948', 'Rodrigo Humberto Gualtero Martinez', 'rodrigo.gualtero-m@escuelaing.edu.co', 'fS7}UCi7@U', '0', 'Carrera 80 #69-9', TO_DATE('2025-05-10', 'YYYY-MM-DD'), TO_DATE('2023-07-14', 'YYYY-MM-DD'), 3, 'http://example.com/report25', 995500.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000758', 'Juan Carlos Lopera Tellez>', 'juan.lopera@escuelaing.edu.co', 'fG0\9TXWB2{,1', '361', 'Carrera 56 #59-4', TO_DATE('2025-04-24', 'YYYY-MM-DD'), TO_DATE('2021-02-01', 'YYYY-MM-DD'), 1, 'http://example.com/report26', 57000.90);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000403', 'Daissy Haidee Garces Najar', 'daissy.garces@escuelaing.edu.co', 'vP7''kTyr&&!O?><F', '124', 'Calle 55 #80-23', TO_DATE('2025-04-28', 'YYYY-MM-DD'), TO_DATE('2022-11-03', 'YYYY-MM-DD'), 2, 'http://example.com/report27', 45000.00);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DIRE1000000685', 'Weimar Henry Roncancio Torres', 'weimar.roncancio@escuelaing.edu.co', 'nN7{Zvi.', '281', 'Transversal 45 #20-42', TO_DATE('2025-05-07', 'YYYY-MM-DD'), TO_DATE('2024-06-22', 'YYYY-MM-DD'), 3, 'http://example.com/report28', 1020000.50);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DICE028', 'Director Ejemplo 1', 'director1@escuelaing.edu.co', 'securePass1', '1234567890', 'Calle 1 #1-1', TO_DATE('2025-04-19', 'YYYY-MM-DD'), TO_DATE('2020-08-18', 'YYYY-MM-DD'), 1, 'http://example.com/report29', 54300.20);
+
+INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
+VALUES ('DICE029', 'Director Ejemplo 2', 'director2@escuelaing.edu.co', 'securePass2', '0987654321', 'Calle 2 #2-2', TO_DATE('2025-05-03', 'YYYY-MM-DD'), TO_DATE('2023-02-25', 'YYYY-MM-DD'), 2, 'http://example.com/report30', 77500.00);
+
+
+
 -- CENTROSDEESTUDIOS
 INSERT INTO CENTROSDEESTUDIOS (idCentroEstudios, nombre, idDirector, idProgramaAcademico)
 VALUES ('CENT1', 'Estructuras, Materiales y Construcción', 'DIRE1000000563', 'ICIV');
@@ -180,96 +457,6 @@ VALUES ('PRAC029', 'Programa Académico 29', 13);
 INSERT INTO PROGRAMASACADEMICOS (idPrograma, nombre, duracionSemestres)
 VALUES ('PRAC030', 'Programa Académico 30', 2);
 
--- DIRECTORES
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000563', 'Nancy Torres Castellanos', 'nancy.torres@escuelaing.edu.co', 'bC5>{!Qh4&20Vjd', '539/228', 'Carrera 106 #35-48', TO_DATE('2025-04-20', 'YYYY-MM-DD'), TO_DATE('2022-06-15', 'YYYY-MM-DD'), 1, 'http://example.com/report1', 15432.50);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000334', 'Lina Ximena Garzón Avila', 'lina.garzon@escuelaing.edu.co', 'mJ4~S7\0gY', '581', 'Avenida 38 #100-31', TO_DATE('2025-05-05', 'YYYY-MM-DD'), TO_DATE('2023-11-20', 'YYYY-MM-DD'), 2, 'http://example.com/report2', 789423.90);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000597', 'Héctor Alfonso Rodríguez Díaz', 'alfonso.rodriguez@escuelaing.edu.co', 'hG4$FE{B>bVo*hev', '218', 'Transversal 102 #81-28', TO_DATE('2025-04-28', 'YYYY-MM-DD'), TO_DATE('2021-04-10', 'YYYY-MM-DD'), 3, 'http://example.com/report3', 982300.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000466', 'Paula Ximena Ríos Reyes', 'paula.rios@escuelaing.edu.co', 'zN6#h24"y80', '588', 'Transversal 120 #46-39', TO_DATE('2025-05-10', 'YYYY-MM-DD'), TO_DATE('2024-03-23', 'YYYY-MM-DD'), 1, 'http://example.com/report4', 654200.75);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000193', 'Jairo Alberto Romero Rojas', 'jairo.romero@escuelaing.edu.co', 'wM8*1/3mNzFf|Gy', '234', 'Avenida 65 #88-8', TO_DATE('2025-04-17', 'YYYY-MM-DD'), TO_DATE('2020-12-01', 'YYYY-MM-DD'), 2, 'http://example.com/report5', 1025400.30);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000226', 'Hugo Iván Forero Bernal', 'hugo.forero@escuelaing.edu.co', 'hN5.,1OhyXZ3H', '369', 'Diagonal 64 #11-30', TO_DATE('2025-04-26', 'YYYY-MM-DD'), TO_DATE('2021-09-19', 'YYYY-MM-DD'), 1, 'http://example.com/report6', 45567.45);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000436', 'Victoria Eugenia Ospina Becerra', 'victoria.ospina@escuelaing.edu.co', 'aU4$''Y\Q\b+', '156', 'Calle 33 #60-39', TO_DATE('2025-05-03', 'YYYY-MM-DD'), TO_DATE('2023-01-29', 'YYYY-MM-DD'), 3, 'http://example.com/report7', 3103000.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000451', 'Claudia Patricia Santiago Cely', 'claudia.santiago@escuelaing.edu.co', 'qD4)#67Lj+qCOz5', '377', 'Diagonal 1 #4-18', TO_DATE('2025-04-25', 'YYYY-MM-DD'), TO_DATE('2022-07-15', 'YYYY-MM-DD'), 2, 'http://example.com/report8', 99800.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000803', 'Wilmer Edicson Garzón Alfonso', 'wilmer.garzon@escuelaing.edu.co', 'yD3_G<p=Id72''O', '555', 'Diagonal 88 #57-10', TO_DATE('2025-04-19', 'YYYY-MM-DD'), TO_DATE('2020-10-20', 'YYYY-MM-DD'), 1, 'http://example.com/report9', 75500.30);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000617', 'Hugo René Sarmiento Espinosa', 'hugo.sarmiento@escuelaing.edu.co', 'gV9{''oKf', '163', 'Circular 35 #11-27', TO_DATE('2025-05-07', 'YYYY-MM-DD'), TO_DATE('2021-06-06', 'YYYY-MM-DD'), 3, 'http://example.com/report10', 158340.55);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000442', 'Luz Angélica Rodríguez Bello', 'angelica.rodriguez@escuelaing.edu.co	', 'yA2{I!u=)wIGf''$D', '254-314', 'Calle 95 #64-19', TO_DATE('2025-04-22', 'YYYY-MM-DD'), TO_DATE('2023-04-05', 'YYYY-MM-DD'), 2, 'http://example.com/report11', 495900.75);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000', 'Adriana Esguerra Arce', 'adriana.esguerra@escuelaing.edu.co', 'yV6#Z><","', '', 'Avenida 9 #32-39', TO_DATE('2025-05-02', 'YYYY-MM-DD'), TO_DATE('2021-11-30', 'YYYY-MM-DD'), 1, 'http://example.com/report12', 1000000.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000667', 'Alexander Pérez Ruiz', 'alexander.perez@escuelaing.edu.co', 'iA4<8uz"!r0g3CzZ', '330', 'Diagonal 110 #66-45', TO_DATE('2025-05-06', 'YYYY-MM-DD'), TO_DATE('2022-08-15', 'YYYY-MM-DD'), 3, 'http://example.com/report13', 765430.45);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000321', 'Nubia Edith Cárdenas Zabala', 'nubia.cardenas@escuelaing.edu.co', 'wU4_|>yo22CX6''', '530', 'Calle 133 #90-20', TO_DATE('2025-04-30', 'YYYY-MM-DD'), TO_DATE('2024-02-22', 'YYYY-MM-DD'), 1, 'http://example.com/report14', 432200.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000578', 'Carlos Andrés Pérez Tristancho', 'carlos.perez@escuelaing.edu.co', 'bB3"S_(owzhh$yk/', '530', 'Avenida 19 #46-31', TO_DATE('2025-05-04', 'YYYY-MM-DD'), TO_DATE('2020-07-18', 'YYYY-MM-DD'), 2, 'http://example.com/report15', 302140.30);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000242', 'Juan Antonio Acosta Gempeler', 'juan.acosta@escuelaing.edu.co', 'fW5,`cZt{$gK(3E)', '378', 'Avenida 84 #39-1', TO_DATE('2025-05-01', 'YYYY-MM-DD'), TO_DATE('2023-03-11', 'YYYY-MM-DD'), 3, 'http://example.com/report16', 820000.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000169', 'Luis Eduardo Rodríguez Cheu', 'luis.rodriguez@escuelaing.edu.co	', 'nH7%|2ZT*H,', '208', 'Diagonal 94 #3-46', TO_DATE('2025-04-29', 'YYYY-MM-DD'), TO_DATE('2021-12-27', 'YYYY-MM-DD'), 1, 'http://example.com/report17', 125400.75);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000622', 'Hector Jaime Martínez Covaleda', 'hector.martinez@escuelaing.edu.co', 'eR1(aOdBv3(%C#!', '148', 'Avenida 40 #19-42', TO_DATE('2025-05-08', 'YYYY-MM-DD'), TO_DATE('2022-05-30', 'YYYY-MM-DD'), 3, 'http://example.com/report18', 98000.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000800', 'Juan Carlos Illera Correal', 'juan.illera@escuelaing.edu.co', 'cB8(IO0,=%%j', '154', 'Transversal 48 #89-25', TO_DATE('2025-04-18', 'YYYY-MM-DD'), TO_DATE('2024-01-15', 'YYYY-MM-DD'), 2, 'http://example.com/report19', 75900.30);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000113', 'Carlos Abel Álvarez Pérez', 'carlos.alvarez@escuelaing.edu.co', 'fT0`Ltt1p`J>', '391', 'Calle 146 #71-2', TO_DATE('2025-05-09', 'YYYY-MM-DD'), TO_DATE('2020-09-10', 'YYYY-MM-DD'), 1, 'http://example.com/report20', 200000.55);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000564', 'Martha Edith Rolón Ramírez', 'martha.rolon@escuelaing.edu.co', 'hO3\1Z~FCm', '599', 'Carrera 27 #41-30', TO_DATE('2025-04-21', 'YYYY-MM-DD'), TO_DATE('2023-10-12', 'YYYY-MM-DD'), 2, 'http://example.com/report21', 478300.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000324', 'Yuly Andrea Sanchez Londoño', 'yuly.sanchez@escuelaing.edu.co', 'tM7&Xwys{Fr', '', 'Transversal 52 #88-34', TO_DATE('2025-05-05', 'YYYY-MM-DD'), TO_DATE('2021-05-09', 'YYYY-MM-DD'), 3, 'http://example.com/report22', 123400.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000986', 'Yesid Esteban Clavijo Penagos', 'yesid.clavijo@escuelaing.edu.co', 'hN2)jSl0\LJ}UA''6', '578', 'Transversal 116 #12-9', TO_DATE('2025-04-23', 'YYYY-MM-DD'), TO_DATE('2022-03-21', 'YYYY-MM-DD'), 1, 'http://example.com/report23', 89000.75);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000294', 'Claudia Patricia Castañeda Bermudez', 'patricia.castaneda@escuelaing.edu.co', 'dZ9~Apv2Um', '220', 'Transversal 11 #43-8', TO_DATE('2025-04-20', 'YYYY-MM-DD'), TO_DATE('2020-11-25', 'YYYY-MM-DD'), 2, 'http://example.com/report24', 220000.30);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000007948', 'Rodrigo Humberto Gualtero Martinez', 'rodrigo.gualtero-m@escuelaing.edu.co', 'fS7}UCi7@U', '0', 'Carrera 80 #69-9', TO_DATE('2025-05-10', 'YYYY-MM-DD'), TO_DATE('2023-07-14', 'YYYY-MM-DD'), 3, 'http://example.com/report25', 995500.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000758', 'Juan Carlos Lopera Tellez>', 'juan.lopera@escuelaing.edu.co', 'fG0\9TXWB2{,1', '361', 'Carrera 56 #59-4', TO_DATE('2025-04-24', 'YYYY-MM-DD'), TO_DATE('2021-02-01', 'YYYY-MM-DD'), 1, 'http://example.com/report26', 57000.90);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000403', 'Daissy Haidee Garces Najar', 'daissy.garces@escuelaing.edu.co', 'vP7''kTyr&&!O?><F', '124', 'Calle 55 #80-23', TO_DATE('2025-04-28', 'YYYY-MM-DD'), TO_DATE('2022-11-03', 'YYYY-MM-DD'), 2, 'http://example.com/report27', 45000.00);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DIRE1000000685', 'Weimar Henry Roncancio Torres', 'weimar.roncancio@escuelaing.edu.co', 'nN7{Zvi.', '281', 'Transversal 45 #20-42', TO_DATE('2025-05-07', 'YYYY-MM-DD'), TO_DATE('2024-06-22', 'YYYY-MM-DD'), 3, 'http://example.com/report28', 1020000.50);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DICE028', 'Director Ejemplo 1', 'director1@escuelaing.edu.co', 'securePass1', '1234567890', 'Calle 1 #1-1', TO_DATE('2025-04-19', 'YYYY-MM-DD'), TO_DATE('2020-08-18', 'YYYY-MM-DD'), 1, 'http://example.com/report29', 54300.20);
-
-INSERT INTO DIRECTORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaNombramiento, nivelJerarquico, informesGenerados, presupuestoAsignados)
-VALUES ('DICE029', 'Director Ejemplo 2', 'director2@escuelaing.edu.co', 'securePass2', '0987654321', 'Calle 2 #2-2', TO_DATE('2025-05-03', 'YYYY-MM-DD'), TO_DATE('2023-02-25', 'YYYY-MM-DD'), 2, 'http://example.com/report30', 77500.00);
 
 -- DEPARTAMENTOS
 INSERT INTO DEPARTAMENTOS (idDepartamento, nombre, idDirector)
@@ -698,96 +885,6 @@ VALUES ('OGR1', 'Opción de grado 1', 3, 0, 0, 3, 'Presencial', 'CENT7', 'NUCF4'
 INSERT INTO MATERIAS (idMateria, nombre, creditos, horasTeoricas, horasPracticas, nivel, modalidad, idCentroDeEstudios, idNucleoDeFormacion, idEstudiante)
 VALUES ('OGR2', 'Opción de grado 2', 3, 0, 0, 3, 'Presencial', 'CENT7', 'NUCF4', '');
 
--- ESTUDIANTES
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000093986', 'Marianella Polo Peña', 'marianella.polo-p@mail.escuelaing.edu.co', 'password123', '1029220411', 'Calle 123', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '000123456789', '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000096208', 'Juan Sebastián Guayazán Clavijo', 'juan.guayazan-c@mail.escuelaing.edu.co', 'password321', '1025523810', 'Calle 321', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '000987654321',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000090700', 'María Paula Robinson Hidalgo', 'maria.robinson-h@mail.escuelaing.edu.co', 'jS4%U(%0!j', '', 'Avenida 127 #54-34', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '012345678901',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000090709', 'Nicolas Felipe Bernal Gallo', 'nicolas.bernal-g@mail.escuelaing.edu.co', 'xM5&.}F!mxf8Lv<=', '', 'Avenida 9 #36-25', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '123456789012',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000092309', 'Rafael Santiago Moreno Velasquez', 'rafael.moreno-v@mail.escuelaing.edu.co', 'pP4@DYyNOH_@r', '', 'Carrera 122 #31-32', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '234567890123',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000100162', 'Cristian Santiago Moreno Ruiz', 'cristian.moreno-r@mail.escuelaing.edu.co', 'mO1/hMD@h?', '', 'Avenida 140 #84-45', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '345678901234',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000095732', 'María Juliana Rodríguez Caicedo', 'maria.rcaicedo@mail.escuelaing.edu.co', 'vH8{5PrJ', '', 'Diagonal 74 #42-31', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '456789012345',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000100827', 'Diego Fabian Andrade Durán', 'diego.andrade-d@mail.escuelaing.edu.co', 'gC7&Jqpw*_', '', 'Avenida 131 #8-41', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '567890123456',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000092366', 'Felipe Eduardo Calvache Gallego', 'felipe.calvache-g@mail.escuelaing.edu.co', 'gV5@nb!uKC{', '', 'Diagonal 19 #49-38', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '678901234567',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000095923', 'Mateo Eliecer Moreno Tenjica', 'mateo.moreno-t@mail.escuelaing.edu.co', 'rR7@%<<)>8R', '', 'Avenida 123 #99-33', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '789012345678',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000098136', 'Juan Sebastian Ortega Muñoz', 'juan.ortega-m@mail.escuelaing.edu.co', 'lT9~Qb\*B>g1A', '', 'Diagonal 74 #69-16', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '890123456789',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000100519', 'Juan David Gómez Cuellar', 'juan.gcuellar@mail.escuelaing.edu.co', 'gQ6}F%uUmbjR', '', 'Circular 114 #51-33', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '901234567890',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000097900', 'Tomas Espitia Quiroga', 'tomas.espitia-q@mail.escuelaing.edu.co', 'wU8\<jst{a4@%C', '', 'Calle 8 #30-33', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '112233445566',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000099463', 'Carlos Mario Piedrahita Arango', 'carlos.piedrahita-a@mail.escuelaing.edu.co', 'oM4+FN./3ng', '', 'Avenida 98 #84-10', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '223344556677',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000090827', 'Hernán David Sánchez Alarcón', 'hernan.sanchez-a@mail.escuelaing.edu.co', 'lB2/O"!,tnV/P', '', 'Circular 13 #78-26', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '334455667788',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000091956', 'Juan Daniel Bogotá Fuentes', 'juan.bogota-f@mail.escuelaing.edu.co', 'zG8\u&4D4/,t', '', 'Avenida 45 #86-38', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '445566778899',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000097274', 'Elizabeth Correa Suarez', 'elizabeth.correa-s@mail.escuelaing.edu.co', 'dP6''/}<9g', '', 'Circular 76 #94-41', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '556677889900',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000096481', 'Cristian José González Rodríguez', 'cristian.gonzalez-r@mail.escuelaing.edu.co', 'hR0''VlZ/cm', '', 'Avenida 60 #92-36', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '667788990011',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000099499', 'Julián David Castiblanco Real', 'julian.castiblanco-r@mail.escuelaing.edu.co', 'wU7%fxe5<', '', 'Calle 136 #76-6', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '778899001122',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000095092', 'Juan Diego Valderrama Gaviria', 'juan.valderrama-g@mail.escuelaing.edu.co', 'zM6.XZHcD5R', '', 'Transversal 73 #46-10', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '889900112233',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000099249', 'Jeyder Nicolay León Lancheros', 'jeyder.leon-l@mail.escuelaing.edu.co', 'iB5~Q4(5!Rr', '', 'Transversal 97 #46-15', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '990011223344',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000100514', 'Karol Estefany Estupiñan Viancha', 'karol.estupinan-v@mail.escuelaing.edu.co', 'aE4%GqjIT5(', '', 'Calle 128 #35-35', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '101010101010',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000100296', 'Mariana Malagón Tochoy', 'mariana.malagon-t@mail.escuelaing.edu.co', 'tA1_ho}c&LvjVM', '', 'Avenida 98 #56-35', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '202020202020',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU1000095428', 'Kevyn Daniel Forero Gonzalez', 'kevyn.forero-g@mail.escuelaing.edu.co', 'gB4<Lv4)JT6M0"O', '', 'Calle 140 #48-48', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '303030303030',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU25', 'Estudiante 25', 'estudiante25@mail.escuelaing.edu.co', 'lD6,\\y9n1X=', '2525', 'Calle 110 #70-22', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '707070707070',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU26', 'Estudiante 26', 'estudiante26@mail.escuelaing.edu.co', 'rS7+Y,)W=', '2626', 'Diagonal 74 #25-3', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '808080808080',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU27', 'Estudiante 27', 'estudiante27@mail.escuelaing.edu.co', 'dY7`ud=Uu$ak=', '2727', 'Calle 15 #32-49', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '909090909090',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU28', 'Estudiante 28', 'estudiante28@mail.escuelaing.edu.co', 'xX5&jPAlUWY', '2828', 'Calle 15 #32-49', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '505050505050',  '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU29', 'Estudiante 29', 'estudiante29@mail.escuelaing.edu.co', 'sI6}=Elg<}Zg5IG<', '2929', 'Transversal 96 #76-18', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '606060606060', '');
-
-INSERT INTO ESTUDIANTES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico)
-VALUES  ('ESTU30', 'Estudiante 30', 'estudiante30@mail.escuelaing.edu.co', 'yQ6_W0z%T6/d?', '3030', 'Transversal 87 #84-34', TO_DATE('2023-01-01', 'YYYY-MM-DD'), TO_DATE('2023-01-15', 'YYYY-MM-DD'), '6546546565', '');
 
 -- NOTAS
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
@@ -1389,96 +1486,6 @@ VALUES ('', '');
 INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
 VALUES ('', '');
 
--- PROFESORES
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF100000', 'Daniela Sepulveda Alzate', 'daniela.sepulveda@escuelaing.edu.co', 'aU7%z)/zjdDC', '0', 'Calle 45 #10-20', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000006664', 'Laura Catalina Herrera Correa', 'laura.herrera@escuelaing.edu.co', 'iR0''Hsw2r?/@m7ZR', '223', 'Carrera 106 #35-48', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1067961563', 'Orlando Antonio Gelves', 'orlando.gelves@escuelaing.edu.co', 'xV3!TRwzbF', '0', 'Avenida 38 #100-31', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000007379', 'Carlos Andres Medina Rivas', 'carlos.medina-ri@escuelaing.edu.co', 'wF9/FAJ$', '', 'Transversal 102 #81-28', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000003443', 'Maria Alejandra Goenaga Zamor', 'maria.goenaga@escuelaing.edu.co', 'jB7%pIc$@q?"', '0', 'Transversal 120 #46-39', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000000407', 'María Irma Díaz Rozo', 'maria.diaz@escuelaing.edu.co', 'bI4\T|s_(', '220', 'Avenida 65 #88-8', TO_DATE('2023-01-01', 'YYYY-MM-DD'), 0, 'Planta');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000007948', 'Rodrigo Humberto Gualtero Martinez', 'rodrigo.gualtero-m@escuelaing.edu.co', 'oD6~u!hb584`', '0', 'Diagonal 76 #89-32', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000007963', 'John David Ibañez Rodriguez', 'john.ibanez@escuelaing.edu.co', 'hI3`q4<5n1', '1193065771', 'Transversal 138 #40-34', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000012018', 'Angie Tatiana Medina Gil', 'angie.medina@escuelaing.edu.co', 'oM3.W__)M', '', 'Calle 110 #71-3', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000009295', 'Ana Maria Rincon Casallas', 'ana.rincon-c@escuelaing.edu.co', 'iS4)hU#0u', '1032503412', 'Calle 12 #35-6', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000005841', 'Santiago Rocha Duran', 'santiago.rocha@escuelaing.edu.co', 'eO1@BGuy', '1019136956', 'Carrera 10 #54-42', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF', 'Alejandro Anzola Avila', 'alejandro.anzola@escuelaing.edu.co', 'aP1>K_?1,o\''', '', 'Circular 113 #55-13', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000003322', 'Sebastian Camilo Martinez Reyes', 'sebastian.martinez@escuelaing.edu.co', 'dU0(LYh`\n64w', '223', 'Avenida 26 #70-49', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF', 'Oscar David Ospina Rodriguez', 'oscar.ospina-r@escuelaing.edu.co', 'fB8=4N\g!,%|y', '223', 'Circular 104 #23-44', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF', 'Diego Andres Triviño Gonzalez', 'diego.trivino@escuelaing.edu.co', 'vA5|n1kbj2b22TV', '0', 'Diagonal 8 #49-38', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF', 'Javier Ivan Toquica Barrera', 'javier.toquica@escuelaing.edu.co', 'eC6\qtgtH', '0', 'Diagonal 92 #40-36', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000000666', 'Diego Alejandro Jara Arango', 'diego.jara@escuelaing.edu.co', 'xH0*sqvcC6G&Y', '223', 'Transversal 40 #89-24', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF', 'Santiago Carrillo Barbosa', 'santiago.carrillo@escuelaing.edu.co', 'mK0}''7|}W9m1S6L', '', 'Transversal 67 #9-38', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000004495', 'Ana Maria Cortes Murcia', 'ana.cortes@escuelaing.edu.co', 'vX0*#iq%0=.=', '', 'Carrera 18 #90-18', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000009432', 'Diego Fernando Rodriguez Rodriguez', 'diego.rodriguez-r@escuelaing.edu.co', 'sU9.c8,#}_', '0', 'Diagonal 38 #20-33', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000000143', 'Oswaldo Castillo Navetty', 'oswaldo.castillo@escuelaing.edu.co', 'oL6"1t~H', '371', 'Calle 104 #44-45', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000000672', 'Luis Daniel Benavides Navarro', 'luis.benavides@escuelaing.edu.co', 'tR7&j{eeh*2ei', '220', 'Transversal 90 #41-24', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000000607', 'Gerardo Ospina Hernandez', 'gerardo.ospina@escuelaing.edu.co', 'qW1''ZrtuC"', '220', 'Transversal 106 #20-38', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000000451', 'Claudia Patricia Santiago Cely', 'claudia.santiago@escuelaing.edu.co', 'zQ6#`qPmJy)@w', '377', 'Diagonal 123 #57-49', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000010723', 'John Alexander Pachon Pinzon', 'john.pachon@escuelaing.edu.co', 'qN9''ENMNi)hL1?8', '10', 'Carrera 64 #36-9', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF', 'Fabian Eduardo Sierra Sanchez', 'fabian.sierra@escuelaing.edu.co', 'yB0(P~H0?g''j&', '0', 'Calle 78 #59-17', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000002175', 'Diego Alejandro Murcia Cespedes', 'diego.murcia@escuelaing.edu.co', 'gJ9\A_<EKq|', '1004678728', 'Diagonal 90 #87-18', TO_DATE('', 'YYYY-MM-DD'), 0, 'Catedra');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000000264', 'Raul Alfredo Chaparro Aguilar', 'raul.chaparro@escuelaing.edu.co', 'yE7&4,x_Dv', '223', 'Avenida 136 #73-37', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000000860', 'Juan Esteban Cortes Garzon', 'juan.cortes@escuelaing.edu.co', 'uH3,<DjxG`\!H}dP', '317', 'Diagonal 82 #8-42', TO_DATE('', 'YYYY-MM-DD'), 0, 'Planta');
-
-INSERT INTO PROFESORES (idUsuario, nombre, correo, contrasena, telefono, direccion, fechaRegistro, experienciaAnos, tipoContrato)
-VALUES ('PROF1000000929', 'Daniela Andrea Perez Velasco', 'daniela.perez@escuelaing.edu.co', 'cC5{T/f3N_Yi', '321', 'Calle 18 #62-27', TO_DATE('', 'YYYY-MM-DD'),  0, 'Catedra');
 
 INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 1', 'PROF100000');
 INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 2', 'PROF1000006664');

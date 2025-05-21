@@ -29,7 +29,7 @@ ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_TDireccionB
         OR direccion LIKE 'Transversal%' OR direccion LIKE 'Diagonal%' OR direccion LIKE 'Circular%');
 
 ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_estado_academico
-        CHECK (REGEXP_LIKE(EstadoAcademico, '^[AF]-[1-9]$'));
+    CHECK (REGEXP_LIKE(EstadoAcademico, '^A/[1-9][0-9]*$|^I$|^R$'));
 
 ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdC
     CHECK (REGEXP_LIKE(idEstudiante, '^[A-Z]{4}[0-9]*$'));
