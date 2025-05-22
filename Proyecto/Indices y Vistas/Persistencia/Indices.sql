@@ -1,3 +1,5 @@
+-- CICLO 1
+
 -- DIRECTORES
 CREATE INDEX idx_directores_nombre ON DIRECTORES (nombre);
 CREATE INDEX idx_directores_correo ON DIRECTORES (correo);
@@ -26,10 +28,6 @@ CREATE INDEX idx_estudiantes_correo ON ESTUDIANTES (correo);
 CREATE INDEX idx_notas_idMateria ON NOTAS (idMateria);
 CREATE INDEX idx_notas_idEstudiante ON NOTAS (idEstudiante);
 
--- CANCELACIONES
-CREATE INDEX idx_cancelaciones_fecha ON CANCELACIONES (fecha);
-CREATE INDEX idx_cancelaciones_idMateria ON CANCELACIONES (idMateria);
-
 -- MATERIASPORESTUDIANTE
 CREATE INDEX idx_materias_estudiante_idMateria ON MATERIASPORESTUDIANTE (idMateria);
 CREATE INDEX idx_materias_estudiante_idEstudiante ON MATERIASPORESTUDIANTE (idEstudiante);
@@ -38,10 +36,16 @@ CREATE INDEX idx_materias_estudiante_idEstudiante ON MATERIASPORESTUDIANTE (idEs
 CREATE INDEX idx_prerequisitos_idMateria ON PREREQUISITOSMATERIAS (idMateria);
 CREATE INDEX idx_prerequisitos_idMateriaRequisito ON PREREQUISITOSMATERIAS (idMateriaRequisito);
 
+-- PROGRAMASPORESTUDIANTES
+CREATE INDEX idx_programas_estudiantes_idPrograma ON PROGRAMASPORESTUDIANTES (idPrograma);
+CREATE INDEX idx_programas_estudiantes_idEstudiante ON PROGRAMASPORESTUDIANTES (idEstudiante);
+
+-- CICLO 2
+
+-- CANCELACIONES
+CREATE INDEX idx_cancelaciones_fecha ON CANCELACIONES (fecha);
+CREATE INDEX idx_cancelaciones_idMateria ON CANCELACIONES (idMateria);
+
 -- NOTIFICACIONES
 CREATE INDEX idx_notificaciones_fecha ON NOTIFICACIONES (fecha);
 CREATE INDEX idx_notificaciones_estado ON NOTIFICACIONES (estado);
-
--- PROGRAMASPORESTUDIANTES
-CREATE INDEX idx_programas_estudiantes_idPrograma ON PROGRAMASPORESTUDIANTES (idPrograma);
-CREATE INDEX idx_programas_estudiantes_idEstudiante ON PROGRAMASPORESTUDIANTES (idEstudiante);  

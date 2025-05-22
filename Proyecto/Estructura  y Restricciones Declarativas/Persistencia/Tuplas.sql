@@ -1,4 +1,4 @@
--- RESTRICCIONES DE TUPLAS - SISTEMA DE GESTIÓN ACADÉMICA
+-- CICLO 1
 
 -- Las horas prácticas y teóricas deben sumar al menos el número de créditos
 ALTER TABLE MATERIAS
@@ -19,11 +19,6 @@ CHECK (fechaIngreso >= fechaRegistro);
 ALTER TABLE PROFESORES
 ADD CONSTRAINT ck_experiencia_tipo_contrato
 CHECK (NOT (tipoContrato = 'Catedra' AND experienciaAnos > 5));
-
--- Si una cancelación requiere asesoría, debe tener un motivo registrado
-ALTER TABLE CANCELACIONES
-ADD CONSTRAINT ck_asesoria_motivo
-CHECK (asesoria = 'N' OR (asesoria = 'S' AND motivo IS NOT NULL));
 
 -- El nivel de una materia debe ser coherente con los créditos
 -- Las materias de nivel superior (>= 7) deben tener al menos 3 créditos
@@ -79,3 +74,10 @@ CHECK (
   OR
   (nivelJerarquico NOT IN ('1', '2', '3') AND presupuestoAsignados <= 50000)
 );
+
+-- CICLO 2
+
+-- Si una cancelación requiere asesoría, debe tener un motivo registrado
+ALTER TABLE CANCELACIONES
+    ADD CONSTRAINT ck_asesoria_motivo
+        CHECK (asesoria = 'N' OR (asesoria = 'S' AND motivo IS NOT NULL));

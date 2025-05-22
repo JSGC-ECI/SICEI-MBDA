@@ -1,3 +1,5 @@
+-- CICLO 1
+
 ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TIdA
     CHECK (REGEXP_LIKE(idUsuario, '^[A-Z]{4}[0-9]*$'));
 
@@ -14,7 +16,6 @@ ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TNivelL
 ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_documentoIdentidad
     CHECK (REGEXP_LIKE(documentoIdentidad, '^[0-9]+$'));
 
-
 ALTER TABLE DIRECTORES ADD CONSTRAINT chk_TMoneda
     CHECK (presupuestoAsignados BETWEEN 1 AND 99999999);
 
@@ -30,9 +31,6 @@ ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_TDireccionB
 
 ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_estado_academico
         CHECK (REGEXP_LIKE(EstadoAcademico, '^[AF]-[1-9]$'));
-
-ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdC
-    CHECK (REGEXP_LIKE(idEstudiante, '^[A-Z]{4}[0-9]*$'));
 
 ALTER TABLE PROFESORES ADD CONSTRAINT chk_TIdD
     CHECK (REGEXP_LIKE(idUsuario, '^[A-Z]{4}[0-9]*$'));
@@ -88,21 +86,6 @@ ALTER TABLE PREINSCRIPCIONES ADD CONSTRAINT chk_TIdM
 ALTER TABLE PREINSCRIPCIONES ADD CONSTRAINT chk_TIdN
     CHECK (REGEXP_LIKE(idMateria, '^[A-Z]{4}[0-9]*$'));
 
-ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdO
-    CHECK (REGEXP_LIKE(idCancelacion, '^[A-Z]{4}[0-9]*$'));
-
-ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TEstadoA
-    CHECK (estado IN ('En proceso', 'Rechazada', 'Aprobada'));
-
-ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TAsesoria
-    CHECK (asesoria IN ('S', 'N'));
-
-ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdP
-    CHECK (REGEXP_LIKE(idMateria, '^[A-Z]{4}[0-9]*$'));
-
-ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdQ
-    CHECK (REGEXP_LIKE(idNotificacion, '^[A-Z]{4}[0-9]*$'));
-
 ALTER TABLE AREAS ADD CONSTRAINT chk_TIdR
     CHECK (REGEXP_LIKE(idArea, '^[A-Z]{4}[0-9]*$'));
 
@@ -135,12 +118,6 @@ ALTER TABLE PREREQUISITOSMATERIAS ADD CONSTRAINT chk_TIdZ
 
 ALTER TABLE PREREQUISITOSMATERIAS ADD CONSTRAINT chk_TIdAA
     CHECK (REGEXP_LIKE(idMateriaRequisito, '^[A-Z]{4}[0-9]*$'));
-
-ALTER TABLE NOTIFICACIONES ADD CONSTRAINT chk_TIdAB
-    CHECK (REGEXP_LIKE(idNotificacion, '^[A-Z]{4}[0-9]*$'));
-
-ALTER TABLE NOTIFICACIONES ADD CONSTRAINT chk_TEstadoB
-    CHECK (estado IN ('Enviado', 'No enviado'));
 
 ALTER TABLE CENTROSDEESTUDIOS ADD CONSTRAINT chk_TIdAC
     CHECK (REGEXP_LIKE(idCentroEstudios, '^[A-Z]{4}[0-9]*$'));
@@ -175,18 +152,31 @@ ALTER TABLE PROGRAMASPORESTUDIANTES ADD CONSTRAINT chk_TIdAK
 ALTER TABLE PROGRAMASPORESTUDIANTES ADD CONSTRAINT chk_TIdAL
     CHECK (REGEXP_LIKE(idEstudiante, '^[A-Z]{4}[0-9]*$'));
 
--- Restricción para validar que el teléfono de los estudiantes tenga 10 dígitos
-ALTER TABLE ESTUDIANTES ADD CONSTRAINT chk_telefono_estudiantes
-    CHECK (telefono IS NULL OR LENGTH(telefono) = 10);
-
--- Restricción para validar que el teléfono de los profesores tenga 10 dígitos
-ALTER TABLE PROFESORES ADD CONSTRAINT chk_telefono_profesores
-    CHECK (telefono IS NULL OR LENGTH(telefono) = 10);
-
--- Restricción para validar que el teléfono de los directores tenga 10 dígitos
-ALTER TABLE DIRECTORES ADD CONSTRAINT chk_telefono_directores
-    CHECK (telefono IS NULL OR LENGTH(telefono) = 10);
-
--- Restricción para validar que las notas estén entre 0.0 y 5.0
 ALTER TABLE NOTAS ADD CONSTRAINT chk_rango_notas
     CHECK (valor >= 0.0 AND valor <= 5.0);
+
+-- CICLO 2
+
+ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdO
+    CHECK (REGEXP_LIKE(idCancelacion, '^[A-Z]{4}[0-9]*$'));
+
+ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TEstadoA
+    CHECK (estado IN ('En proceso', 'Rechazada', 'Aprobada'));
+
+ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TAsesoria
+    CHECK (asesoria IN ('S', 'N'));
+
+ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdP
+    CHECK (REGEXP_LIKE(idMateria, '^[A-Z]{4}[0-9]*$'));
+
+ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdQ
+    CHECK (REGEXP_LIKE(idNotificacion, '^[A-Z]{4}[0-9]*$'));
+
+ALTER TABLE CANCELACIONES ADD CONSTRAINT chk_TIdC
+    CHECK (REGEXP_LIKE(idEstudiante, '^[A-Z]{4}[0-9]*$'));
+
+ALTER TABLE NOTIFICACIONES ADD CONSTRAINT chk_TIdAB
+    CHECK (REGEXP_LIKE(idNotificacion, '^[A-Z]{4}[0-9]*$'));
+
+ALTER TABLE NOTIFICACIONES ADD CONSTRAINT chk_TEstadoB
+    CHECK (estado IN ('Enviado', 'No enviado'));

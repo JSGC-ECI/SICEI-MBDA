@@ -1,3 +1,5 @@
+-- CICLO 1
+
 -- DIRECTORES
 CREATE VIEW directoresE AS
 SELECT idUsuario, nombre, correo, telefono, direccion, nivelJerarquico, informesGenerados, presupuestoAsignados
@@ -33,11 +35,6 @@ CREATE VIEW notasE AS
 SELECT idNota, tipoDeEvaluacion, valor, idMateria, idEstudiante
 FROM NOTAS;
 
--- CANCELACIONES
-CREATE VIEW cancelacionesE AS
-SELECT idCancelacion, fecha, motivo, estado, idMateria
-FROM CANCELACIONES;
-
 -- MATERIASPORESTUDIANTE
 CREATE VIEW materiasporestudianteE AS
 SELECT idMateria, idEstudiante
@@ -48,12 +45,19 @@ CREATE VIEW prerequisitosmateriasE AS
 SELECT idMateria, idMateriaRequisito
 FROM PREREQUISITOSMATERIAS;
 
--- NOTIFICACIONES
-CREATE VIEW notificacionesE AS
-SELECT idNotificacion, mensaje, fecha, estado
-FROM NOTIFICACIONES;
-
 -- PROGRAMASPORESTUDIANTES
 CREATE VIEW programasporestudiantesE AS
 SELECT idPrograma, idEstudiante
 FROM PROGRAMASPORESTUDIANTES;
+
+-- CICLO 2
+
+-- CANCELACIONES
+CREATE VIEW cancelacionesE AS
+SELECT idCancelacion, fecha, motivo, estado, idMateria
+FROM CANCELACIONES;
+
+-- NOTIFICACIONES
+CREATE VIEW notificacionesE AS
+SELECT idNotificacion, mensaje, fecha, estado
+FROM NOTIFICACIONES;

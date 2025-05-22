@@ -4,17 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb975ca4-0339-4e54-b25b-d8a709acadd5" name="Changes" comment="All">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" afterDir="false" />
+    <list default="true" id="bb975ca4-0339-4e54-b25b-d8a709acadd5" name="Changes" comment="Ultimo">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Foraneas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Foraneas.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Primarias.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Primarias.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tuplas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tuplas.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Unicas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Unicas.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTablas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTablas.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarOK.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarOK.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/XPoblar.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/XPoblar.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTuplas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTuplas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Indices.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Indices.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Vistas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Vistas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Indices y Vistas/Persistencia/XIndicesVistas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Indices y Vistas/Persistencia/XIndicesVistas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/Acciones.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/Acciones.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/Disparadores.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/Disparadores.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/XAcciones.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/XAcciones.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/XDisparadores.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/XDisparadores.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/AccionesOK.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/AccionesOK.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/DisparadoresNoOK.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/DisparadoresNoOK.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/DisparadoresOK.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/DisparadoresOK.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/TuplasNoOK.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/TuplasNoOK.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/TuplasOK.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/TuplasOK.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIECI.asta.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seguridad/Persistencia/ActoresE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Seguridad/Persistencia/ActoresE.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seguridad/Persistencia/ActoresI.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Seguridad/Persistencia/ActoresI.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seguridad/Persistencia/Seguridad.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Seguridad/Persistencia/Seguridad.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seguridad/Persistencia/XSeguridad.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Seguridad/Persistencia/XSeguridad.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seguridad/Pruebas/SeguridadOK.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Seguridad/Pruebas/SeguridadOK.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +105,8 @@
     <MESSAGE value="Organization 1 and 2" />
     <MESSAGE value="INTEGER in DIRECTORES  nivelJerarquico" />
     <MESSAGE value="All" />
-    <option name="LAST_COMMIT_MESSAGE" value="All" />
+    <MESSAGE value="Ultimo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ultimo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
