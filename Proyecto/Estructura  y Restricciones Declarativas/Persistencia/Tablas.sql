@@ -1,3 +1,5 @@
+--CICLO 1
+
 CREATE TABLE DIRECTORES(
     idUsuario VARCHAR2(25) NOT NULL,
     nombre VARCHAR2(100) NOT NULL,
@@ -65,17 +67,6 @@ CREATE TABLE PREINSCRIPCIONES (
     idMateria VARCHAR2(25) NOT NULL
 );
 
-CREATE TABLE CANCELACIONES (
-    idCancelacion VARCHAR2(25) NOT NULL,
-    fecha DATE NOT NULL,
-    motivo VARCHAR2(100),
-    estado VARCHAR2(10) NOT NULL,
-    asesoria CHAR(1) NOT NULL,
-    idMateria VARCHAR2(25) NOT NULL,
-    idNotificacion VARCHAR2(25) NOT NULL,
-    idEstudiante VARCHAR2(25) NOT NULL
-);
-
 CREATE TABLE AREAS (
     idArea VARCHAR2(25) NOT NULL,
     nombre VARCHAR2(35),
@@ -93,8 +84,7 @@ CREATE TABLE MATERIAS (
     modalidad VARCHAR2(10) NOT NULL,
     idArea VARCHAR2(25),
     idCentroDeEstudios VARCHAR2(25),
-    idNucleoDeFormacion VARCHAR2(25) NOT NULL,
-    idEstudiante VARCHAR2(25) NOT NULL
+    idNucleoDeFormacion VARCHAR2(25) NOT NULL
 );
 
 CREATE TABLE NOTAS (
@@ -104,13 +94,6 @@ CREATE TABLE NOTAS (
     tipoDeEvaluacion VARCHAR2(15) NOT NULL,
     idMateria VARCHAR2(25) NOT NULL,
     idEstudiante VARCHAR2(25) NOT NULL
-);
-
-CREATE TABLE NOTIFICACIONES (
-    idNotificacion VARCHAR2(25) NOT NULL,
-    mensaje VARCHAR2(100) NOT NULL,
-    fecha DATE NOT NULL,
-    estado VARCHAR2(10) NOT NULL
 );
 
 CREATE TABLE PREREQUISITOSMATERIAS (
@@ -147,16 +130,22 @@ CREATE TABLE TITULOS (
     idProfesor VARCHAR2(25) NOT NULL
 );
 
---Tablas
---Atributos
---PKs
---UKs
---FKs
+-- CICLO 2
 
---Consultas y Poblar?
+CREATE TABLE NOTIFICACIONES (
+    idNotificacion VARCHAR2(25) NOT NULL,
+    mensaje VARCHAR2(100) NOT NULL,
+    fecha DATE NOT NULL,
+    estado VARCHAR2(10) NOT NULL
+);
 
---Tuplas
---Acciones
---Triggers
---Indices
---Vistas
+CREATE TABLE CANCELACIONES (
+    idCancelacion VARCHAR2(25) NOT NULL,
+    fecha DATE NOT NULL,
+    motivo VARCHAR2(100),
+    estado VARCHAR2(10) NOT NULL,
+    asesoria CHAR(1) NOT NULL,
+    idMateria VARCHAR2(25) NOT NULL,
+    idNotificacion VARCHAR2(25) NOT NULL,
+    idEstudiante VARCHAR2(25) NOT NULL
+);

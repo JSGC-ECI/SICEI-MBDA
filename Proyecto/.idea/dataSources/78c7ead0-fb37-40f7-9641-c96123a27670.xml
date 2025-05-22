@@ -982,16 +982,16 @@
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="311" parent="2" name="MATERIAS">
-      <CreatedTimestamp>2025-05-20.18:20:34</CreatedTimestamp>
+      <CreatedTimestamp>2025-05-21.19:25:56</CreatedTimestamp>
       <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-05-20.18:21:28</ModifiedTimestamp>
-      <ObjectId>198077</ObjectId>
+      <ModifiedTimestamp>2025-05-21.19:47:53</ModifiedTimestamp>
+      <ObjectId>202023</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="312" parent="2" name="MATERIASPORESTUDIANTE">
       <CreatedTimestamp>2025-05-20.18:20:33</CreatedTimestamp>
       <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2025-05-20.18:21:24</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-05-21.19:48:26</ModifiedTimestamp>
       <ObjectId>198071</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
@@ -58470,161 +58470,131 @@
     <check id="7528" parent="311" name="CHK_TIDV">
       <ColNames>IDAREA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:20</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-05-21.19:26:16</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idArea, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
     <check id="7529" parent="311" name="CHK_TIDW">
       <ColNames>IDCENTRODEESTUDIOS</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:20</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-05-21.19:26:16</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idCentroDeEstudios, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7530" parent="311" name="CHK_TIDY">
-      <ColNames>IDESTUDIANTE</ColNames>
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:21</ModifiedTimestamp>
-      <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
-    </check>
-    <check id="7531" parent="311" name="CHK_TIDU">
+    <check id="7530" parent="311" name="CHK_TIDU">
       <ColNames>IDMATERIA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:20</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-05-21.19:26:16</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7532" parent="311" name="CHK_TIDX">
+    <check id="7531" parent="311" name="CHK_TIDX">
       <ColNames>IDNUCLEODEFORMACION</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:20</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-05-21.19:26:16</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idNucleoDeFormacion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7533" parent="311" name="CHK_TMODALIDAD">
+    <check id="7532" parent="311" name="CHK_TMODALIDAD">
       <ColNames>MODALIDAD</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:20</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-05-21.19:26:16</ModifiedTimestamp>
       <Predicate>modalidad IN (&apos;Presencial&apos;, &apos;Virtual&apos;, &apos;Hibrida&apos;)</Predicate>
     </check>
-    <check id="7534" parent="311" name="CHK_TNIVEL">
+    <check id="7533" parent="311" name="CHK_TNIVEL">
       <ColNames>NIVEL</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:20</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-05-21.19:26:16</ModifiedTimestamp>
       <Predicate>nivel BETWEEN 1 AND 3</Predicate>
     </check>
-    <column id="7535" parent="311" name="IDMATERIA">
+    <column id="7534" parent="311" name="IDMATERIA">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7536" parent="311" name="NOMBRE">
+    <column id="7535" parent="311" name="NOMBRE">
       <Position>2</Position>
       <StoredType>VARCHAR2(100 byte)|0s</StoredType>
     </column>
-    <column id="7537" parent="311" name="CREDITOS">
+    <column id="7536" parent="311" name="CREDITOS">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>NUMBER(*)|0s</StoredType>
     </column>
-    <column id="7538" parent="311" name="HORASTEORICAS">
+    <column id="7537" parent="311" name="HORASTEORICAS">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>NUMBER(*)|0s</StoredType>
     </column>
-    <column id="7539" parent="311" name="HORASPRACTICAS">
+    <column id="7538" parent="311" name="HORASPRACTICAS">
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StoredType>NUMBER(*)|0s</StoredType>
     </column>
-    <column id="7540" parent="311" name="NIVEL">
+    <column id="7539" parent="311" name="NIVEL">
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StoredType>NUMBER(*)|0s</StoredType>
     </column>
-    <column id="7541" parent="311" name="MODALIDAD">
+    <column id="7540" parent="311" name="MODALIDAD">
       <NotNull>1</NotNull>
       <Position>7</Position>
       <StoredType>VARCHAR2(10 byte)|0s</StoredType>
     </column>
-    <column id="7542" parent="311" name="IDAREA">
+    <column id="7541" parent="311" name="IDAREA">
       <Position>8</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7543" parent="311" name="IDCENTRODEESTUDIOS">
+    <column id="7542" parent="311" name="IDCENTRODEESTUDIOS">
       <Position>9</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7544" parent="311" name="IDNUCLEODEFORMACION">
+    <column id="7543" parent="311" name="IDNUCLEODEFORMACION">
       <NotNull>1</NotNull>
       <Position>10</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7545" parent="311" name="IDESTUDIANTE">
-      <NotNull>1</NotNull>
-      <Position>11</Position>
-      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
-    </column>
-    <index id="7546" parent="311" name="PK_MATERIAS">
+    <index id="7544" parent="311" name="PK_MATERIAS">
       <ColNames>IDMATERIA
 IDNUCLEODEFORMACION</ColNames>
-      <CreatedTimestamp>2025-05-20.18:21:23</CreatedTimestamp>
-      <ModifiedTimestamp>2025-05-20.18:21:23</ModifiedTimestamp>
-      <ObjectId>198100</ObjectId>
+      <CreatedTimestamp>2025-05-21.19:47:53</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-21.19:47:53</ModifiedTimestamp>
+      <ObjectId>202024</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <index id="7547" parent="311" name="UQ_MATERIAS_IDMATERIA">
-      <ColNames>IDMATERIA</ColNames>
-      <CreatedTimestamp>2025-05-20.18:21:28</CreatedTimestamp>
-      <ModifiedTimestamp>2025-05-20.18:21:28</ModifiedTimestamp>
-      <ObjectId>198122</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <index id="7548" parent="311" name="UQ_MATERIAS_NOMBRE">
-      <ColNames>NOMBRE</ColNames>
-      <CreatedTimestamp>2025-05-20.18:21:28</CreatedTimestamp>
-      <ModifiedTimestamp>2025-05-20.18:21:28</ModifiedTimestamp>
-      <ObjectId>198120</ObjectId>
-      <Unique>1</Unique>
-      <TablespaceName>USERS</TablespaceName>
-    </index>
-    <key id="7549" parent="311" name="PK_MATERIAS">
+    <key id="7545" parent="311" name="PK_MATERIAS">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:23</ModifiedTimestamp>
+      <ModifiedTimestamp>2025-05-21.19:47:53</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_MATERIAS</UnderlyingIndexName>
     </key>
-    <key id="7550" parent="311" name="UQ_MATERIAS_IDMATERIA">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:28</ModifiedTimestamp>
-      <UnderlyingIndexName>UQ_MATERIAS_IDMATERIA</UnderlyingIndexName>
-    </key>
-    <key id="7551" parent="311" name="UQ_MATERIAS_NOMBRE">
-      <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2025-05-20.18:21:28</ModifiedTimestamp>
-      <UnderlyingIndexName>UQ_MATERIAS_NOMBRE</UnderlyingIndexName>
-    </key>
-    <check id="7552" parent="312" name="CHK_TIDE">
+    <check id="7546" parent="312" name="CHK_TIDE">
       <ColNames>IDESTUDIANTE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:17</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7553" parent="312" name="CHK_TIDF">
+    <check id="7547" parent="312" name="CHK_TIDF">
       <ColNames>IDMATERIA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:18</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <column id="7554" parent="312" name="IDESTUDIANTE">
+    <column id="7548" parent="312" name="IDESTUDIANTE">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7555" parent="312" name="IDMATERIA">
+    <column id="7549" parent="312" name="IDMATERIA">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <index id="7556" parent="312" name="PK_MATERIASPORESTUDIANTE">
+    <foreign-key id="7550" parent="312" name="FK_MATERIASPORESTUDIANTES_ESTUDIANTES">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <ModifiedTimestamp>2025-05-21.19:48:26</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_ESTUDIANTES</RefKeyName>
+      <RefTableName>ESTUDIANTES</RefTableName>
+    </foreign-key>
+    <index id="7551" parent="312" name="PK_MATERIASPORESTUDIANTE">
       <ColNames>IDESTUDIANTE
 IDMATERIA</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:24</CreatedTimestamp>
@@ -58633,67 +58603,67 @@ IDMATERIA</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7557" parent="312" name="PK_MATERIASPORESTUDIANTE">
+    <key id="7552" parent="312" name="PK_MATERIASPORESTUDIANTE">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:25</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_MATERIASPORESTUDIANTE</UnderlyingIndexName>
     </key>
-    <check id="7558" parent="313" name="CHK_TIDAI">
+    <check id="7553" parent="313" name="CHK_TIDAI">
       <ColNames>IDESTUDIANTE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7559" parent="313" name="CHK_TIDAH">
+    <check id="7554" parent="313" name="CHK_TIDAH">
       <ColNames>IDMATERIA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7560" parent="313" name="CHK_TIDAG">
+    <check id="7555" parent="313" name="CHK_TIDAG">
       <ColNames>IDNOTA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idNota, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7561" parent="313" name="CHK_TEVAL">
+    <check id="7556" parent="313" name="CHK_TEVAL">
       <ColNames>TIPODEEVALUACION</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
       <Predicate>tipoDeEvaluacion IN (&apos;Parcial&apos;, &apos;Quiz&apos;, &apos;Actividad&apos;, &apos;Trabajo&apos;, &apos;Examen Final&apos;, &apos;Exposición&apos;)</Predicate>
     </check>
-    <column id="7562" parent="313" name="IDNOTA">
+    <column id="7557" parent="313" name="IDNOTA">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7563" parent="313" name="VALOR">
+    <column id="7558" parent="313" name="VALOR">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>NUMBER(3,1)|0s</StoredType>
     </column>
-    <column id="7564" parent="313" name="FECHAREGISTRO">
+    <column id="7559" parent="313" name="FECHAREGISTRO">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>DATE|0s</StoredType>
     </column>
-    <column id="7565" parent="313" name="TIPODEEVALUACION">
+    <column id="7560" parent="313" name="TIPODEEVALUACION">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>VARCHAR2(15 byte)|0s</StoredType>
     </column>
-    <column id="7566" parent="313" name="IDMATERIA">
+    <column id="7561" parent="313" name="IDMATERIA">
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7567" parent="313" name="IDESTUDIANTE">
+    <column id="7562" parent="313" name="IDESTUDIANTE">
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <index id="7568" parent="313" name="PK_NOTAS">
+    <index id="7563" parent="313" name="PK_NOTAS">
       <ColNames>IDNOTA</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:23</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:23</ModifiedTimestamp>
@@ -58701,45 +58671,45 @@ IDMATERIA</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7569" parent="313" name="PK_NOTAS">
+    <key id="7564" parent="313" name="PK_NOTAS">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:23</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_NOTAS</UnderlyingIndexName>
     </key>
-    <check id="7570" parent="314" name="CHK_TIDAB">
+    <check id="7565" parent="314" name="CHK_TIDAB">
       <ColNames>IDNOTIFICACION</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:21</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idNotificacion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7571" parent="314" name="CHK_TESTADOB">
+    <check id="7566" parent="314" name="CHK_TESTADOB">
       <ColNames>ESTADO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:21</ModifiedTimestamp>
       <Predicate>estado IN (&apos;Enviado&apos;, &apos;No enviado&apos;)</Predicate>
     </check>
-    <column id="7572" parent="314" name="IDNOTIFICACION">
+    <column id="7567" parent="314" name="IDNOTIFICACION">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7573" parent="314" name="MENSAJE">
+    <column id="7568" parent="314" name="MENSAJE">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>VARCHAR2(100 byte)|0s</StoredType>
     </column>
-    <column id="7574" parent="314" name="FECHA">
+    <column id="7569" parent="314" name="FECHA">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>DATE|0s</StoredType>
     </column>
-    <column id="7575" parent="314" name="ESTADO">
+    <column id="7570" parent="314" name="ESTADO">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>VARCHAR2(10 byte)|0s</StoredType>
     </column>
-    <index id="7576" parent="314" name="PK_NOTIFICACIONES">
+    <index id="7571" parent="314" name="PK_NOTIFICACIONES">
       <ColNames>IDNOTIFICACION</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:23</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:23</ModifiedTimestamp>
@@ -58747,28 +58717,28 @@ IDMATERIA</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7577" parent="314" name="PK_NOTIFICACIONES">
+    <key id="7572" parent="314" name="PK_NOTIFICACIONES">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:23</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_NOTIFICACIONES</UnderlyingIndexName>
     </key>
-    <check id="7578" parent="315" name="CHK_TIDAF">
+    <check id="7573" parent="315" name="CHK_TIDAF">
       <ColNames>IDNUCLEOFORMACION</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idNucleoFormacion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <column id="7579" parent="315" name="IDNUCLEOFORMACION">
+    <column id="7574" parent="315" name="IDNUCLEOFORMACION">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7580" parent="315" name="NOMBRE">
+    <column id="7575" parent="315" name="NOMBRE">
       <Position>2</Position>
       <StoredType>VARCHAR2(35 byte)|0s</StoredType>
     </column>
-    <index id="7581" parent="315" name="PK_NUCLEOSDEFORMACION">
+    <index id="7576" parent="315" name="PK_NUCLEOSDEFORMACION">
       <ColNames>IDNUCLEOFORMACION</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:24</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:24</ModifiedTimestamp>
@@ -58776,7 +58746,7 @@ IDMATERIA</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <index id="7582" parent="315" name="UQ_NUCLEODEFORMACION_NOMBRE">
+    <index id="7577" parent="315" name="UQ_NUCLEODEFORMACION_NOMBRE">
       <ColNames>NOMBRE</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:28</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:28</ModifiedTimestamp>
@@ -58784,74 +58754,74 @@ IDMATERIA</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7583" parent="315" name="PK_NUCLEOSDEFORMACION">
+    <key id="7578" parent="315" name="PK_NUCLEOSDEFORMACION">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:24</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_NUCLEOSDEFORMACION</UnderlyingIndexName>
     </key>
-    <key id="7584" parent="315" name="UQ_NUCLEODEFORMACION_NOMBRE">
+    <key id="7579" parent="315" name="UQ_NUCLEODEFORMACION_NOMBRE">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:28</ModifiedTimestamp>
       <UnderlyingIndexName>UQ_NUCLEODEFORMACION_NOMBRE</UnderlyingIndexName>
     </key>
-    <check id="7585" parent="316" name="CHK_TIDM">
+    <check id="7580" parent="316" name="CHK_TIDM">
       <ColNames>IDESTUDIANTE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:19</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7586" parent="316" name="CHK_TIDN">
+    <check id="7581" parent="316" name="CHK_TIDN">
       <ColNames>IDMATERIA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:19</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7587" parent="316" name="CHK_TIDL">
+    <check id="7582" parent="316" name="CHK_TIDL">
       <ColNames>IDPREINSCRIPCION</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:19</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idPreinscripcion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7588" parent="316" name="CHK_TESTADO">
+    <check id="7583" parent="316" name="CHK_TESTADO">
       <ColNames>ESTADO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:19</ModifiedTimestamp>
       <Predicate>estado IN (&apos;Enviado&apos;, &apos;No enviado&apos;)</Predicate>
     </check>
-    <column id="7589" parent="316" name="IDPREINSCRIPCION">
+    <column id="7584" parent="316" name="IDPREINSCRIPCION">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7590" parent="316" name="FECHA">
+    <column id="7585" parent="316" name="FECHA">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>DATE|0s</StoredType>
     </column>
-    <column id="7591" parent="316" name="ESTADO">
+    <column id="7586" parent="316" name="ESTADO">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>VARCHAR2(10 byte)|0s</StoredType>
     </column>
-    <column id="7592" parent="316" name="IDESTUDIANTE">
+    <column id="7587" parent="316" name="IDESTUDIANTE">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7593" parent="316" name="IDMATERIA">
+    <column id="7588" parent="316" name="IDMATERIA">
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <foreign-key id="7594" parent="316" name="FK_PREINSCRIPCIONES_MATERIAS">
+    <foreign-key id="7589" parent="316" name="FK_PREINSCRIPCIONES_MATERIAS">
       <ColNames>IDMATERIA</ColNames>
       <ModifiedTimestamp>2025-05-20.18:21:31</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
       <RefTableName>MATERIAS</RefTableName>
     </foreign-key>
-    <index id="7595" parent="316" name="PK_PREINSCRIPCIONES">
+    <index id="7590" parent="316" name="PK_PREINSCRIPCIONES">
       <ColNames>IDPREINSCRIPCION</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:23</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:23</ModifiedTimestamp>
@@ -58859,49 +58829,49 @@ IDMATERIA</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7596" parent="316" name="PK_PREINSCRIPCIONES">
+    <key id="7591" parent="316" name="PK_PREINSCRIPCIONES">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:23</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_PREINSCRIPCIONES</UnderlyingIndexName>
     </key>
-    <check id="7597" parent="317" name="CHK_TIDZ">
+    <check id="7592" parent="317" name="CHK_TIDZ">
       <ColNames>IDMATERIA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:21</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7598" parent="317" name="CHK_TIDAA">
+    <check id="7593" parent="317" name="CHK_TIDAA">
       <ColNames>IDMATERIAREQUISITO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:21</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idMateriaRequisito, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <column id="7599" parent="317" name="IDMATERIA">
+    <column id="7594" parent="317" name="IDMATERIA">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7600" parent="317" name="IDMATERIAREQUISITO">
+    <column id="7595" parent="317" name="IDMATERIAREQUISITO">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <foreign-key id="7601" parent="317" name="FK_PREREQUISITOSMATERIAS_MATERIAS">
+    <foreign-key id="7596" parent="317" name="FK_PREREQUISITOSMATERIAS_MATERIAS">
       <ColNames>IDMATERIA</ColNames>
       <ModifiedTimestamp>2025-05-20.18:21:31</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
       <RefTableName>MATERIAS</RefTableName>
     </foreign-key>
-    <foreign-key id="7602" parent="317" name="FK_PREREQUISITOSMATERIAS_MATERIASREQUIRIDA">
+    <foreign-key id="7597" parent="317" name="FK_PREREQUISITOSMATERIAS_MATERIASREQUIRIDA">
       <ColNames>IDMATERIAREQUISITO</ColNames>
       <ModifiedTimestamp>2025-05-20.18:21:31</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
       <RefTableName>MATERIAS</RefTableName>
     </foreign-key>
-    <index id="7603" parent="317" name="PK_PREREQUISITOSMATERIAS">
+    <index id="7598" parent="317" name="PK_PREREQUISITOSMATERIAS">
       <ColNames>IDMATERIA
 IDMATERIAREQUISITO</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:24</CreatedTimestamp>
@@ -58910,81 +58880,81 @@ IDMATERIAREQUISITO</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7604" parent="317" name="PK_PREREQUISITOSMATERIAS">
+    <key id="7599" parent="317" name="PK_PREREQUISITOSMATERIAS">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:24</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_PREREQUISITOSMATERIAS</UnderlyingIndexName>
     </key>
-    <check id="7605" parent="318" name="CHK_TIDD">
+    <check id="7600" parent="318" name="CHK_TIDD">
       <ColNames>IDUSUARIO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:17</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idUsuario, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7606" parent="318" name="CHK_TCORREOC">
+    <check id="7601" parent="318" name="CHK_TCORREOC">
       <ColNames>CORREO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:17</ModifiedTimestamp>
       <Predicate>correo LIKE &apos;%@escuelaing.edu.co&apos; OR correo LIKE &apos;%@mail.escuelaing.edu.co&apos;</Predicate>
     </check>
-    <check id="7607" parent="318" name="CHK_TDIRECCIONC">
+    <check id="7602" parent="318" name="CHK_TDIRECCIONC">
       <ColNames>DIRECCION</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:17</ModifiedTimestamp>
       <Predicate>direccion LIKE &apos;Calle%&apos; OR direccion LIKE &apos;Carrera%&apos; OR direccion LIKE &apos;Avenida%&apos;
         OR direccion LIKE &apos;Transversal%&apos; OR direccion LIKE &apos;Diagonal%&apos; OR direccion LIKE &apos;Circular%&apos;</Predicate>
     </check>
-    <check id="7608" parent="318" name="CHK_TCONTRATO">
+    <check id="7603" parent="318" name="CHK_TCONTRATO">
       <ColNames>TIPOCONTRATO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:17</ModifiedTimestamp>
       <Predicate>tipoContrato IN (&apos;Planta&apos;, &apos;Catedra&apos;)</Predicate>
     </check>
-    <column id="7609" parent="318" name="IDUSUARIO">
+    <column id="7604" parent="318" name="IDUSUARIO">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7610" parent="318" name="NOMBRE">
+    <column id="7605" parent="318" name="NOMBRE">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>VARCHAR2(100 byte)|0s</StoredType>
     </column>
-    <column id="7611" parent="318" name="CORREO">
+    <column id="7606" parent="318" name="CORREO">
       <Position>3</Position>
       <StoredType>VARCHAR2(50 byte)|0s</StoredType>
     </column>
-    <column id="7612" parent="318" name="CONTRASENA">
+    <column id="7607" parent="318" name="CONTRASENA">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>VARCHAR2(50 byte)|0s</StoredType>
     </column>
-    <column id="7613" parent="318" name="TELEFONO">
+    <column id="7608" parent="318" name="TELEFONO">
       <Position>5</Position>
       <StoredType>VARCHAR2(10 byte)|0s</StoredType>
     </column>
-    <column id="7614" parent="318" name="DIRECCION">
+    <column id="7609" parent="318" name="DIRECCION">
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StoredType>VARCHAR2(100 byte)|0s</StoredType>
     </column>
-    <column id="7615" parent="318" name="FECHAREGISTRO">
+    <column id="7610" parent="318" name="FECHAREGISTRO">
       <NotNull>1</NotNull>
       <Position>7</Position>
       <StoredType>DATE|0s</StoredType>
     </column>
-    <column id="7616" parent="318" name="EXPERIENCIAANOS">
+    <column id="7611" parent="318" name="EXPERIENCIAANOS">
       <NotNull>1</NotNull>
       <Position>8</Position>
       <StoredType>NUMBER(*)|0s</StoredType>
     </column>
-    <column id="7617" parent="318" name="TIPOCONTRATO">
+    <column id="7612" parent="318" name="TIPOCONTRATO">
       <NotNull>1</NotNull>
       <Position>9</Position>
       <StoredType>VARCHAR2(10 byte)|0s</StoredType>
     </column>
-    <index id="7618" parent="318" name="PK_PROFESORES">
+    <index id="7613" parent="318" name="PK_PROFESORES">
       <ColNames>IDUSUARIO</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:22</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
@@ -58992,7 +58962,7 @@ IDMATERIAREQUISITO</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <index id="7619" parent="318" name="UQ_PROFESORES_CORREO">
+    <index id="7614" parent="318" name="UQ_PROFESORES_CORREO">
       <ColNames>CORREO</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:27</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:27</ModifiedTimestamp>
@@ -59000,7 +58970,7 @@ IDMATERIAREQUISITO</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <index id="7620" parent="318" name="UQ_PROFESORES_TELEFONO">
+    <index id="7615" parent="318" name="UQ_PROFESORES_TELEFONO">
       <ColNames>TELEFONO</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:27</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:27</ModifiedTimestamp>
@@ -59008,43 +58978,43 @@ IDMATERIAREQUISITO</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7621" parent="318" name="PK_PROFESORES">
+    <key id="7616" parent="318" name="PK_PROFESORES">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_PROFESORES</UnderlyingIndexName>
     </key>
-    <key id="7622" parent="318" name="UQ_PROFESORES_CORREO">
+    <key id="7617" parent="318" name="UQ_PROFESORES_CORREO">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:27</ModifiedTimestamp>
       <UnderlyingIndexName>UQ_PROFESORES_CORREO</UnderlyingIndexName>
     </key>
-    <key id="7623" parent="318" name="UQ_PROFESORES_TELEFONO">
+    <key id="7618" parent="318" name="UQ_PROFESORES_TELEFONO">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:27</ModifiedTimestamp>
       <UnderlyingIndexName>UQ_PROFESORES_TELEFONO</UnderlyingIndexName>
     </key>
-    <check id="7624" parent="319" name="CHK_TIDAJ">
+    <check id="7619" parent="319" name="CHK_TIDAJ">
       <ColNames>IDPROGRAMA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idPrograma, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <column id="7625" parent="319" name="IDPROGRAMA">
+    <column id="7620" parent="319" name="IDPROGRAMA">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7626" parent="319" name="NOMBRE">
+    <column id="7621" parent="319" name="NOMBRE">
       <Position>2</Position>
       <StoredType>VARCHAR2(50 byte)|0s</StoredType>
     </column>
-    <column id="7627" parent="319" name="DURACIONSEMESTRES">
+    <column id="7622" parent="319" name="DURACIONSEMESTRES">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>NUMBER(*)|0s</StoredType>
     </column>
-    <index id="7628" parent="319" name="PK_PROGRAMASACADEMICOS">
+    <index id="7623" parent="319" name="PK_PROGRAMASACADEMICOS">
       <ColNames>IDPROGRAMA</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:24</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:24</ModifiedTimestamp>
@@ -59052,7 +59022,7 @@ IDMATERIAREQUISITO</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <index id="7629" parent="319" name="UQ_PROGRAMAACADEMICO_NOMBRE">
+    <index id="7624" parent="319" name="UQ_PROGRAMAACADEMICO_NOMBRE">
       <ColNames>NOMBRE</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:28</CreatedTimestamp>
       <ModifiedTimestamp>2025-05-20.18:21:28</ModifiedTimestamp>
@@ -59060,40 +59030,40 @@ IDMATERIAREQUISITO</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7630" parent="319" name="PK_PROGRAMASACADEMICOS">
+    <key id="7625" parent="319" name="PK_PROGRAMASACADEMICOS">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:24</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_PROGRAMASACADEMICOS</UnderlyingIndexName>
     </key>
-    <key id="7631" parent="319" name="UQ_PROGRAMAACADEMICO_NOMBRE">
+    <key id="7626" parent="319" name="UQ_PROGRAMAACADEMICO_NOMBRE">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:28</ModifiedTimestamp>
       <UnderlyingIndexName>UQ_PROGRAMAACADEMICO_NOMBRE</UnderlyingIndexName>
     </key>
-    <check id="7632" parent="320" name="CHK_TIDAL">
+    <check id="7627" parent="320" name="CHK_TIDAL">
       <ColNames>IDESTUDIANTE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <check id="7633" parent="320" name="CHK_TIDAK">
+    <check id="7628" parent="320" name="CHK_TIDAK">
       <ColNames>IDPROGRAMA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:22</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(idPrograma, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
     </check>
-    <column id="7634" parent="320" name="IDPROGRAMA">
+    <column id="7629" parent="320" name="IDPROGRAMA">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <column id="7635" parent="320" name="IDESTUDIANTE">
+    <column id="7630" parent="320" name="IDESTUDIANTE">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <index id="7636" parent="320" name="PK_PROGRAMASPORESTUDIANTES">
+    <index id="7631" parent="320" name="PK_PROGRAMASPORESTUDIANTES">
       <ColNames>IDPROGRAMA
 IDESTUDIANTE</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:25</CreatedTimestamp>
@@ -59102,30 +59072,30 @@ IDESTUDIANTE</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7637" parent="320" name="PK_PROGRAMASPORESTUDIANTES">
+    <key id="7632" parent="320" name="PK_PROGRAMASPORESTUDIANTES">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:25</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_PROGRAMASPORESTUDIANTES</UnderlyingIndexName>
     </key>
-    <column id="7638" parent="321" name="TITULO">
+    <column id="7633" parent="321" name="TITULO">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>VARCHAR2(60 byte)|0s</StoredType>
     </column>
-    <column id="7639" parent="321" name="IDPROFESOR">
+    <column id="7634" parent="321" name="IDPROFESOR">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>VARCHAR2(25 byte)|0s</StoredType>
     </column>
-    <foreign-key id="7640" parent="321" name="FK_TITULOS_PROFESORES">
+    <foreign-key id="7635" parent="321" name="FK_TITULOS_PROFESORES">
       <ColNames>IDPROFESOR</ColNames>
       <ModifiedTimestamp>2025-05-20.18:21:32</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>PK_PROFESORES</RefKeyName>
       <RefTableName>PROFESORES</RefTableName>
     </foreign-key>
-    <index id="7641" parent="321" name="PK_TITULOS">
+    <index id="7636" parent="321" name="PK_TITULOS">
       <ColNames>TITULO
 IDPROFESOR</ColNames>
       <CreatedTimestamp>2025-05-20.18:21:24</CreatedTimestamp>
@@ -59134,7 +59104,7 @@ IDPROFESOR</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7642" parent="321" name="PK_TITULOS">
+    <key id="7637" parent="321" name="PK_TITULOS">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2025-05-20.18:21:24</ModifiedTimestamp>
       <Primary>1</Primary>
