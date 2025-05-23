@@ -2,7 +2,7 @@
 
 -- Profesores por materias
 CREATE VIEW profesoresPorMaterias AS
-SELECT m.nombre, m.idMateria, p.nombre
+SELECT m.nombre AS nombreMateria, m.idMateria, p.nombre AS nombreProfesor
 FROM materias m
          JOIN grupos g ON m.idMateria = g.idMateria
          JOIN profesores p ON g.idProfesor = p.idUsuario;
@@ -16,8 +16,8 @@ GROUP BY m.idMateria, m.nombre
 ORDER BY NumeroEstudiantes;
 
 -- Promedio de notas por centro de estudios
-CREATE VIEW PromedioXCen AS
-SELECT c.nombre, AVG(n.valor)
+CREATE OR REPLACE VIEW PromedioXCen AS
+SELECT c.nombre, AVG(n.valor) AS promedio_valor
 FROM notas n
          JOIN materias m ON n.idMateria = m.idMateria
          JOIN centrosdeestudios c ON m.idCentroDeEstudios = c.idCentroEstudios
