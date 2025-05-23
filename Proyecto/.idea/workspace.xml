@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb975ca4-0339-4e54-b25b-d8a709acadd5" name="Changes" comment="All">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tuplas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tuplas.sql" afterDir="false" />
+    <list default="true" id="bb975ca4-0339-4e54-b25b-d8a709acadd5" name="Changes" comment="Organization">
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Consultas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Consultas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarNoOk.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarNoOk.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Vistas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Vistas.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,36 +44,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "desarrollo",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/maria/Desktop/a/8 Semestre/MBDA/Guayazan-Polo-2025-1/Proyecto",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#16 on desarrollo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jsegu/Documents/2025-1/MBDA/Guayazan-Polo-2025-1/Proyecto&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "oracle"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "OracleSqlPlus",
-      "Oracle"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;OracleSqlPlus&quot;,
+      &quot;Oracle&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jsegu\Documents\2025-1\MBDA\Guayazan-Polo-2025-1\Proyecto\Restricciones Declarativas, Procedimentales y  Automatización\Persistencia" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="bb975ca4-0339-4e54-b25b-d8a709acadd5" name="Changes" comment="All" />
-      <created>1747803082806</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1747803082806</updated>
-    </task>
-    <servers />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Actualizar" />
@@ -83,7 +87,11 @@
     <MESSAGE value="Organization 1 and 2" />
     <MESSAGE value="INTEGER in DIRECTORES  nivelJerarquico" />
     <MESSAGE value="All" />
-    <option name="LAST_COMMIT_MESSAGE" value="All" />
+    <MESSAGE value="Ultimo" />
+    <MESSAGE value="Organization by cycles" />
+    <MESSAGE value="Population functioning" />
+    <MESSAGE value="Organization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organization" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
