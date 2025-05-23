@@ -1,6 +1,3 @@
-
-
-
 -- CICLO 1
 
 -- Consultar profesores por materias
@@ -10,7 +7,7 @@ FROM materias m
          JOIN grupos g ON m.idMateria = g.idMateria
          JOIN profesores p ON g.idProfesor = p.idUsuario;
 
--- Consultar materias que tienen tienen menos estudiantes
+-- Consultar materias que tienen menos estudiantes
 
 SELECT m.nombre, COUNT(mpe.idEstudiante) AS NumeroEstudiantes
 FROM materias m
@@ -34,7 +31,7 @@ FROM notas n
 
 -- CICLO 2
 
--- Consultar materia de la cual se ha realizado mas solicitud de cancelaciones
+-- Consultar materia de la cual se ha realizado más solicitud de cancelaciones
 
 SELECT m.nombre, m.idMateria, COUNT(c.idCancelacion) AS NumeroDeCancelaciones
 FROM materias m

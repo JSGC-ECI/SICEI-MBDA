@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb975ca4-0339-4e54-b25b-d8a709acadd5" name="Changes" comment="Organization">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670/storage_v2/_src_/schema/SYS.rUIBAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78c7ead0-fb37-40f7-9641-c96123a27670/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Consultas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Consultas.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarNoOk.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarNoOk.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Vistas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Indices y Vistas/Persistencia/Vistas.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
