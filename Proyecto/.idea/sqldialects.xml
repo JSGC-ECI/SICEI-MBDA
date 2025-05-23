@@ -6,15 +6,13 @@
     <file url="file://$PROJECT_DIR$/Componentes/Persistencia/XCRUD.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Componentes/Pruebas/CRUDNoOK.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Componentes/Pruebas/CRUDOK.sql" dialect="OracleSqlPlus" />
-    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Atributos.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Consultas.sql" dialect="OracleSqlPlus" />
-    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Foraneas.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Primarias.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tuplas.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Unicas.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTablas.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTuplas.sql" dialect="OracleSqlPlus" />
+    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Foraneas.sql" dialect="OracleSqlPlus" />
+    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Primarias.sql" dialect="OracleSqlPlus" />
+    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Tablas.sql" dialect="OracleSqlPlus" />
+    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/Unicas.sql" dialect="OracleSqlPlus" />
+    <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Persistencia/XTablas.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarNoOk.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/PoblarOK.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Estructura  y Restricciones Declarativas/Pruebas/XPoblar.sql" dialect="OracleSqlPlus" />
@@ -25,8 +23,10 @@
     <file url="file://$PROJECT_DIR$/Pruebas/Pruebas/Pruebas.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/Acciones.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/Disparadores.sql" dialect="OracleSqlPlus" />
+    <file url="file://$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/Tuplas.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/XAcciones.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/XDisparadores.sql" dialect="OracleSqlPlus" />
+    <file url="file://$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Persistencia/XTuplas.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/AccionesOK.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Restricciones Declarativas, Procedimentales y  Automatización/Pruebas/DisparadoresNoOK.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Seguridad/Persistencia/ActoresE.sql" dialect="OracleSqlPlus" />
