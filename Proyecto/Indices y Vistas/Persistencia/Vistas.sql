@@ -1,63 +1,32 @@
 -- CICLO 1
 
--- DIRECTORES
-CREATE VIEW directoresE AS
-SELECT idUsuario, nombre, correo, telefono, direccion, nivelJerarquico, informesGenerados, presupuestoAsignados
-FROM DIRECTORES;
+-- Profesores por materias
+CREATE VIEW profesoresPorMaterias AS
+SELECT m.nombre, m.idMateria, p.nombre
+FROM materias m
+         JOIN grupos g ON m.idMateria = g.idMateria
+         JOIN profesores p ON g.idProfesor = p.idUsuario;
 
--- DEPARTAMENTOS
-CREATE VIEW departamentosE AS
-SELECT idDepartamento, nombre, idDirector
-FROM DEPARTAMENTOS;
+-- Materias que tienen menos estudiantes
+CREATE VIEW menosEs AS
+SELECT m.nombre, COUNT(mpe.idEstudiante) AS NumeroEstudiantes
+FROM materias m
+         LEFT JOIN materiasporestudiante mpe ON m.idMateria = mpe.idMateria
+GROUP BY m.idMateria, m.nombre
+ORDER BY NumeroEstudiantes;
 
--- AREAS
-CREATE VIEW areasE AS
-SELECT idArea, nombre, idDepartamento, idDirector
-FROM AREAS;
+-- Promedio de notas por centro de estudios
+CREATE VIEW PromedioXCen AS
+SELECT c.nombre, AVG(n.valor)
+FROM notas n
+         JOIN materias m ON n.idMateria = m.idMateria
+         JOIN centrosdeestudios c ON m.idCentroDeEstudios = c.idCentroEstudios
+GROUP BY c.nombre;
 
--- NUCLEOSDEFORMACION
-CREATE VIEW nucleosdeformacionE AS
-SELECT idNucleoFormacion, nombre
-FROM NUCLEOSDEFORMACION;
-
--- MATERIAS
-CREATE VIEW materiasE AS
-SELECT idMateria, nombre, creditos, horasTeoricas, horasPracticas, nivel, modalidad, idArea, idCentroDeEstudios, idNucleoDeFormacion
-FROM MATERIAS;
-
--- ESTUDIANTES
-CREATE VIEW estudiantesE AS
-SELECT idUsuario, nombre, correo, telefono, direccion, fechaRegistro, fechaIngreso, documentoIdentidad, estadoAcademico
-FROM ESTUDIANTES;
-
--- NOTAS
-CREATE VIEW notasE AS
-SELECT idNota, tipoDeEvaluacion, valor, idMateria, idEstudiante
-FROM NOTAS;
-
--- MATERIASPORESTUDIANTE
-CREATE VIEW materiasporestudianteE AS
-SELECT idMateria, idEstudiante
-FROM MATERIASPORESTUDIANTE;
-
--- PREREQUISITOSMATERIAS
-CREATE VIEW prerequisitosmateriasE AS
-SELECT idMateria, idMateriaRequisito
-FROM PREREQUISITOSMATERIAS;
-
--- PROGRAMASPORESTUDIANTES
-CREATE VIEW programasporestudiantesE AS
-SELECT idPrograma, idEstudiante
-FROM PROGRAMASPORESTUDIANTES;
+-- Notas por materia
+CREATE VIEW NotasXMat AS
+SELECT n.idNota, n.tipoDeEvaluacion, m.nombre, n.valor
+FROM notas n
+         JOIN materias m ON n.idMateria = m.idMateria;
 
 -- CICLO 2
-
--- CANCELACIONES
-CREATE VIEW cancelacionesE AS
-SELECT idCancelacion, fecha, motivo, estado, idMateria
-FROM CANCELACIONES;
-
--- NOTIFICACIONES
-CREATE VIEW notificacionesE AS
-SELECT idNotificacion, mensaje, fecha, estado
-FROM NOTIFICACIONES;
