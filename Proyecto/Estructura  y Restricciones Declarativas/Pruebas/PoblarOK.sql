@@ -453,7 +453,7 @@ INSERT INTO CENTROSDEESTUDIOS (idCentroEstudios, nombre, idDirector, idProgramaA
 VALUES ('CENT029', 'Centro 29', 'DICE028', 'PRAC019');
 
 INSERT INTO CENTROSDEESTUDIOS (idCentroEstudios, nombre, idDirector, idProgramaAcademico)
-VALUES ('CENT030', 'Bienestar Universitario', 'DICE029', 'HUMA');
+VALUES ('CENT030', 'Bienestar Universitario', 'DICE029', 'PRAC030');
 
 -- DEPARTAMENTOS
 INSERT INTO DEPARTAMENTOS (idDepartamento, nombre, idDirector)
@@ -581,61 +581,61 @@ INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
 VALUES ('AREA11', 'Expresion grafica', 'FISI', 'DIRE1000000403');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA012', 'Área 12', 'DEPA001', 'DICE029');
+VALUES ('AREA012', 'Área 12', 'DEPA004', 'DICE029');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA013', 'Área 13', 'DEPA002', 'DICE028');
+VALUES ('AREA013', 'Área 13', 'DEPA005', 'DICE028');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA014', 'Área 14', 'DEPA003', 'DICE029');
+VALUES ('AREA014', 'Área 14', 'DEPA006', 'DICE029');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA015', 'Área 15', 'DEPA004', 'DICE028');
+VALUES ('AREA015', 'Área 15', 'DEPA007', 'DICE028');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA016', 'Área 16', 'DEPA005', 'DICE029');
+VALUES ('AREA016', 'Área 16', 'DEPA008', 'DICE029');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA017', 'Área 17', 'DEPA006', 'DICE028');
+VALUES ('AREA017', 'Área 17', 'DEPA009', 'DICE028');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA018', 'Área 18', 'DEPA007', 'DICE029');
+VALUES ('AREA018', 'Área 18', 'DEPA010', 'DICE029');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA019', 'Área 19', 'DEPA008', 'DICE028');
+VALUES ('AREA019', 'Área 19', 'DEPA011', 'DICE028');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA020', 'Área 20', 'DEPA009', 'DICE029');
+VALUES ('AREA020', 'Área 20', 'DEPA012', 'DICE029');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA021', 'Área 21', 'DEPA010', 'DICE028');
+VALUES ('AREA021', 'Área 21', 'DEPA013', 'DICE028');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA022', 'Área 22', 'DEPA011', 'DICE029');
+VALUES ('AREA022', 'Área 22', 'DEPA014', 'DICE029');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA023', 'Área 23', 'DEPA012', 'DICE028');
+VALUES ('AREA023', 'Área 23', 'DEPA015', 'DICE028');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA024', 'Área 24', 'DEPA013', 'DICE029');
+VALUES ('AREA024', 'Área 24', 'DEPA016', 'DICE029');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA025', 'Área 25', 'DEPA014', 'DICE028');
+VALUES ('AREA025', 'Área 25', 'DEPA017', 'DICE028');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA026', 'Área 26', 'DEPA015', 'DICE029');
+VALUES ('AREA026', 'Área 26', 'DEPA018', 'DICE029');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA027', 'Área 27', 'DEPA016', 'DICE028');
+VALUES ('AREA027', 'Área 27', 'DEPA019', 'DICE028');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA028', 'Área 28', 'DEPA017', 'DICE029');
+VALUES ('AREA028', 'Área 28', 'DEPA020', 'DICE029');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA029', 'Área 29', 'DEPA018', 'DICE028');
+VALUES ('AREA029', 'Área 29', 'DEPA021', 'DICE028');
 
 INSERT INTO AREAS (idArea, nombre, idDepartamento, idDirector)
-VALUES ('AREA030', 'Área 30', 'DEPA019', 'DICE029');
+VALUES ('AREA030', 'Área 30', 'DEPA022', 'DICE029');
 
 -- NUCLEOSDEFORMACION
 INSERT INTO NUCLEOSDEFORMACION (idNucleoFormacion, nombre)
@@ -741,7 +741,7 @@ VALUES ('FUME', 'Fundamentos de Mecánica', 3, 0, 0, 1, 'Presencial', 'AREA9', '
 INSERT INTO MATERIAS (idMateria, nombre, creditos, horasTeoricas, horasPracticas, nivel, modalidad, idCentroDeEstudios, idNucleoDeFormacion)
 VALUES ('INSI', 'Introducción a la Ingeniería de Sistemas', 1, 0, 0, 1, 'Presencial', 'CENT10', 'NUCF4' );
 
-INSERT INTO MATERIAS (idMateria, nombre, creditos, horasTeoricas, horasPracticas, nivel, modalidad, idArea,  idNucleoDeFormacion)
+INSERT INTO MATERIAS (idMateria, nombre, creditos, horasTeoricas, horasPracticas, nivel, modalidad, idCentroDeEstudios,  idNucleoDeFormacion)
 VALUES ('ELBA', 'Electiva de Bienestar Universitario', 1, 0, 0, 1, 'Presencial','CENT030', 'NUCF1');
 
 INSERT INTO MATERIAS (idMateria, nombre, creditos, horasTeoricas, horasPracticas, nivel, modalidad, idArea,  idNucleoDeFormacion)
@@ -879,6 +879,10 @@ VALUES ('OGRA1', 'Opción de grado 1', 3, 0, 0, 3, 'Presencial', 'CENT7', 'NUCF4
 INSERT INTO MATERIAS (idMateria, nombre, creditos, horasTeoricas, horasPracticas, nivel, modalidad, idCentroDeEstudios, idNucleoDeFormacion)
 VALUES ('OGRA2', 'Opción de grado 2', 3, 0, 0, 3, 'Presencial', 'CENT7', 'NUCF4');
 
+INSERT INTO MATERIAS (idMateria, nombre, creditos, horasTeoricas, horasPracticas, nivel, modalidad, idCentroDeEstudios, idNucleoDeFormacion)
+VALUES ('LCAT', 'Lógica Calculatoria', 4, 0, 0,  2, 'Presencial', 'CENT10', 'NUCF3');
+
+
 -- MATERIASPORESTUDIANTE
 INSERT INTO MATERIASPORESTUDIANTE (idMateria, idEstudiante)
 VALUES ('MBDA', 'ESTU1000093986');
@@ -1002,16 +1006,16 @@ INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
 VALUES ('FIEM', 'CALD');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
-VALUES ('FIEM', 'FIME ');
+VALUES ('FIEM', 'FIME');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
-VALUES ('CALV ', 'CALI ');
+VALUES ('CALV', 'CALI');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
 VALUES ('CALV', 'ALLI');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
-VALUES ('AYED', 'AYPR ');
+VALUES ('AYED', 'AYPR');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
 VALUES ('AYED', 'MMIN');
@@ -1044,7 +1048,7 @@ INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
 VALUES ('POOB', 'AYED');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
-VALUES ('CIPP ', 'HGCL');
+VALUES ('CIPP', 'HGCL');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
 VALUES ('PRYE', 'CALI');
@@ -1104,107 +1108,231 @@ INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
 VALUES ('AREP', 'RECO');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
-VALUES ('AREP', 'AUPN ');
+VALUES ('AREP', 'AUPN');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
 VALUES ('FDGP', 'FCFI');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
-VALUES ('IDI03', 'IDI2');
+VALUES ('IDIO3', 'IDIO2');
 
 INSERT INTO PREREQUISITOSMATERIAS (idMateria, idMateriaRequisito)
-VALUES ('IDI4', 'IDI1');
+VALUES ('IDIO4', 'IDIO1');
 
 -- NOTAS
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0001', 4.5, TO_DATE('2023-01-01', 'YYYY-MM-DD'), 'Parcial', 'PREM', '1000093986');
+VALUES ('NOTA001', 4.5, TO_DATE('2023-01-01', 'YYYY-MM-DD'), 'Parcial', 'MBDA', 'ESTU1000093986');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0002', 3.8, TO_DATE('2023-01-02', 'YYYY-MM-DD'), 'Quiz', 'AGEO', '1000096208');
+VALUES ('NOTA0002', 3.8, TO_DATE('2023-01-02', 'YYYY-MM-DD'), 'Quiz', 'MBDA', 'ESTU1000096208');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0003', 4.0, TO_DATE('2023-01-03', 'YYYY-MM-DD'), 'Actividad', 'FUME', '1000090700');
+VALUES ('NOTA0003', 4.0, TO_DATE('2023-01-03', 'YYYY-MM-DD'), 'Actividad', 'MBDA', 'ESTU1000090700');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0004', 3.5, TO_DATE('2023-01-04', 'YYYY-MM-DD'), 'Trabajo', 'INSI', '1000090709');
+VALUES ('NOTA0004', 3.5, TO_DATE('2023-01-04', 'YYYY-MM-DD'), 'Trabajo', 'MBDA', 'ESTU1000090709');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0005', 4.2, TO_DATE('2023-01-05', 'YYYY-MM-DD'), 'Examen Final', 'ELBA', '1000092309');
+VALUES ('NOTA0005', 4.2, TO_DATE('2023-01-05', 'YYYY-MM-DD'), 'Examen Final', 'ELBA', 'ESTU1000092309');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0006', 3.9, TO_DATE('2023-01-06', 'YYYY-MM-DD'), 'Exposición', 'FUCO1', '1000100162');
+VALUES ('NOTA0006', 3.9, TO_DATE('2023-01-06', 'YYYY-MM-DD'), 'Exposición', 'FUCO1', 'ESTU1000100162');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0007', 4.8, TO_DATE('2023-01-07', 'YYYY-MM-DD'), 'Parcial', 'CALD', '1000095732');
+VALUES ('NOTA0007', 4.8, TO_DATE('2023-01-07', 'YYYY-MM-DD'), 'Parcial', 'CALD', 'ESTU1000095732');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0008', 3.7, TO_DATE('2023-01-08', 'YYYY-MM-DD'), 'Quiz', 'ALLI', '1000100827');
+VALUES ('NOTA0008', 3.7, TO_DATE('2023-01-08', 'YYYY-MM-DD'), 'Quiz', 'ALLI', 'ESTU1000100827');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0009', 4.1, TO_DATE('2023-01-09', 'YYYY-MM-DD'), 'Actividad', 'MMIN', '1000092366');
+VALUES ('NOTA0009', 4.1, TO_DATE('2023-01-09', 'YYYY-MM-DD'), 'Actividad', 'MMIN', 'ESTU1000092366');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0010', 3.6, TO_DATE('2023-01-10', 'YYYY-MM-DD'), 'Trabajo', 'FIME', '1000095923');
+VALUES ('NOTA0010', 3.6, TO_DATE('2023-01-10', 'YYYY-MM-DD'), 'Trabajo', 'FIME', 'ESTU1000095923');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0011', 4.3, TO_DATE('2023-01-11', 'YYYY-MM-DD'), 'Examen Final', 'HGCL', '1000098136');
+VALUES ('NOTA0011', 4.3, TO_DATE('2023-01-11', 'YYYY-MM-DD'), 'Examen Final', 'HGCL', 'ESTU1000098136');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0012', 3.8, TO_DATE('2023-01-12', 'YYYY-MM-DD'), 'Exposición', 'FUCO2', '1000100519');
+VALUES ('NOTA0012', 3.8, TO_DATE('2023-01-12', 'YYYY-MM-DD'), 'Exposición', 'FUCO2', 'ESTU1000100519');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0013', 4.6, TO_DATE('2023-01-13', 'YYYY-MM-DD'), 'Parcial', 'CALI', '1000097900');
+VALUES ('NOTA0013', 4.6, TO_DATE('2023-01-13', 'YYYY-MM-DD'), 'Parcial', 'CALI', 'ESTU1000097900');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0014', 3.9, TO_DATE('2023-01-14', 'YYYY-MM-DD'), 'Quiz', 'AYPR', '1000099463');
+VALUES ('NOTA0014', 3.9, TO_DATE('2023-01-14', 'YYYY-MM-DD'), 'Quiz', 'AYPR', 'ESTU1000099463');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0015', 4.0, TO_DATE('2023-01-15', 'YYYY-MM-DD'), 'Actividad', 'LCAT', '1000090827');
+VALUES ('NOTA0015', 4.0, TO_DATE('2023-01-15', 'YYYY-MM-DD'), 'Actividad', 'LCAT', 'ESTU1000090827');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0016', 3.7, TO_DATE('2023-01-16', 'YYYY-MM-DD'), 'Trabajo', 'FIEM', '1000091956');
+VALUES ('NOTA0016', 3.7, TO_DATE('2023-01-16', 'YYYY-MM-DD'), 'Trabajo', 'FIEM', 'ESTU1000091956');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0017', 4.4, TO_DATE('2023-01-17', 'YYYY-MM-DD'), 'Examen Final', 'IDIO1', '1000097274');
+VALUES ('NOTA0017', 4.4, TO_DATE('2023-01-17', 'YYYY-MM-DD'), 'Examen Final', 'IDIO1', 'ESTU1000097274');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0018', 3.6, TO_DATE('2023-01-18', 'YYYY-MM-DD'), 'Exposición', 'IDIO2', '1000096481');
+VALUES ('NOTA0018', 3.6, TO_DATE('2023-01-18', 'YYYY-MM-DD'), 'Exposición', 'IDIO2', 'ESTU1000096481');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0019', 4.2, TO_DATE('2023-01-19', 'YYYY-MM-DD'), 'Parcial', 'IDIO3', '1000099499');
+VALUES ('NOTA0019', 4.2, TO_DATE('2023-01-19', 'YYYY-MM-DD'), 'Parcial', 'IDIO3', 'ESTU1000099499');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0020', 3.8, TO_DATE('2023-01-20', 'YYYY-MM-DD'), 'Quiz', 'IDIO4', '1000095092');
+VALUES ('NOTA0020', 3.8, TO_DATE('2023-01-20', 'YYYY-MM-DD'), 'Quiz', 'IDIO4', 'ESTU1000095092');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0021', 4.1, TO_DATE('2023-01-21', 'YYYY-MM-DD'), 'Actividad', 'CALV', '1000099249');
+VALUES ('NOTA0021', 4.1, TO_DATE('2023-01-21', 'YYYY-MM-DD'), 'Actividad', 'CALV', 'ESTU1000099249');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0022', 3.5, TO_DATE('2023-01-22', 'YYYY-MM-DD'), 'Trabajo', 'AYED', '1000100514');
+VALUES ('NOTA0022', 3.5, TO_DATE('2023-01-22', 'YYYY-MM-DD'), 'Trabajo', 'AYED', 'ESTU1000100514');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0023', 4.3, TO_DATE('2023-01-23', 'YYYY-MM-DD'), 'Examen Final', 'MATD', '1000100296');
+VALUES ('NOTA0023', 4.3, TO_DATE('2023-01-23', 'YYYY-MM-DD'), 'Examen Final', 'MATD', 'ESTU1000100296');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0024', 3.9, TO_DATE('2023-01-24', 'YYYY-MM-DD'), 'Exposición', 'MBDA', '1000095428');
+VALUES ('NOTA0024', 3.9, TO_DATE('2023-01-24', 'YYYY-MM-DD'), 'Exposición', 'MBDA', 'ESTU1000095428');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0025', 4.7, TO_DATE('2023-01-25', 'YYYY-MM-DD'), 'Parcial', 'ECDI', '1000093986');
+VALUES ('NOTA0025', 4.7, TO_DATE('2023-01-25', 'YYYY-MM-DD'), 'Parcial', 'AUPN', 'ESTU1000093986');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0026', 3.8, TO_DATE('2023-01-26', 'YYYY-MM-DD'), 'Quiz', 'CNYT', '1000096208');
+VALUES ('NOTA0026', 3.8, TO_DATE('2023-01-26', 'YYYY-MM-DD'), 'Quiz', 'RECO', 'ESTU1000093986');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0027', 4.0, TO_DATE('2023-01-27', 'YYYY-MM-DD'), 'Actividad', 'TPRO', '1000090700');
+VALUES ('NOTA0027', 4.0, TO_DATE('2023-01-27', 'YYYY-MM-DD'), 'Actividad', 'AUPN', 'ESTU1000096208');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0028', 3.6, TO_DATE('2023-01-28', 'YYYY-MM-DD'), 'Trabajo', 'POOB', '1000090709');
+VALUES ('NOTA0028', 3.6, TO_DATE('2023-01-28', 'YYYY-MM-DD'), 'Trabajo', 'INSI', 'ESTU25');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0029', 4.5, TO_DATE('2023-01-29', 'YYYY-MM-DD'), 'Examen Final', 'CIPP', '1000092309');
+VALUES ('NOTA0029', 4.5, TO_DATE('2023-01-29', 'YYYY-MM-DD'), 'Examen Final', 'ACSO', 'ESTU26');
 
 INSERT INTO NOTAS (idNota, valor, fechaRegistro, tipoDeEvaluacion, idMateria, idEstudiante)
-VALUES ('NOTA0030', 3.7, TO_DATE('2023-01-30', 'YYYY-MM-DD'), 'Exposición', 'PRYE', '1000100162');
+VALUES ('NOTA0030', 3.7, TO_DATE('2023-01-30', 'YYYY-MM-DD'), 'Exposición', 'TPRO', 'ESTU28');
+
+-- PROGRAMASPORESTUDIANTES
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ICIV', 'ESTU1000093986');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000093986');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000096208');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('IEST', 'ESTU1000096208');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000090700');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000090709');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000092309');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000100162');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000095732');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000100827');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000092366');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000095923');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000098136');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000100519');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000097900');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000099463');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000090827');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000091956');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000097274');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000096481');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000099499');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000095092');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000099249');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000100514');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000100296');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ISIS', 'ESTU1000095428');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('ECON', 'ESTU1000092309');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('IIND', 'ESTU1000095092');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('PRAC016', 'ESTU25');
+
+INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
+VALUES ('PRAC017', 'ESTU26');
+
+-- TITULOS
+
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 1', 'PROF100000');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 2', 'PROF1000006664');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 3', 'PROF1067961563');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 4', 'PROF1000007379');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 5', 'PROF1000003443');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 6', 'PROF1000000407');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 7', 'PROF1000007948');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 8', 'PROF1000007963');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 9', 'PROF1000012018');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 10', 'PROF1000009295');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 11', 'PROF1000005841');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 12', 'PROF1000003322');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 13', 'PROF1000000666');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 14', 'PROF1000004495');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 15', 'PROF1000009432');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 16', 'PROF1000000143');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 17', 'PROF1000000672');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 18', 'PROF1000000607');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 19', 'PROF1000000451');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 20', 'PROF1000010723');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 21', 'PROF1000002175');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 22', 'PROF1000000264');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 23', 'PROF1000000860');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 24', 'PROF1000000929');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 25', 'PROF1000003322');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 26', 'PROF1000000666');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 27', 'PROF1000004495');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 28', 'PROF1000009432');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 29', 'PROF1000000143');
+INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 30', 'PROF1000000672');
 
 -- CICLO 2
 
@@ -1389,126 +1517,3 @@ VALUES ('POIU1237', 'Notificación 49', TO_DATE('2025-05-09', 'YYYY-MM-DD'), 'No
 
 INSERT INTO NOTIFICACIONES (idNotificacion, mensaje, fecha, estado)
 VALUES ('LKJM0987', 'Notificación 50', TO_DATE('2025-04-18', 'YYYY-MM-DD'), 'Enviado');
-
--- PROGRAMASPORESTUDIANTES
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ICIV', 'ESTU1000093986');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000093986');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000096208');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('IEST', 'ESTU1000096208');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000090700');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000090709');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000092309');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000100162');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000095732');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000100827');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000092366');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000095923');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000098136');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000100519');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000097900');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000099463');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000090827');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000091956');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000097274');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000096481');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000099499');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000095092');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000099249');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000100514');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000100296');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ISIS', 'ESTU1000095428');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('ECON', 'ESTU1000092309');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('IIND', 'ESTU1000095092');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('', '');
-
-INSERT INTO PROGRAMASPORESTUDIANTES (idPrograma, idEstudiante)
-VALUES ('', '');
-
-
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 1', 'PROF100000');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 2', 'PROF1000006664');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 3', 'PROF1067961563');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 4', 'PROF1000007379');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 5', 'PROF1000003443');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 6', 'PROF1000000407');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 7', 'PROF1000007948');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 8', 'PROF1000007963');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 9', 'PROF1000012018');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 10', 'PROF1000009295');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 11', 'PROF1000005841');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 12', 'PROF1000003322');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 13', 'PROF1000000666');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 14', 'PROF1000004495');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 15', 'PROF1000009432');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 16', 'PROF1000000143');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 17', 'PROF1000000672');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 18', 'PROF1000000607');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 19', 'PROF1000000451');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 20', 'PROF1000010723');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 21', 'PROF1000002175');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 22', 'PROF1000000264');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 23', 'PROF1000000860');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 24', 'PROF1000000929');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 25', 'PROF1000003322');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 26', 'PROF1000000666');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 27', 'PROF1000004495');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 28', 'PROF1000009432');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 29', 'PROF1000000143');
-INSERT INTO TITULOS (titulo, idProfesor) VALUES ('Título 30', 'PROF1000000672');
