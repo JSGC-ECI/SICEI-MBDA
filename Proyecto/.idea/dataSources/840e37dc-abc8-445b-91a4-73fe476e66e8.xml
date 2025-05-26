@@ -1,0 +1,4288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@granate.is.escuelaing.edu.co">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.53">
+    <root id="1">
+      <ServerVersion>19.0.0.0.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ANONYMOUS">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="APPQOSSYS">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="AURORA">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="BD1000044231">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="BD1000045643">
+      <ObjectId>108</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="BD1000090700">
+      <ObjectId>109</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="BD1000090709">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="BD1000090804">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="BD1000090827">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="BD1000091825">
+      <ObjectId>113</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="BD1000091956">
+      <ObjectId>114</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="BD1000092309">
+      <ObjectId>115</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="BD1000092366">
+      <ObjectId>116</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="BD1000093466">
+      <ObjectId>117</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="BD1000093986">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
+      <CreatedTimestamp>2025-03-11.13:56:59</CreatedTimestamp>
+      <Current>1</Current>
+      <LastIntrospectionL1Timestamp>2025-05-26.03:58:26</LastIntrospectionL1Timestamp>
+      <LastIntrospectionL2Timestamp>2025-05-26.03:58:26</LastIntrospectionL2Timestamp>
+      <LastIntrospectionL3Timestamp>2025-05-26.03:58:26</LastIntrospectionL3Timestamp>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2025-05-26.13:58:31</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionVersion>200820</LastIntrospectionVersion>
+      <ModifiedTimestamp>2025-05-02.18:29:40</ModifiedTimestamp>
+      <ObjectId>118</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="BD1000094240">
+      <ObjectId>119</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="BD1000094458">
+      <ObjectId>120</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="BD1000094683">
+      <ObjectId>121</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="BD1000094969">
+      <ObjectId>122</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="BD1000094970">
+      <ObjectId>123</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="BD1000095091">
+      <ObjectId>124</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="BD1000095092">
+      <ObjectId>125</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="BD1000095228">
+      <ObjectId>126</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="BD1000095273">
+      <ObjectId>127</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="BD1000095428">
+      <ObjectId>128</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="BD1000095495">
+      <ObjectId>129</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="BD1000095732">
+      <ObjectId>130</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="BD1000095746">
+      <ObjectId>131</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="BD1000095923">
+      <ObjectId>132</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="BD1000095931">
+      <ObjectId>133</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="BD1000096179">
+      <ObjectId>134</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="BD1000096208">
+      <ObjectId>135</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="BD1000096271">
+      <ObjectId>136</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="BD1000096465">
+      <ObjectId>137</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="BD1000096481">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="BD1000096774">
+      <ObjectId>139</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="BD1000096960">
+      <ObjectId>140</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="BD1000097073">
+      <ObjectId>141</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="BD1000097120">
+      <ObjectId>142</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="BD1000097124">
+      <ObjectId>143</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="BD1000097155">
+      <ObjectId>144</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="BD1000097206">
+      <ObjectId>145</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="BD1000097274">
+      <ObjectId>146</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="BD1000097900">
+      <ObjectId>147</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="BD1000098136">
+      <ObjectId>148</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="BD1000098285">
+      <ObjectId>149</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="BD1000098301">
+      <ObjectId>150</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="BD1000098335">
+      <ObjectId>151</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="BD1000098372">
+      <ObjectId>152</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="BD1000098467">
+      <ObjectId>153</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="BD1000098840">
+      <ObjectId>154</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="BD1000098871">
+      <ObjectId>155</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="BD1000098895">
+      <ObjectId>156</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="BD1000099011">
+      <ObjectId>157</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="BD1000099187">
+      <ObjectId>158</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="BD1000099245">
+      <ObjectId>159</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="BD1000099249">
+      <ObjectId>160</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="BD1000099278">
+      <ObjectId>161</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="BD1000099298">
+      <ObjectId>162</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="BD1000099427">
+      <ObjectId>163</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="BD1000099457">
+      <ObjectId>164</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="BD1000099463">
+      <ObjectId>165</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="BD1000099483">
+      <ObjectId>166</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="BD1000099499">
+      <ObjectId>167</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="BD1000099591">
+      <ObjectId>168</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="BD1000099711">
+      <ObjectId>169</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="BD1000099723">
+      <ObjectId>170</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="BD1000099851">
+      <ObjectId>171</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="BD1000099938">
+      <ObjectId>172</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="BD1000100098">
+      <ObjectId>173</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="BD1000100162">
+      <ObjectId>174</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="BD1000100296">
+      <ObjectId>175</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="BD1000100312">
+      <ObjectId>176</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="BD1000100403">
+      <ObjectId>177</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="BD1000100434">
+      <ObjectId>178</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="BD1000100448">
+      <ObjectId>179</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="BD1000100514">
+      <ObjectId>180</ObjectId>
+    </schema>
+    <schema id="80" parent="1" name="BD1000100519">
+      <ObjectId>181</ObjectId>
+    </schema>
+    <schema id="81" parent="1" name="BD1000100666">
+      <ObjectId>182</ObjectId>
+    </schema>
+    <schema id="82" parent="1" name="BD1000100698">
+      <ObjectId>183</ObjectId>
+    </schema>
+    <schema id="83" parent="1" name="BD1000100759">
+      <ObjectId>184</ObjectId>
+    </schema>
+    <schema id="84" parent="1" name="BD1000100827">
+      <ObjectId>185</ObjectId>
+    </schema>
+    <schema id="85" parent="1" name="BD1000100880">
+      <ObjectId>186</ObjectId>
+    </schema>
+    <schema id="86" parent="1" name="BD1000100890">
+      <ObjectId>187</ObjectId>
+    </schema>
+    <schema id="87" parent="1" name="BD1000101817">
+      <ObjectId>188</ObjectId>
+    </schema>
+    <schema id="88" parent="1" name="BD1000101990">
+      <ObjectId>189</ObjectId>
+    </schema>
+    <schema id="89" parent="1" name="BD1000102228">
+      <ObjectId>190</ObjectId>
+    </schema>
+    <schema id="90" parent="1" name="BD1000102237">
+      <ObjectId>191</ObjectId>
+    </schema>
+    <schema id="91" parent="1" name="BD1000102320">
+      <ObjectId>192</ObjectId>
+    </schema>
+    <schema id="92" parent="1" name="BD1000102361">
+      <ObjectId>193</ObjectId>
+    </schema>
+    <schema id="93" parent="1" name="BD1000102393">
+      <ObjectId>194</ObjectId>
+    </schema>
+    <schema id="94" parent="1" name="BD1000102443">
+      <ObjectId>195</ObjectId>
+    </schema>
+    <schema id="95" parent="1" name="BD1000102454">
+      <ObjectId>196</ObjectId>
+    </schema>
+    <schema id="96" parent="1" name="BD1000102459">
+      <ObjectId>197</ObjectId>
+    </schema>
+    <schema id="97" parent="1" name="BD1000102499">
+      <ObjectId>198</ObjectId>
+    </schema>
+    <schema id="98" parent="1" name="BD1000102563">
+      <ObjectId>199</ObjectId>
+    </schema>
+    <schema id="99" parent="1" name="BD1000102647">
+      <ObjectId>200</ObjectId>
+    </schema>
+    <schema id="100" parent="1" name="BD1000102739">
+      <ObjectId>201</ObjectId>
+    </schema>
+    <schema id="101" parent="1" name="BD1000102747">
+      <ObjectId>202</ObjectId>
+    </schema>
+    <schema id="102" parent="1" name="BD1000103158">
+      <ObjectId>203</ObjectId>
+    </schema>
+    <schema id="103" parent="1" name="BD1000103208">
+      <ObjectId>204</ObjectId>
+    </schema>
+    <schema id="104" parent="1" name="BD1000103289">
+      <ObjectId>205</ObjectId>
+    </schema>
+    <schema id="105" parent="1" name="BD1000103342">
+      <ObjectId>206</ObjectId>
+    </schema>
+    <schema id="106" parent="1" name="BD1000105301">
+      <ObjectId>207</ObjectId>
+    </schema>
+    <schema id="107" parent="1" name="CTXSYS">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="108" parent="1" name="DBSFWUSER">
+      <ObjectId>37</ObjectId>
+    </schema>
+    <schema id="109" parent="1" name="DBSNMP">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="110" parent="1" name="DIP">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="111" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="112" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="113" parent="1" name="GGSYS">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="114" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="115" parent="1" name="GSMCATUSER">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="116" parent="1" name="GSMROOTUSER">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="117" parent="1" name="GSMUSER">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="118" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="119" parent="1" name="MBDA">
+      <ObjectId>219</ObjectId>
+    </schema>
+    <schema id="120" parent="1" name="MBDAA">
+      <ObjectId>218</ObjectId>
+    </schema>
+    <schema id="121" parent="1" name="MBDAA01">
+      <ObjectId>208</ObjectId>
+    </schema>
+    <schema id="122" parent="1" name="MBDAA01M">
+      <ObjectId>213</ObjectId>
+    </schema>
+    <schema id="123" parent="1" name="MBDAA02">
+      <ObjectId>209</ObjectId>
+    </schema>
+    <schema id="124" parent="1" name="MBDAA02M">
+      <ObjectId>214</ObjectId>
+    </schema>
+    <schema id="125" parent="1" name="MBDAA03">
+      <ObjectId>210</ObjectId>
+    </schema>
+    <schema id="126" parent="1" name="MBDAA03M">
+      <ObjectId>215</ObjectId>
+    </schema>
+    <schema id="127" parent="1" name="MBDAA04">
+      <ObjectId>211</ObjectId>
+    </schema>
+    <schema id="128" parent="1" name="MBDAA04M">
+      <ObjectId>216</ObjectId>
+    </schema>
+    <schema id="129" parent="1" name="MBDAA05">
+      <ObjectId>212</ObjectId>
+    </schema>
+    <schema id="130" parent="1" name="MBDAA05M">
+      <ObjectId>217</ObjectId>
+    </schema>
+    <schema id="131" parent="1" name="MDDATA">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="132" parent="1" name="MDSYS">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="133" parent="1" name="OJVMSYS">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="134" parent="1" name="OLAPSYS">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="135" parent="1" name="ORACLE_OCM">
+      <ObjectId>41</ObjectId>
+    </schema>
+    <schema id="136" parent="1" name="ORDDATA">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="137" parent="1" name="ORDPLUGINS">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="138" parent="1" name="ORDSYS">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="139" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="140" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="141" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="142" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="143" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="144" parent="1" name="SYS$UMF">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="145" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="146" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="147" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="148" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="149" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="150" parent="1" name="WMSYS">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="151" parent="1" name="XDB">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="152" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <user id="153" parent="1" name="ANONYMOUS">
+      <ObjectId>67</ObjectId>
+    </user>
+    <user id="154" parent="1" name="APPQOSSYS">
+      <ObjectId>59</ObjectId>
+    </user>
+    <user id="155" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </user>
+    <user id="156" parent="1" name="AURORA">
+      <ObjectId>106</ObjectId>
+    </user>
+    <user id="157" parent="1" name="BD1000044231">
+      <ObjectId>107</ObjectId>
+    </user>
+    <user id="158" parent="1" name="BD1000045643">
+      <ObjectId>108</ObjectId>
+    </user>
+    <user id="159" parent="1" name="BD1000090700">
+      <ObjectId>109</ObjectId>
+    </user>
+    <user id="160" parent="1" name="BD1000090709">
+      <ObjectId>110</ObjectId>
+    </user>
+    <user id="161" parent="1" name="BD1000090804">
+      <ObjectId>111</ObjectId>
+    </user>
+    <user id="162" parent="1" name="BD1000090827">
+      <ObjectId>112</ObjectId>
+    </user>
+    <user id="163" parent="1" name="BD1000091825">
+      <ObjectId>113</ObjectId>
+    </user>
+    <user id="164" parent="1" name="BD1000091956">
+      <ObjectId>114</ObjectId>
+    </user>
+    <user id="165" parent="1" name="BD1000092309">
+      <ObjectId>115</ObjectId>
+    </user>
+    <user id="166" parent="1" name="BD1000092366">
+      <ObjectId>116</ObjectId>
+    </user>
+    <user id="167" parent="1" name="BD1000093466">
+      <ObjectId>117</ObjectId>
+    </user>
+    <user id="168" parent="1" name="BD1000093986">
+      <ObjectId>118</ObjectId>
+    </user>
+    <user id="169" parent="1" name="BD1000094240">
+      <ObjectId>119</ObjectId>
+    </user>
+    <user id="170" parent="1" name="BD1000094458">
+      <ObjectId>120</ObjectId>
+    </user>
+    <user id="171" parent="1" name="BD1000094683">
+      <ObjectId>121</ObjectId>
+    </user>
+    <user id="172" parent="1" name="BD1000094969">
+      <ObjectId>122</ObjectId>
+    </user>
+    <user id="173" parent="1" name="BD1000094970">
+      <ObjectId>123</ObjectId>
+    </user>
+    <user id="174" parent="1" name="BD1000095091">
+      <ObjectId>124</ObjectId>
+    </user>
+    <user id="175" parent="1" name="BD1000095092">
+      <ObjectId>125</ObjectId>
+    </user>
+    <user id="176" parent="1" name="BD1000095228">
+      <ObjectId>126</ObjectId>
+    </user>
+    <user id="177" parent="1" name="BD1000095273">
+      <ObjectId>127</ObjectId>
+    </user>
+    <user id="178" parent="1" name="BD1000095428">
+      <ObjectId>128</ObjectId>
+    </user>
+    <user id="179" parent="1" name="BD1000095495">
+      <ObjectId>129</ObjectId>
+    </user>
+    <user id="180" parent="1" name="BD1000095732">
+      <ObjectId>130</ObjectId>
+    </user>
+    <user id="181" parent="1" name="BD1000095746">
+      <ObjectId>131</ObjectId>
+    </user>
+    <user id="182" parent="1" name="BD1000095923">
+      <ObjectId>132</ObjectId>
+    </user>
+    <user id="183" parent="1" name="BD1000095931">
+      <ObjectId>133</ObjectId>
+    </user>
+    <user id="184" parent="1" name="BD1000096179">
+      <ObjectId>134</ObjectId>
+    </user>
+    <user id="185" parent="1" name="BD1000096208">
+      <ObjectId>135</ObjectId>
+    </user>
+    <user id="186" parent="1" name="BD1000096271">
+      <ObjectId>136</ObjectId>
+    </user>
+    <user id="187" parent="1" name="BD1000096465">
+      <ObjectId>137</ObjectId>
+    </user>
+    <user id="188" parent="1" name="BD1000096481">
+      <ObjectId>138</ObjectId>
+    </user>
+    <user id="189" parent="1" name="BD1000096774">
+      <ObjectId>139</ObjectId>
+    </user>
+    <user id="190" parent="1" name="BD1000096960">
+      <ObjectId>140</ObjectId>
+    </user>
+    <user id="191" parent="1" name="BD1000097073">
+      <ObjectId>141</ObjectId>
+    </user>
+    <user id="192" parent="1" name="BD1000097120">
+      <ObjectId>142</ObjectId>
+    </user>
+    <user id="193" parent="1" name="BD1000097124">
+      <ObjectId>143</ObjectId>
+    </user>
+    <user id="194" parent="1" name="BD1000097155">
+      <ObjectId>144</ObjectId>
+    </user>
+    <user id="195" parent="1" name="BD1000097206">
+      <ObjectId>145</ObjectId>
+    </user>
+    <user id="196" parent="1" name="BD1000097274">
+      <ObjectId>146</ObjectId>
+    </user>
+    <user id="197" parent="1" name="BD1000097900">
+      <ObjectId>147</ObjectId>
+    </user>
+    <user id="198" parent="1" name="BD1000098136">
+      <ObjectId>148</ObjectId>
+    </user>
+    <user id="199" parent="1" name="BD1000098285">
+      <ObjectId>149</ObjectId>
+    </user>
+    <user id="200" parent="1" name="BD1000098301">
+      <ObjectId>150</ObjectId>
+    </user>
+    <user id="201" parent="1" name="BD1000098335">
+      <ObjectId>151</ObjectId>
+    </user>
+    <user id="202" parent="1" name="BD1000098372">
+      <ObjectId>152</ObjectId>
+    </user>
+    <user id="203" parent="1" name="BD1000098467">
+      <ObjectId>153</ObjectId>
+    </user>
+    <user id="204" parent="1" name="BD1000098840">
+      <ObjectId>154</ObjectId>
+    </user>
+    <user id="205" parent="1" name="BD1000098871">
+      <ObjectId>155</ObjectId>
+    </user>
+    <user id="206" parent="1" name="BD1000098895">
+      <ObjectId>156</ObjectId>
+    </user>
+    <user id="207" parent="1" name="BD1000099011">
+      <ObjectId>157</ObjectId>
+    </user>
+    <user id="208" parent="1" name="BD1000099187">
+      <ObjectId>158</ObjectId>
+    </user>
+    <user id="209" parent="1" name="BD1000099245">
+      <ObjectId>159</ObjectId>
+    </user>
+    <user id="210" parent="1" name="BD1000099249">
+      <ObjectId>160</ObjectId>
+    </user>
+    <user id="211" parent="1" name="BD1000099278">
+      <ObjectId>161</ObjectId>
+    </user>
+    <user id="212" parent="1" name="BD1000099298">
+      <ObjectId>162</ObjectId>
+    </user>
+    <user id="213" parent="1" name="BD1000099427">
+      <ObjectId>163</ObjectId>
+    </user>
+    <user id="214" parent="1" name="BD1000099457">
+      <ObjectId>164</ObjectId>
+    </user>
+    <user id="215" parent="1" name="BD1000099463">
+      <ObjectId>165</ObjectId>
+    </user>
+    <user id="216" parent="1" name="BD1000099483">
+      <ObjectId>166</ObjectId>
+    </user>
+    <user id="217" parent="1" name="BD1000099499">
+      <ObjectId>167</ObjectId>
+    </user>
+    <user id="218" parent="1" name="BD1000099591">
+      <ObjectId>168</ObjectId>
+    </user>
+    <user id="219" parent="1" name="BD1000099711">
+      <ObjectId>169</ObjectId>
+    </user>
+    <user id="220" parent="1" name="BD1000099723">
+      <ObjectId>170</ObjectId>
+    </user>
+    <user id="221" parent="1" name="BD1000099851">
+      <ObjectId>171</ObjectId>
+    </user>
+    <user id="222" parent="1" name="BD1000099938">
+      <ObjectId>172</ObjectId>
+    </user>
+    <user id="223" parent="1" name="BD1000100098">
+      <ObjectId>173</ObjectId>
+    </user>
+    <user id="224" parent="1" name="BD1000100162">
+      <ObjectId>174</ObjectId>
+    </user>
+    <user id="225" parent="1" name="BD1000100296">
+      <ObjectId>175</ObjectId>
+    </user>
+    <user id="226" parent="1" name="BD1000100312">
+      <ObjectId>176</ObjectId>
+    </user>
+    <user id="227" parent="1" name="BD1000100403">
+      <ObjectId>177</ObjectId>
+    </user>
+    <user id="228" parent="1" name="BD1000100434">
+      <ObjectId>178</ObjectId>
+    </user>
+    <user id="229" parent="1" name="BD1000100448">
+      <ObjectId>179</ObjectId>
+    </user>
+    <user id="230" parent="1" name="BD1000100514">
+      <ObjectId>180</ObjectId>
+    </user>
+    <user id="231" parent="1" name="BD1000100519">
+      <ObjectId>181</ObjectId>
+    </user>
+    <user id="232" parent="1" name="BD1000100666">
+      <ObjectId>182</ObjectId>
+    </user>
+    <user id="233" parent="1" name="BD1000100698">
+      <ObjectId>183</ObjectId>
+    </user>
+    <user id="234" parent="1" name="BD1000100759">
+      <ObjectId>184</ObjectId>
+    </user>
+    <user id="235" parent="1" name="BD1000100827">
+      <ObjectId>185</ObjectId>
+    </user>
+    <user id="236" parent="1" name="BD1000100880">
+      <ObjectId>186</ObjectId>
+    </user>
+    <user id="237" parent="1" name="BD1000100890">
+      <ObjectId>187</ObjectId>
+    </user>
+    <user id="238" parent="1" name="BD1000101817">
+      <ObjectId>188</ObjectId>
+    </user>
+    <user id="239" parent="1" name="BD1000101990">
+      <ObjectId>189</ObjectId>
+    </user>
+    <user id="240" parent="1" name="BD1000102228">
+      <ObjectId>190</ObjectId>
+    </user>
+    <user id="241" parent="1" name="BD1000102237">
+      <ObjectId>191</ObjectId>
+    </user>
+    <user id="242" parent="1" name="BD1000102320">
+      <ObjectId>192</ObjectId>
+    </user>
+    <user id="243" parent="1" name="BD1000102361">
+      <ObjectId>193</ObjectId>
+    </user>
+    <user id="244" parent="1" name="BD1000102393">
+      <ObjectId>194</ObjectId>
+    </user>
+    <user id="245" parent="1" name="BD1000102443">
+      <ObjectId>195</ObjectId>
+    </user>
+    <user id="246" parent="1" name="BD1000102454">
+      <ObjectId>196</ObjectId>
+    </user>
+    <user id="247" parent="1" name="BD1000102459">
+      <ObjectId>197</ObjectId>
+    </user>
+    <user id="248" parent="1" name="BD1000102499">
+      <ObjectId>198</ObjectId>
+    </user>
+    <user id="249" parent="1" name="BD1000102563">
+      <ObjectId>199</ObjectId>
+    </user>
+    <user id="250" parent="1" name="BD1000102647">
+      <ObjectId>200</ObjectId>
+    </user>
+    <user id="251" parent="1" name="BD1000102739">
+      <ObjectId>201</ObjectId>
+    </user>
+    <user id="252" parent="1" name="BD1000102747">
+      <ObjectId>202</ObjectId>
+    </user>
+    <user id="253" parent="1" name="BD1000103158">
+      <ObjectId>203</ObjectId>
+    </user>
+    <user id="254" parent="1" name="BD1000103208">
+      <ObjectId>204</ObjectId>
+    </user>
+    <user id="255" parent="1" name="BD1000103289">
+      <ObjectId>205</ObjectId>
+    </user>
+    <user id="256" parent="1" name="BD1000103342">
+      <ObjectId>206</ObjectId>
+    </user>
+    <user id="257" parent="1" name="BD1000105301">
+      <ObjectId>207</ObjectId>
+    </user>
+    <user id="258" parent="1" name="CTXSYS">
+      <ObjectId>87</ObjectId>
+    </user>
+    <user id="259" parent="1" name="DBSFWUSER">
+      <ObjectId>37</ObjectId>
+    </user>
+    <user id="260" parent="1" name="DBSNMP">
+      <ObjectId>58</ObjectId>
+    </user>
+    <user id="261" parent="1" name="DIP">
+      <ObjectId>25</ObjectId>
+    </user>
+    <user id="262" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </user>
+    <user id="263" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </user>
+    <user id="264" parent="1" name="GGSYS">
+      <ObjectId>64</ObjectId>
+    </user>
+    <user id="265" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>22</ObjectId>
+    </user>
+    <user id="266" parent="1" name="GSMCATUSER">
+      <ObjectId>63</ObjectId>
+    </user>
+    <user id="267" parent="1" name="GSMROOTUSER">
+      <ObjectId>24</ObjectId>
+    </user>
+    <user id="268" parent="1" name="GSMUSER">
+      <ObjectId>23</ObjectId>
+    </user>
+    <user id="269" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </user>
+    <user id="270" parent="1" name="MBDA">
+      <ObjectId>219</ObjectId>
+    </user>
+    <user id="271" parent="1" name="MBDAA">
+      <ObjectId>218</ObjectId>
+    </user>
+    <user id="272" parent="1" name="MBDAA01">
+      <ObjectId>208</ObjectId>
+    </user>
+    <user id="273" parent="1" name="MBDAA01M">
+      <ObjectId>213</ObjectId>
+    </user>
+    <user id="274" parent="1" name="MBDAA02">
+      <ObjectId>209</ObjectId>
+    </user>
+    <user id="275" parent="1" name="MBDAA02M">
+      <ObjectId>214</ObjectId>
+    </user>
+    <user id="276" parent="1" name="MBDAA03">
+      <ObjectId>210</ObjectId>
+    </user>
+    <user id="277" parent="1" name="MBDAA03M">
+      <ObjectId>215</ObjectId>
+    </user>
+    <user id="278" parent="1" name="MBDAA04">
+      <ObjectId>211</ObjectId>
+    </user>
+    <user id="279" parent="1" name="MBDAA04M">
+      <ObjectId>216</ObjectId>
+    </user>
+    <user id="280" parent="1" name="MBDAA05">
+      <ObjectId>212</ObjectId>
+    </user>
+    <user id="281" parent="1" name="MBDAA05M">
+      <ObjectId>217</ObjectId>
+    </user>
+    <user id="282" parent="1" name="MDDATA">
+      <ObjectId>99</ObjectId>
+    </user>
+    <user id="283" parent="1" name="MDSYS">
+      <ObjectId>93</ObjectId>
+    </user>
+    <user id="284" parent="1" name="OJVMSYS">
+      <ObjectId>85</ObjectId>
+    </user>
+    <user id="285" parent="1" name="OLAPSYS">
+      <ObjectId>96</ObjectId>
+    </user>
+    <user id="286" parent="1" name="ORACLE_OCM">
+      <ObjectId>41</ObjectId>
+    </user>
+    <user id="287" parent="1" name="ORDDATA">
+      <ObjectId>90</ObjectId>
+    </user>
+    <user id="288" parent="1" name="ORDPLUGINS">
+      <ObjectId>91</ObjectId>
+    </user>
+    <user id="289" parent="1" name="ORDSYS">
+      <ObjectId>89</ObjectId>
+    </user>
+    <user id="290" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </user>
+    <user id="291" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>36</ObjectId>
+    </user>
+    <user id="292" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>92</ObjectId>
+    </user>
+    <user id="293" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </user>
+    <user id="294" parent="1" name="SYS$UMF">
+      <ObjectId>50</ObjectId>
+    </user>
+    <user id="295" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </user>
+    <user id="296" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </user>
+    <user id="297" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </user>
+    <user id="298" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </user>
+    <user id="299" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </user>
+    <user id="300" parent="1" name="WMSYS">
+      <ObjectId>76</ObjectId>
+    </user>
+    <user id="301" parent="1" name="XDB">
+      <ObjectId>66</ObjectId>
+    </user>
+    <user id="302" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </user>
+    <table id="303" parent="17" name="ADDRESS">
+      <CreatedTimestamp>2025-03-24.15:37:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:38:02</ModifiedTimestamp>
+      <ObjectId>99356</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="304" parent="17" name="ALOJAMIENTOS">
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <ObjectId>119728</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="305" parent="17" name="AREAS">
+      <CreatedTimestamp>2025-05-26.03:59:35</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:19</ModifiedTimestamp>
+      <ObjectId>207753</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="306" parent="17" name="BASICO">
+      <CreatedTimestamp>2025-03-14.18:22:22</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>86246</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="307" parent="17" name="CAMPAÑA">
+      <CreatedTimestamp>2025-03-14.18:22:22</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>86251</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="308" parent="17" name="CANCELACIONES">
+      <CreatedTimestamp>2025-05-26.03:59:38</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:24</ModifiedTimestamp>
+      <ObjectId>207763</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="309" parent="17" name="CENTROSDEESTUDIOS">
+      <CreatedTimestamp>2025-05-26.03:59:37</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:23</ModifiedTimestamp>
+      <ObjectId>207757</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="310" parent="17" name="CLIENTE">
+      <CreatedTimestamp>2025-04-25.08:18:41</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-25.08:18:41</ModifiedTimestamp>
+      <ObjectId>140643</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="311" parent="17" name="CLIENTES">
+      <CreatedTimestamp>2025-05-02.18:29:40</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-05-02.18:29:40</ModifiedTimestamp>
+      <ObjectId>146919</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="312" parent="17" name="CORREOSPASAJEROS">
+      <CreatedTimestamp>2025-04-04.07:00:59</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:59</ModifiedTimestamp>
+      <ObjectId>119737</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="313" parent="17" name="CORREOSUUSARIOS">
+      <CreatedTimestamp>2025-04-04.07:00:59</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:59</ModifiedTimestamp>
+      <ObjectId>119735</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="314" parent="17" name="CUSTOMER">
+      <CreatedTimestamp>2025-03-24.15:37:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:44:52</ModifiedTimestamp>
+      <ObjectId>99355</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="315" parent="17" name="CUSTOMERADDRESS">
+      <CreatedTimestamp>2025-03-24.15:37:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:38:05</ModifiedTimestamp>
+      <ObjectId>99357</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="316" parent="17" name="DEPARTAMENTOS">
+      <CreatedTimestamp>2025-05-26.03:59:34</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:22</ModifiedTimestamp>
+      <ObjectId>207750</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="317" parent="17" name="DESAYUNO">
+      <CreatedTimestamp>2025-03-19.16:00:17</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>88684</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="318" parent="17" name="DIGITAL">
+      <CreatedTimestamp>2025-03-14.18:22:23</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>86253</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="319" parent="17" name="DIRECTORES">
+      <CreatedTimestamp>2025-05-26.03:59:33</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:02:36</ModifiedTimestamp>
+      <ObjectId>207746</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="320" parent="17" name="ESPECIFICACION">
+      <CreatedTimestamp>2025-03-14.18:22:23</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>86254</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="321" parent="17" name="ESTILO">
+      <CreatedTimestamp>2025-03-14.18:22:22</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>86250</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="322" parent="17" name="ESTUDIANTES">
+      <CreatedTimestamp>2025-05-26.03:59:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:02:35</ModifiedTimestamp>
+      <ObjectId>207748</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="323" parent="17" name="FACTURA">
+      <CreatedTimestamp>2025-03-14.18:22:22</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>86247</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="324" parent="17" name="FIRSTTRY">
+      <CreatedTimestamp>2025-03-11.13:56:59</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-11.13:56:59</ModifiedTimestamp>
+      <ObjectId>78015</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="325" parent="17" name="FISICO">
+      <CreatedTimestamp>2025-03-14.18:22:22</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>86252</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="326" parent="17" name="GRUPOS">
+      <CreatedTimestamp>2025-05-26.03:59:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:22</ModifiedTimestamp>
+      <ObjectId>207751</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="327" parent="17" name="ITINERARIOS">
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <ObjectId>119724</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="328" parent="17" name="MATERIAS">
+      <CreatedTimestamp>2025-05-26.03:59:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:20</ModifiedTimestamp>
+      <ObjectId>207754</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="329" parent="17" name="MATERIASPORESTUDIANTE">
+      <CreatedTimestamp>2025-05-26.03:59:34</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:21</ModifiedTimestamp>
+      <ObjectId>207749</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="330" parent="17" name="NOTAS">
+      <CreatedTimestamp>2025-05-26.03:59:36</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:22</ModifiedTimestamp>
+      <ObjectId>207755</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="331" parent="17" name="NOTIFICACIONES">
+      <CreatedTimestamp>2025-05-26.03:59:38</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:01:34</ModifiedTimestamp>
+      <ObjectId>207762</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="332" parent="17" name="NUCLEOSDEFORMACION">
+      <CreatedTimestamp>2025-05-26.03:59:37</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:01:44</ModifiedTimestamp>
+      <ObjectId>207758</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="333" parent="17" name="PAGOS">
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <ObjectId>119732</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="334" parent="17" name="PAQUETES">
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <ObjectId>119726</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="335" parent="17" name="PASAJEROS">
+      <CreatedTimestamp>2025-04-04.07:00:59</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:59</ModifiedTimestamp>
+      <ObjectId>119736</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="336" parent="17" name="PREINSCRIPCIONES">
+      <CreatedTimestamp>2025-05-26.03:59:35</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:21</ModifiedTimestamp>
+      <ObjectId>207752</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="337" parent="17" name="PREREQUISITOSMATERIAS">
+      <CreatedTimestamp>2025-05-26.03:59:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:22</ModifiedTimestamp>
+      <ObjectId>207756</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="338" parent="17" name="PRODUCT">
+      <CreatedTimestamp>2025-03-24.15:37:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:38:06</ModifiedTimestamp>
+      <ObjectId>99362</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="339" parent="17" name="PRODUCTCATEGORY">
+      <CreatedTimestamp>2025-03-24.15:37:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:38:07</ModifiedTimestamp>
+      <ObjectId>99361</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="340" parent="17" name="PRODUCTDESCRIPTION">
+      <CreatedTimestamp>2025-03-24.15:37:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <ObjectId>99363</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="341" parent="17" name="PRODUCTMODEL">
+      <CreatedTimestamp>2025-03-24.15:37:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <ObjectId>99360</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="342" parent="17" name="PRODUCTMODELPRODUCTDESCRIPTION">
+      <CreatedTimestamp>2025-03-24.15:37:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:38:07</ModifiedTimestamp>
+      <ObjectId>99364</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="343" parent="17" name="PROFESORES">
+      <CreatedTimestamp>2025-05-26.03:59:33</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:02:35</ModifiedTimestamp>
+      <ObjectId>207747</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="344" parent="17" name="PROGRAMASACADEMICOS">
+      <CreatedTimestamp>2025-05-26.03:59:37</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:01:44</ModifiedTimestamp>
+      <ObjectId>207759</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="345" parent="17" name="PROGRAMASPORESTUDIANTES">
+      <CreatedTimestamp>2025-05-26.03:59:38</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:21</ModifiedTimestamp>
+      <ObjectId>207760</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="346" parent="17" name="RESERVAS">
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <ObjectId>119730</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="347" parent="17" name="SALESORDERDETAIL">
+      <CreatedTimestamp>2025-03-24.15:37:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:38:06</ModifiedTimestamp>
+      <ObjectId>99359</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="348" parent="17" name="SALESORDERHEADER">
+      <CreatedTimestamp>2025-03-24.15:37:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-24.15:38:05</ModifiedTimestamp>
+      <ObjectId>99358</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="349" parent="17" name="SEPIDEN">
+      <CreatedTimestamp>2025-03-14.18:22:23</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>86255</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="350" parent="17" name="SEVENDENEN">
+      <CreatedTimestamp>2025-03-14.18:22:23</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>86256</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="351" parent="17" name="TELEFONOS">
+      <CreatedTimestamp>2025-03-14.18:22:22</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>86249</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="352" parent="17" name="TIENE">
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <ObjectId>119723</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="353" parent="17" name="TITULOS">
+      <CreatedTimestamp>2025-05-26.03:59:38</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2025-05-26.04:03:23</ModifiedTimestamp>
+      <ObjectId>207761</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="354" parent="17" name="VUELOS">
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <ObjectId>119721</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="355" parent="303" name="ADDRESSID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="356" parent="303" name="ADDRESSLINE1">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(255 byte)|0s</StoredType>
+    </column>
+    <column id="357" parent="303" name="ADDRESSLINE2">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(255 byte)|0s</StoredType>
+    </column>
+    <column id="358" parent="303" name="CITY">
+      <Position>4</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="359" parent="303" name="STATEPROVINCE">
+      <Position>5</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="360" parent="303" name="COUNTYREGION">
+      <Position>6</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="361" parent="303" name="POSTALCODE">
+      <Position>7</Position>
+      <StoredType>VARCHAR2(20 byte)|0s</StoredType>
+    </column>
+    <index id="362" parent="303" name="PK_ADDRESS">
+      <ColNames>ADDRESSID</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:02</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:02</ModifiedTimestamp>
+      <ObjectId>99365</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="363" parent="303" name="PK_ADDRESS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:02</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_ADDRESS</UnderlyingIndexName>
+    </key>
+    <column id="364" parent="304" name="ID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="365" parent="304" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
+    </column>
+    <column id="366" parent="304" name="CAPACIDAD">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="367" parent="304" name="PRECIOPORPASAJERO">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>NUMBER(8,2)|0s</StoredType>
+    </column>
+    <index id="368" parent="304" name="SYS_C00103620">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>119729</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="369" parent="304" name="SYS_C00103620">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C00103620</UnderlyingIndexName>
+    </key>
+    <check id="370" parent="305" name="CHK_TIDR">
+      <ColNames>IDAREA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:56</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idArea, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="371" parent="305" name="CHK_TIDS">
+      <ColNames>IDDEPARTAMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:56</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idDepartamento, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="372" parent="305" name="CHK_TIDT">
+      <ColNames>IDDIRECTOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:56</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idDirector, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <column id="373" parent="305" name="IDAREA">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="374" parent="305" name="NOMBRE">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(35 byte)|0s</StoredType>
+    </column>
+    <column id="375" parent="305" name="IDDEPARTAMENTO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="376" parent="305" name="IDDIRECTOR">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="377" parent="305" name="FK_AREAS_DEPARTAMENTO">
+      <ColNames>IDDEPARTAMENTO</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:19</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_DEPARTAMENTOS</RefKeyName>
+      <RefTableName>DEPARTAMENTOS</RefTableName>
+    </foreign-key>
+    <foreign-key id="378" parent="305" name="FK_AREAS_DIRECTOR">
+      <ColNames>IDDIRECTOR</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:19</ModifiedTimestamp>
+      <OnDelete>set-null</OnDelete>
+      <RefKeyName>PK_DIRECTORES</RefKeyName>
+      <RefTableName>DIRECTORES</RefTableName>
+    </foreign-key>
+    <index id="379" parent="305" name="PK_AREAS">
+      <ColNames>IDAREA</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:30</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:30</ModifiedTimestamp>
+      <ObjectId>207770</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="380" parent="305" name="UQ_AREAS_NOMBRE">
+      <ColNames>NOMBRE</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:43</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:43</ModifiedTimestamp>
+      <ObjectId>207791</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="381" parent="305" name="PK_AREAS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:30</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_AREAS</UnderlyingIndexName>
+    </key>
+    <key id="382" parent="305" name="UQ_AREAS_NOMBRE">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:43</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_AREAS_NOMBRE</UnderlyingIndexName>
+    </key>
+    <check id="383" parent="306" name="SYS_C0028082">
+      <ColNames>PRECIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:22</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>precio &gt; 0 AND MOD(precio, 100) = 0</Predicate>
+    </check>
+    <column id="384" parent="306" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="385" parent="306" name="PRECIO">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>NUMBER(9)|0s</StoredType>
+    </column>
+    <column id="386" parent="306" name="DESCRIPCION">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <index id="387" parent="306" name="PK_BASICO">
+      <ColNames>NOMBRE</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:53</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>88686</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="388" parent="306" name="PK_BASICO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_BASICO</UnderlyingIndexName>
+    </key>
+    <check id="389" parent="307" name="SYS_C0028111">
+      <ColNames>PRESUPUESTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:22</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>presupuesto &gt; 0 AND MOD(presupuesto, 100) = 0</Predicate>
+    </check>
+    <column id="390" parent="307" name="ID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(10)|0s</StoredType>
+    </column>
+    <column id="391" parent="307" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(20 byte)|0s</StoredType>
+    </column>
+    <column id="392" parent="307" name="DESCRIPCION">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="393" parent="307" name="PRESUPUESTO">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>NUMBER(9)|0s</StoredType>
+    </column>
+    <column id="394" parent="307" name="FECHA_INICIO">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="395" parent="307" name="DURACION">
+      <Position>6</Position>
+      <StoredType>NUMBER(4)|0s</StoredType>
+    </column>
+    <column id="396" parent="307" name="NOMBRE_DESAYUNO">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="397" parent="307" name="NOMBRE_BASICO">
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <index id="398" parent="307" name="PK_CAMPAÑA">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:53</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>88691</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="399" parent="307" name="PK_CAMPAÑA">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_CAMPAÑA</UnderlyingIndexName>
+    </key>
+    <check id="400" parent="308" name="CHK_TIDO">
+      <ColNames>IDCANCELACION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:00</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idCancelacion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="401" parent="308" name="CHK_TIDC">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:01</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="402" parent="308" name="CHK_TIDP">
+      <ColNames>IDMATERIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:01</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="403" parent="308" name="CHK_TIDQ">
+      <ColNames>IDNOTIFICACION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:01</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idNotificacion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="404" parent="308" name="CK_ASESORIA_MOTIVO">
+      <ColNames>ASESORIA
+MOTIVO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:36</ModifiedTimestamp>
+      <Predicate>asesoria = &apos;N&apos; OR (asesoria = &apos;S&apos; AND motivo IS NOT NULL)</Predicate>
+    </check>
+    <check id="405" parent="308" name="CHK_TASESORIA">
+      <ColNames>ASESORIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:01</ModifiedTimestamp>
+      <Predicate>asesoria IN (&apos;S&apos;, &apos;N&apos;)</Predicate>
+    </check>
+    <check id="406" parent="308" name="CHK_TESTADOA">
+      <ColNames>ESTADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:01</ModifiedTimestamp>
+      <Predicate>estado IN (&apos;En proceso&apos;, &apos;Rechazada&apos;, &apos;Aprobada&apos;)</Predicate>
+    </check>
+    <column id="407" parent="308" name="IDCANCELACION">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="408" parent="308" name="FECHA">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="409" parent="308" name="MOTIVO">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="410" parent="308" name="ESTADO">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <column id="411" parent="308" name="ASESORIA">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>CHAR(1 byte)|0s</StoredType>
+    </column>
+    <column id="412" parent="308" name="IDMATERIA">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="413" parent="308" name="IDNOTIFICACION">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="414" parent="308" name="IDESTUDIANTE">
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="415" parent="308" name="FK_CANCEL_MATERIA">
+      <ColNames>IDMATERIA</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:24</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
+      <RefTableName>MATERIAS</RefTableName>
+    </foreign-key>
+    <foreign-key id="416" parent="308" name="FK_CANCEL_NOTIF">
+      <ColNames>IDNOTIFICACION</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:23</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_NOTIFICACIONES</RefKeyName>
+      <RefTableName>NOTIFICACIONES</RefTableName>
+    </foreign-key>
+    <foreign-key id="417" parent="308" name="FK_CANCEL_EST">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:23</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_ESTUDIANTES</RefKeyName>
+      <RefTableName>ESTUDIANTES</RefTableName>
+    </foreign-key>
+    <index id="418" parent="308" name="PK_CANCELACION">
+      <ColNames>IDCANCELACION</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:33</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:33</ModifiedTimestamp>
+      <ObjectId>207780</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="419" parent="308" name="PK_CANCELACION">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:33</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_CANCELACION</UnderlyingIndexName>
+    </key>
+    <trigger id="420" parent="308" name="TRG_ACTUALIZAR_NOTIFICACION">
+      <CreatedTimestamp>2025-05-26.04:03:37</CreatedTimestamp>
+      <Events>I</Events>
+      <ModifiedTimestamp>2025-05-26.04:03:37</ModifiedTimestamp>
+      <ObjectId>207744</ObjectId>
+      <SourceTextLength>111</SourceTextLength>
+    </trigger>
+    <check id="421" parent="309" name="CHK_TIDAC">
+      <ColNames>IDCENTROESTUDIOS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:58</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idCentroEstudios, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="422" parent="309" name="CHK_TIDAD">
+      <ColNames>IDDIRECTOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:58</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idDirector, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="423" parent="309" name="CHK_TIDAE">
+      <ColNames>IDPROGRAMAACADEMICO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:58</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idProgramaAcademico, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <column id="424" parent="309" name="IDCENTROESTUDIOS">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="425" parent="309" name="NOMBRE">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="426" parent="309" name="IDDIRECTOR">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="427" parent="309" name="IDPROGRAMAACADEMICO">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="428" parent="309" name="FK_CENTRO_DIRECTOR">
+      <ColNames>IDDIRECTOR</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:23</ModifiedTimestamp>
+      <OnDelete>set-null</OnDelete>
+      <RefKeyName>PK_DIRECTORES</RefKeyName>
+      <RefTableName>DIRECTORES</RefTableName>
+    </foreign-key>
+    <foreign-key id="429" parent="309" name="FK_CENTRO_PROGRAMA">
+      <ColNames>IDPROGRAMAACADEMICO</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:23</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_PROGRAMASACADEMICOS</RefKeyName>
+      <RefTableName>PROGRAMASACADEMICOS</RefTableName>
+    </foreign-key>
+    <index id="430" parent="309" name="PK_CENTROSDEESTUDIOS">
+      <ColNames>IDCENTROESTUDIOS</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:31</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:31</ModifiedTimestamp>
+      <ObjectId>207773</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="431" parent="309" name="UQ_CENTRODEESTUDIOS_NOMBRE">
+      <ColNames>NOMBRE</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:44</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:44</ModifiedTimestamp>
+      <ObjectId>207794</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="432" parent="309" name="PK_CENTROSDEESTUDIOS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:31</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_CENTROSDEESTUDIOS</UnderlyingIndexName>
+    </key>
+    <key id="433" parent="309" name="UQ_CENTRODEESTUDIOS_NOMBRE">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:44</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_CENTRODEESTUDIOS_NOMBRE</UnderlyingIndexName>
+    </key>
+    <check id="434" parent="310" name="SYS_C00153185">
+      <ColNames>DESCUENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-04-25.08:18:41</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>descuento &gt;= 0 AND descuento &lt;= 100</Predicate>
+    </check>
+    <column id="435" parent="310" name="CEDULA">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="436" parent="310" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="437" parent="310" name="DESCUENTO">
+      <Position>3</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="438" parent="310" name="DIRECCION">
+      <Position>4</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="439" parent="310" name="CORREO">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="440" parent="311" name="IDUSUARIO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(20 byte)|0s</StoredType>
+    </column>
+    <column id="441" parent="311" name="NOMBRE">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="442" parent="311" name="CORREO">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="443" parent="311" name="CONTRASEÑA">
+      <Position>4</Position>
+      <StoredType>VARCHAR2(20 byte)|0s</StoredType>
+    </column>
+    <column id="444" parent="311" name="TELEFONO">
+      <Position>5</Position>
+      <StoredType>VARCHAR2(15 byte)|0s</StoredType>
+    </column>
+    <column id="445" parent="311" name="DIRECCION">
+      <Position>6</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="446" parent="311" name="FECHAREGISTRO">
+      <DefaultExpression>SYSTIMESTAMP</DefaultExpression>
+      <Position>7</Position>
+      <StoredType>TIMESTAMP(6)|0s</StoredType>
+    </column>
+    <index id="447" parent="311" name="SYS_C00165635">
+      <ColNames>IDUSUARIO</ColNames>
+      <CreatedTimestamp>2025-05-02.18:29:40</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-02.18:29:40</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>146920</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="448" parent="311" name="SYS_C00165635">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-02.18:29:40</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C00165635</UnderlyingIndexName>
+    </key>
+    <column id="449" parent="312" name="TIPODOCUSUARIO">
+      <Position>1</Position>
+      <StoredType>CHAR(2 byte)|0s</StoredType>
+    </column>
+    <column id="450" parent="312" name="IDUSUARIO">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(15 byte)|0s</StoredType>
+    </column>
+    <column id="451" parent="312" name="CORREO">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
+    </column>
+    <column id="452" parent="313" name="TIPODOCUSUARIO">
+      <Position>1</Position>
+      <StoredType>CHAR(2 byte)|0s</StoredType>
+    </column>
+    <column id="453" parent="313" name="IDUSUARIO">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(15 byte)|0s</StoredType>
+    </column>
+    <column id="454" parent="313" name="CORREO">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
+    </column>
+    <column id="455" parent="314" name="CUSTOMERID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="456" parent="314" name="FIRSTNAME">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="457" parent="314" name="MIDDLENAME">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="458" parent="314" name="LASTNAME">
+      <Position>4</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="459" parent="314" name="COMPANYNAME">
+      <Position>5</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="460" parent="314" name="EMAILADDRESS">
+      <Position>6</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <index id="461" parent="314" name="PK_CUSTOMER">
+      <ColNames>CUSTOMERID</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:02</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:02</ModifiedTimestamp>
+      <ObjectId>99366</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="462" parent="314" name="UK_CUSTOMER">
+      <ColNames>EMAILADDRESS</ColNames>
+      <CreatedTimestamp>2025-03-24.15:44:52</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:44:52</ModifiedTimestamp>
+      <ObjectId>99375</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="463" parent="314" name="PK_CUSTOMER">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:02</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_CUSTOMER</UnderlyingIndexName>
+    </key>
+    <key id="464" parent="314" name="UK_CUSTOMER">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:44:52</ModifiedTimestamp>
+      <UnderlyingIndexName>UK_CUSTOMER</UnderlyingIndexName>
+    </key>
+    <column id="465" parent="315" name="CUSTOMERID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="466" parent="315" name="ADDRESSID">
+      <Position>2</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="467" parent="315" name="ADDRESSTYPE">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="468" parent="315" name="FK_CUSTOMERADDRESS_CUSTOMER">
+      <ColNames>CUSTOMERID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:05</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_CUSTOMER</RefKeyName>
+      <RefTableName>CUSTOMER</RefTableName>
+    </foreign-key>
+    <foreign-key id="469" parent="315" name="FK_CUSTOMERADDRESS_ADDRESS">
+      <ColNames>ADDRESSID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:05</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_ADDRESS</RefKeyName>
+      <RefTableName>ADDRESS</RefTableName>
+    </foreign-key>
+    <index id="470" parent="315" name="PK_CUSTOMERADDRESS">
+      <ColNames>CUSTOMERID
+ADDRESSTYPE</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:03</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:03</ModifiedTimestamp>
+      <ObjectId>99367</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="471" parent="315" name="PK_CUSTOMERADDRESS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:03</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_CUSTOMERADDRESS</UnderlyingIndexName>
+    </key>
+    <check id="472" parent="316" name="CHK_TIDG">
+      <ColNames>IDDEPARTAMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:54</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idDepartamento, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="473" parent="316" name="CHK_TIDH">
+      <ColNames>IDDIRECTOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:54</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idDirector, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <column id="474" parent="316" name="IDDEPARTAMENTO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="475" parent="316" name="NOMBRE">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(35 byte)|0s</StoredType>
+    </column>
+    <column id="476" parent="316" name="IDDIRECTOR">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="477" parent="316" name="FK_DEPART_DIRECTOR">
+      <ColNames>IDDIRECTOR</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:22</ModifiedTimestamp>
+      <OnDelete>set-null</OnDelete>
+      <RefKeyName>PK_DIRECTORES</RefKeyName>
+      <RefTableName>DIRECTORES</RefTableName>
+    </foreign-key>
+    <index id="478" parent="316" name="PK_DEPARTAMENTOS">
+      <ColNames>IDDEPARTAMENTO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:29</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:29</ModifiedTimestamp>
+      <ObjectId>207767</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="479" parent="316" name="UQ_DEPARTAMENTOS_NOMBRE">
+      <ColNames>NOMBRE</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:42</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:42</ModifiedTimestamp>
+      <ObjectId>207789</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="480" parent="316" name="PK_DEPARTAMENTOS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:30</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_DEPARTAMENTOS</UnderlyingIndexName>
+    </key>
+    <key id="481" parent="316" name="UQ_DEPARTAMENTOS_NOMBRE">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:42</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_DEPARTAMENTOS_NOMBRE</UnderlyingIndexName>
+    </key>
+    <check id="482" parent="317" name="SYS_C0032110">
+      <ColNames>PERSONAS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:17</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>personas &gt; 0</Predicate>
+    </check>
+    <check id="483" parent="317" name="SYS_C0032109">
+      <ColNames>PRECIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:17</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>precio &gt; 0 AND MOD(precio, 100) = 0</Predicate>
+    </check>
+    <column id="484" parent="317" name="NUMERO_FACTURA">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(5)|0s</StoredType>
+    </column>
+    <column id="485" parent="317" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="486" parent="317" name="PRECIO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(9)|0s</StoredType>
+    </column>
+    <column id="487" parent="317" name="DECORACION">
+      <Position>4</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <column id="488" parent="317" name="PERSONAS">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>NUMBER(3)|0s</StoredType>
+    </column>
+    <foreign-key id="489" parent="317" name="FK_DESAYUNO_FACTURA">
+      <ColNames>NUMERO_FACTURA</ColNames>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_FACTURA</RefKeyName>
+      <RefTableName>FACTURA</RefTableName>
+    </foreign-key>
+    <index id="490" parent="317" name="PK_DESAYUNO">
+      <ColNames>NOMBRE</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:53</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>88685</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="491" parent="317" name="PK_DESAYUNO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_DESAYUNO</UnderlyingIndexName>
+    </key>
+    <check id="492" parent="318" name="SYS_C0028134">
+      <ColNames>URL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:23</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>REGEXP_LIKE(url,&#xd;
+                                                            &apos;^(https?://)?([a-zA-Z0-9.-]+).([a-zA-Z]{2,})(:\d{2,5})?(/[^\s]*)?$&apos;)</Predicate>
+    </check>
+    <check id="493" parent="318" name="SYS_C0028132">
+      <ColNames>COSTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:23</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>costo &gt; 0 AND MOD(costo, 100) = 0</Predicate>
+    </check>
+    <check id="494" parent="318" name="SYS_C0028133">
+      <ColNames>ESTADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:23</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>estado IN (&apos;N&apos;, &apos;B&apos;, &apos;P&apos;, &apos;E&apos;)</Predicate>
+    </check>
+    <column id="495" parent="318" name="ID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(10)|0s</StoredType>
+    </column>
+    <column id="496" parent="318" name="TITULO">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="497" parent="318" name="FECHA_INICIO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="498" parent="318" name="FECHA_FIN">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="499" parent="318" name="COSTO">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>NUMBER(9)|0s</StoredType>
+    </column>
+    <column id="500" parent="318" name="ESTADO">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>CHAR(1 byte)|0s</StoredType>
+    </column>
+    <column id="501" parent="318" name="URL">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>VARCHAR2(200 byte)|0s</StoredType>
+    </column>
+    <column id="502" parent="318" name="ID_CAMPAÑA">
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StoredType>NUMBER(10)|0s</StoredType>
+    </column>
+    <index id="503" parent="318" name="PK_DIGITAL">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:54</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>88693</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="504" parent="318" name="PK_DIGITAL">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_DIGITAL</UnderlyingIndexName>
+    </key>
+    <check id="505" parent="319" name="CK_PRESUPUESTO_NIVEL">
+      <ColNames>NIVELJERARQUICO
+PRESUPUESTOASIGNADOS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:36</ModifiedTimestamp>
+      <Predicate>(nivelJerarquico = &apos;1&apos; AND presupuestoAsignados &lt;= 100000)&#xd;
+  OR&#xd;
+  (nivelJerarquico = &apos;2&apos; AND presupuestoAsignados &lt;= 500000)&#xd;
+  OR&#xd;
+  (nivelJerarquico = &apos;3&apos; AND presupuestoAsignados &lt;= 1000000)&#xd;
+  OR&#xd;
+  (nivelJerarquico NOT IN (&apos;1&apos;, &apos;2&apos;, &apos;3&apos;) AND presupuestoAsignados &lt;= 50000)</Predicate>
+    </check>
+    <check id="506" parent="319" name="CHK_TIDA">
+      <ColNames>IDUSUARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:51</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idUsuario, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="507" parent="319" name="CHK_TCORREOA">
+      <ColNames>CORREO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:51</ModifiedTimestamp>
+      <Predicate>correo LIKE &apos;%@escuelaing.edu.co&apos; OR correo LIKE &apos;%@mail.escuelaing.edu.co&apos;</Predicate>
+    </check>
+    <check id="508" parent="319" name="CHK_TDIRECCIONA">
+      <ColNames>DIRECCION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:51</ModifiedTimestamp>
+      <Predicate>direccion LIKE &apos;Calle%&apos; OR direccion LIKE &apos;Carrera%&apos; OR direccion LIKE &apos;Avenida%&apos;&#xd;
+        OR direccion LIKE &apos;Transversal%&apos; OR direccion LIKE &apos;Diagonal%&apos; OR direccion LIKE &apos;Circular%&apos;</Predicate>
+    </check>
+    <check id="509" parent="319" name="CK_FECHA_NOMBRAMIENTO">
+      <ColNames>FECHANOMBRAMIENTO
+FECHAREGISTRO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:35</ModifiedTimestamp>
+      <Predicate>fechaNombramiento &gt;= fechaRegistro</Predicate>
+    </check>
+    <check id="510" parent="319" name="CHK_TNIVELL">
+      <ColNames>NIVELJERARQUICO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:51</ModifiedTimestamp>
+      <Predicate>nivelJerarquico BETWEEN 1 AND 3</Predicate>
+    </check>
+    <check id="511" parent="319" name="CHK_TMONEDA">
+      <ColNames>PRESUPUESTOASIGNADOS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:52</ModifiedTimestamp>
+      <Predicate>presupuestoAsignados BETWEEN 1 AND 99999999</Predicate>
+    </check>
+    <column id="512" parent="319" name="IDUSUARIO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="513" parent="319" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="514" parent="319" name="CORREO">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="515" parent="319" name="CONTRASENA">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="516" parent="319" name="TELEFONO">
+      <Position>5</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <column id="517" parent="319" name="DIRECCION">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="518" parent="319" name="FECHAREGISTRO">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="519" parent="319" name="FECHANOMBRAMIENTO">
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="520" parent="319" name="NIVELJERARQUICO">
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <column id="521" parent="319" name="INFORMESGENERADOS">
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="522" parent="319" name="PRESUPUESTOASIGNADOS">
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+      <StoredType>NUMBER(10,2)|0s</StoredType>
+    </column>
+    <index id="523" parent="319" name="PK_DIRECTORES">
+      <ColNames>IDUSUARIO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:29</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:29</ModifiedTimestamp>
+      <ObjectId>207764</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="524" parent="319" name="UQ_DIRECTORES_CORREO">
+      <ColNames>CORREO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:41</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:41</ModifiedTimestamp>
+      <ObjectId>207786</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="525" parent="319" name="UQ_DIRECTORES_TELEFONO">
+      <ColNames>TELEFONO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:42</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:42</ModifiedTimestamp>
+      <ObjectId>207787</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="526" parent="319" name="PK_DIRECTORES">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:29</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_DIRECTORES</UnderlyingIndexName>
+    </key>
+    <key id="527" parent="319" name="UQ_DIRECTORES_CORREO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:42</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_DIRECTORES_CORREO</UnderlyingIndexName>
+    </key>
+    <key id="528" parent="319" name="UQ_DIRECTORES_TELEFONO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:42</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_DIRECTORES_TELEFONO</UnderlyingIndexName>
+    </key>
+    <trigger id="529" parent="319" name="TRG_PRESUPUESTO_DIRECTOR">
+      <CreatedTimestamp>2025-05-26.04:03:35</CreatedTimestamp>
+      <Events>I</Events>
+      <ModifiedTimestamp>2025-05-26.04:03:35</ModifiedTimestamp>
+      <ObjectId>207738</ObjectId>
+      <SourceTextLength>55</SourceTextLength>
+      <Turn>before-row</Turn>
+    </trigger>
+    <check id="530" parent="320" name="SYS_C0028138">
+      <ColNames>URL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:23</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>REGEXP_LIKE(url,&#xd;
+                                                          &apos;^(https?://)?([a-zA-Z0-9.-]+).([a-zA-Z]{2,})(:\d{2,5})?(/[^\s]*)?$&apos;)</Predicate>
+    </check>
+    <column id="531" parent="320" name="ID_DIGITAL">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(10)|0s</StoredType>
+    </column>
+    <column id="532" parent="320" name="FORMATO">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(16 byte)|0s</StoredType>
+    </column>
+    <column id="533" parent="320" name="URL">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(200 byte)|0s</StoredType>
+    </column>
+    <index id="534" parent="320" name="PK_ESPECIFICACION">
+      <ColNames>URL</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:54</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>88694</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="535" parent="320" name="PK_ESPECIFICACION">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_ESPECIFICACION</UnderlyingIndexName>
+    </key>
+    <column id="536" parent="321" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="537" parent="321" name="DESCRIPCION">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <index id="538" parent="321" name="PK_ESTILO">
+      <ColNames>NOMBRE</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:53</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>88690</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="539" parent="321" name="PK_ESTILO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_ESTILO</UnderlyingIndexName>
+    </key>
+    <check id="540" parent="322" name="CHK_ESTADO_ACADEMICO">
+      <ColNames>ESTADOACADEMICO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:52</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(EstadoAcademico, &apos;^A/(1[0-8]|[1-9])$&apos;) OR&#xd;
+        EstadoAcademico = &apos;I&apos; OR&#xd;
+        EstadoAcademico = &apos;R&apos;</Predicate>
+    </check>
+    <check id="541" parent="322" name="CHK_DOCUMENTOIDENTIDAD">
+      <ColNames>DOCUMENTOIDENTIDAD</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:51</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(documentoIdentidad, &apos;^[0-9]+$&apos;)</Predicate>
+    </check>
+    <check id="542" parent="322" name="CHK_TIDB">
+      <ColNames>IDUSUARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:52</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idUsuario, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="543" parent="322" name="CHK_TCORREOB">
+      <ColNames>CORREO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:52</ModifiedTimestamp>
+      <Predicate>correo LIKE &apos;%@escuelaing.edu.co&apos; OR correo LIKE &apos;%@mail.escuelaing.edu.co&apos;</Predicate>
+    </check>
+    <check id="544" parent="322" name="CHK_TDIRECCIONB">
+      <ColNames>DIRECCION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:52</ModifiedTimestamp>
+      <Predicate>direccion LIKE &apos;Calle%&apos; OR direccion LIKE &apos;Carrera%&apos; OR direccion LIKE &apos;Avenida%&apos;&#xd;
+        OR direccion LIKE &apos;Transversal%&apos; OR direccion LIKE &apos;Diagonal%&apos; OR direccion LIKE &apos;Circular%&apos;</Predicate>
+    </check>
+    <check id="545" parent="322" name="CK_FECHA_INGRESO">
+      <ColNames>FECHAINGRESO
+FECHAREGISTRO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:35</ModifiedTimestamp>
+      <Predicate>fechaIngreso &gt;= fechaRegistro</Predicate>
+    </check>
+    <column id="546" parent="322" name="IDUSUARIO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="547" parent="322" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="548" parent="322" name="CORREO">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="549" parent="322" name="CONTRASENA">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="550" parent="322" name="TELEFONO">
+      <Position>5</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <column id="551" parent="322" name="DIRECCION">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="552" parent="322" name="FECHAREGISTRO">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="553" parent="322" name="FECHAINGRESO">
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="554" parent="322" name="DOCUMENTOIDENTIDAD">
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+      <StoredType>CHAR(12 byte)|0s</StoredType>
+    </column>
+    <column id="555" parent="322" name="ESTADOACADEMICO">
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+      <StoredType>VARCHAR2(3 byte)|0s</StoredType>
+    </column>
+    <index id="556" parent="322" name="PK_ESTUDIANTES">
+      <ColNames>IDUSUARIO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:29</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:29</ModifiedTimestamp>
+      <ObjectId>207765</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="557" parent="322" name="UQ_ESTUDIANTES_CORREO">
+      <ColNames>CORREO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:41</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:41</ModifiedTimestamp>
+      <ObjectId>207782</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="558" parent="322" name="UQ_ESTUDIANTES_TELEFONO">
+      <ColNames>TELEFONO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:41</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:41</ModifiedTimestamp>
+      <ObjectId>207783</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="559" parent="322" name="UQ_ESTUDIANTES_DOCUMENTOIDENTIDAD">
+      <ColNames>DOCUMENTOIDENTIDAD</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:42</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:42</ModifiedTimestamp>
+      <ObjectId>207788</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="560" parent="322" name="PK_ESTUDIANTES">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:29</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_ESTUDIANTES</UnderlyingIndexName>
+    </key>
+    <key id="561" parent="322" name="UQ_ESTUDIANTES_CORREO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:41</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_ESTUDIANTES_CORREO</UnderlyingIndexName>
+    </key>
+    <key id="562" parent="322" name="UQ_ESTUDIANTES_TELEFONO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:41</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_ESTUDIANTES_TELEFONO</UnderlyingIndexName>
+    </key>
+    <key id="563" parent="322" name="UQ_ESTUDIANTES_DOCUMENTOIDENTIDAD">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:42</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_ESTUDIANTES_DOCUMENTOIDENTIDAD</UnderlyingIndexName>
+    </key>
+    <trigger id="564" parent="322" name="TRG_VALIDAR_FECHA_INGRESO">
+      <CreatedTimestamp>2025-05-26.04:03:36</CreatedTimestamp>
+      <Events>IU</Events>
+      <ModifiedTimestamp>2025-05-26.04:03:36</ModifiedTimestamp>
+      <ObjectId>207740</ObjectId>
+      <SourceTextLength>182</SourceTextLength>
+      <Turn>before-row</Turn>
+    </trigger>
+    <trigger id="565" parent="322" name="TRG_FECHA_REGISTRO_ESTUDIANTE">
+      <CreatedTimestamp>2025-05-26.04:03:35</CreatedTimestamp>
+      <Events>I</Events>
+      <ModifiedTimestamp>2025-05-26.04:03:35</ModifiedTimestamp>
+      <ObjectId>207739</ObjectId>
+      <SourceTextLength>45</SourceTextLength>
+      <Turn>before-row</Turn>
+    </trigger>
+    <check id="566" parent="323" name="SYS_C0028092">
+      <ColNames>HORA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:22</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>REGEXP_LIKE(hora, &apos;^([0][5-9]|1[0-2]):(00|30)$&apos;)</Predicate>
+    </check>
+    <check id="567" parent="323" name="SYS_C0028095">
+      <ColNames>BOLETA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:22</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>boleta &gt;= 100000</Predicate>
+    </check>
+    <check id="568" parent="323" name="SYS_C0028094">
+      <ColNames>ESTADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:22</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>estado IN (&apos;N&apos;, &apos;B&apos;, &apos;P&apos;, &apos;E&apos;)</Predicate>
+    </check>
+    <check id="569" parent="323" name="SYS_C0028093">
+      <ColNames>TOTAL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:22</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>total &gt; 0 AND MOD(total, 100) = 0</Predicate>
+    </check>
+    <check id="570" parent="323" name="SYS_C0028091">
+      <ColNames>UNIDADES</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:22</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>unidades &gt; 0</Predicate>
+    </check>
+    <column id="571" parent="323" name="NUMERO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(5)|0s</StoredType>
+    </column>
+    <column id="572" parent="323" name="FECHA">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="573" parent="323" name="ENTREGA">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="574" parent="323" name="UNIDADES">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>NUMBER(3)|0s</StoredType>
+    </column>
+    <column id="575" parent="323" name="HORA">
+      <Position>5</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="576" parent="323" name="DETALLE">
+      <Position>6</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="577" parent="323" name="TOTAL">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>NUMBER(9)|0s</StoredType>
+    </column>
+    <column id="578" parent="323" name="ESTADO">
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StoredType>CHAR(1 byte)|0s</StoredType>
+    </column>
+    <column id="579" parent="323" name="BOLETA">
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+      <StoredType>NUMBER(5)|0s</StoredType>
+    </column>
+    <column id="580" parent="323" name="NOMBRE_DESAYUNO">
+      <Position>10</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="581" parent="323" name="NOMBRE_ESTILO">
+      <Position>11</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="582" parent="323" name="CEDULA_CLIENTE">
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+      <StoredType>NUMBER(15)|0s</StoredType>
+    </column>
+    <index id="583" parent="323" name="PK_FACTURA">
+      <ColNames>NUMERO</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:53</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>88687</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="584" parent="323" name="PK_FACTURA">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_FACTURA</UnderlyingIndexName>
+    </key>
+    <column id="585" parent="324" name="NAMEID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="586" parent="324" name="AGE">
+      <Position>2</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="587" parent="324" name="DESCRIPTION">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <index id="588" parent="324" name="SYS_C009328">
+      <ColNames>NAMEID</ColNames>
+      <CreatedTimestamp>2025-03-11.13:56:59</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-11.13:56:59</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>78016</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="589" parent="324" name="SYS_C009328">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-11.13:56:59</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C009328</UnderlyingIndexName>
+    </key>
+    <check id="590" parent="325" name="SYS_C0028123">
+      <ColNames>DIMESIONES</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:23</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>REGEXP_LIKE(dimesiones, &apos;^\d+x\d+$&apos;)</Predicate>
+    </check>
+    <check id="591" parent="325" name="SYS_C0028121">
+      <ColNames>COSTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:23</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>costo &gt; 0 AND MOD(costo, 100) = 0</Predicate>
+    </check>
+    <check id="592" parent="325" name="SYS_C0028122">
+      <ColNames>ESTADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:23</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>estado IN (&apos;N&apos;, &apos;B&apos;, &apos;P&apos;, &apos;E&apos;)</Predicate>
+    </check>
+    <column id="593" parent="325" name="ID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(10)|0s</StoredType>
+    </column>
+    <column id="594" parent="325" name="TITULO">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="595" parent="325" name="FECHA_INICIO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="596" parent="325" name="FECHA_FIN">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="597" parent="325" name="COSTO">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>NUMBER(9)|0s</StoredType>
+    </column>
+    <column id="598" parent="325" name="ESTADO">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>CHAR(1 byte)|0s</StoredType>
+    </column>
+    <column id="599" parent="325" name="DIRECCION">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="600" parent="325" name="DIMESIONES">
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StoredType>VARCHAR2(13 byte)|0s</StoredType>
+    </column>
+    <column id="601" parent="325" name="ID_CAMPAÑA">
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+      <StoredType>NUMBER(10)|0s</StoredType>
+    </column>
+    <index id="602" parent="325" name="PK_FISICO">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:54</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>88692</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="603" parent="325" name="PK_FISICO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_FISICO</UnderlyingIndexName>
+    </key>
+    <check id="604" parent="326" name="CK_CUPO_DURACION">
+      <ColNames>CUPOMAXIMO
+HORARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:35</ModifiedTimestamp>
+      <Predicate>(horario IN (&apos;07:00 - 08:30&apos;, &apos;08:30 - 10:00&apos;, &apos;10:00 - 11:30&apos;, &apos;11:30 - 13:00&apos;,&#xd;
+              &apos;13:00 - 14:30&apos;, &apos;14:30 - 16:00&apos;, &apos;16:00 - 17:30&apos;, &apos;17:30 - 19:00&apos;)&#xd;
+   AND cupoMaximo &lt;= 40) -- 1.5 horas (~ 40 estudiantes máximo)&#xd;
+  OR&#xd;
+  (horario IN (&apos;07:00 - 10:00&apos;, &apos;08:30 - 11:30&apos;, &apos;10:00 - 13:00&apos;, &apos;11:30 - 14:30&apos;,&#xd;
+              &apos;13:00 - 16:00&apos;, &apos;14:30 - 17:30&apos;, &apos;16:00 - 19:00&apos;)&#xd;
+   AND cupoMaximo &lt;= 70) -- 3 horas (~ 70 estudiantes máximo)&#xd;
+  OR&#xd;
+  (horario NOT IN (&apos;07:00 - 08:30&apos;, &apos;08:30 - 10:00&apos;, &apos;10:00 - 11:30&apos;, &apos;11:30 - 13:00&apos;,&#xd;
+                  &apos;13:00 - 14:30&apos;, &apos;14:30 - 16:00&apos;, &apos;16:00 - 17:30&apos;, &apos;17:30 - 19:00&apos;,&#xd;
+                  &apos;07:00 - 10:00&apos;, &apos;08:30 - 11:30&apos;, &apos;10:00 - 13:00&apos;, &apos;11:30 - 14:30&apos;,&#xd;
+                  &apos;13:00 - 16:00&apos;, &apos;14:30 - 17:30&apos;, &apos;16:00 - 19:00&apos;)&#xd;
+   AND cupoMaximo &lt;= 30) -- Default para otros casos</Predicate>
+    </check>
+    <check id="605" parent="326" name="CHK_TIDI">
+      <ColNames>IDGRUPO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:54</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idGrupo, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="606" parent="326" name="CHK_TIDJ">
+      <ColNames>IDMATERIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:55</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="607" parent="326" name="CHK_TIDK">
+      <ColNames>IDPROFESOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:55</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idProfesor, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="608" parent="326" name="CHK_THORA">
+      <ColNames>HORARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:54</ModifiedTimestamp>
+      <Predicate>horario IN (&#xd;
+                       &apos;07:00 - 08:30&apos;, &apos;08:30 - 10:00&apos;, &apos;10:00 - 11:30&apos;, &apos;11:30 - 13:00&apos;,&#xd;
+                       &apos;13:00 - 14:30&apos;, &apos;14:30 - 16:00&apos;, &apos;16:00 - 17:30&apos;, &apos;17:30 - 19:00&apos;,&#xd;
+                       &apos;07:00 - 10:00&apos;, &apos;08:30 - 11:30&apos;, &apos;10:00 - 13:00&apos;, &apos;11:30 - 14:30&apos;,&#xd;
+                       &apos;13:00 - 16:00&apos;, &apos;14:30 - 17:30&apos;, &apos;16:00 - 19:00&apos;&#xd;
+        )</Predicate>
+    </check>
+    <column id="609" parent="326" name="IDGRUPO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="610" parent="326" name="NUMERO">
+      <Position>2</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="611" parent="326" name="CUPOMAXIMO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="612" parent="326" name="HORARIO">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(20 byte)|0s</StoredType>
+    </column>
+    <column id="613" parent="326" name="IDMATERIA">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="614" parent="326" name="IDPROFESOR">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="615" parent="326" name="FK_GRUPOS_MATERIA">
+      <ColNames>IDMATERIA</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:22</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
+      <RefTableName>MATERIAS</RefTableName>
+    </foreign-key>
+    <foreign-key id="616" parent="326" name="FK_GRUPOS_PROFESOR">
+      <ColNames>IDPROFESOR</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:19</ModifiedTimestamp>
+      <OnDelete>set-null</OnDelete>
+      <RefKeyName>PK_PROFESORES</RefKeyName>
+      <RefTableName>PROFESORES</RefTableName>
+    </foreign-key>
+    <index id="617" parent="326" name="PK_GRUPO">
+      <ColNames>IDGRUPO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:30</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:30</ModifiedTimestamp>
+      <ObjectId>207768</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="618" parent="326" name="UQ_GRUPO_NUMERO">
+      <ColNames>NUMERO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:43</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:43</ModifiedTimestamp>
+      <ObjectId>207790</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="619" parent="326" name="PK_GRUPO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:30</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_GRUPO</UnderlyingIndexName>
+    </key>
+    <key id="620" parent="326" name="UQ_GRUPO_NUMERO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:43</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_GRUPO_NUMERO</UnderlyingIndexName>
+    </key>
+    <trigger id="621" parent="326" name="TRG_VERIFICAR_CUPO_GRUPO">
+      <CreatedTimestamp>2025-05-26.04:03:36</CreatedTimestamp>
+      <Events>IU</Events>
+      <ModifiedTimestamp>2025-05-26.04:03:36</ModifiedTimestamp>
+      <ObjectId>207741</ObjectId>
+      <SourceTextLength>152</SourceTextLength>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="622" parent="327" name="ID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="623" parent="327" name="FECHA">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="624" parent="327" name="PRECIOPORPASAJERO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(8,2)|0s</StoredType>
+    </column>
+    <index id="625" parent="327" name="SYS_C00103614">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>119725</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="626" parent="327" name="SYS_C00103614">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C00103614</UnderlyingIndexName>
+    </key>
+    <check id="627" parent="328" name="CHK_TIDV">
+      <ColNames>IDAREA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:57</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idArea, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="628" parent="328" name="CHK_TIDW">
+      <ColNames>IDCENTRODEESTUDIOS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:57</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idCentroDeEstudios, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="629" parent="328" name="CHK_TIDU">
+      <ColNames>IDMATERIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:56</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="630" parent="328" name="CHK_TIDX">
+      <ColNames>IDNUCLEODEFORMACION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:57</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idNucleoDeFormacion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="631" parent="328" name="CK_CREDITOS_HORAS_TOTALES">
+      <ColNames>CREDITOS
+HORASPRACTICAS
+HORASTEORICAS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:36</ModifiedTimestamp>
+      <Predicate>creditos * 2 &lt;= horasTeoricas + horasPracticas</Predicate>
+    </check>
+    <check id="632" parent="328" name="CK_SUMA_HORAS_MATERIAS">
+      <ColNames>CREDITOS
+HORASPRACTICAS
+HORASTEORICAS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:34</ModifiedTimestamp>
+      <Predicate>horasTeoricas + horasPracticas &gt;= creditos</Predicate>
+    </check>
+    <check id="633" parent="328" name="CK_MODALIDAD_HORAS">
+      <ColNames>HORASPRACTICAS
+HORASTEORICAS
+MODALIDAD</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:36</ModifiedTimestamp>
+      <Predicate>modalidad != &apos;Virtual&apos; OR horasTeoricas &gt; horasPracticas</Predicate>
+    </check>
+    <check id="634" parent="328" name="CHK_TMODALIDAD">
+      <ColNames>MODALIDAD</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:57</ModifiedTimestamp>
+      <Predicate>modalidad IN (&apos;Presencial&apos;, &apos;Virtual&apos;, &apos;Hibrida&apos;)</Predicate>
+    </check>
+    <check id="635" parent="328" name="CK_NIVEL_CREDITOS">
+      <ColNames>CREDITOS
+NIVEL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:35</ModifiedTimestamp>
+      <Predicate>nivel &lt; 7 OR creditos &gt;= 3</Predicate>
+    </check>
+    <check id="636" parent="328" name="CHK_TNIVEL">
+      <ColNames>NIVEL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:57</ModifiedTimestamp>
+      <Predicate>nivel BETWEEN 1 AND 3</Predicate>
+    </check>
+    <column id="637" parent="328" name="IDMATERIA">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="638" parent="328" name="NOMBRE">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="639" parent="328" name="CREDITOS">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="640" parent="328" name="HORASTEORICAS">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="641" parent="328" name="HORASPRACTICAS">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="642" parent="328" name="NIVEL">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="643" parent="328" name="MODALIDAD">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <column id="644" parent="328" name="IDAREA">
+      <Position>8</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="645" parent="328" name="IDCENTRODEESTUDIOS">
+      <Position>9</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="646" parent="328" name="IDNUCLEODEFORMACION">
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="647" parent="328" name="FK_MATERIAS_AREA">
+      <ColNames>IDAREA</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:20</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_AREAS</RefKeyName>
+      <RefTableName>AREAS</RefTableName>
+    </foreign-key>
+    <foreign-key id="648" parent="328" name="FK_MATERIAS_CENTRO">
+      <ColNames>IDCENTRODEESTUDIOS</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:20</ModifiedTimestamp>
+      <OnDelete>set-null</OnDelete>
+      <RefKeyName>PK_CENTROSDEESTUDIOS</RefKeyName>
+      <RefTableName>CENTROSDEESTUDIOS</RefTableName>
+    </foreign-key>
+    <foreign-key id="649" parent="328" name="FK_MATERIAS_NUCLEO">
+      <ColNames>IDNUCLEODEFORMACION</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:20</ModifiedTimestamp>
+      <OnDelete>set-null</OnDelete>
+      <RefKeyName>PK_NUCLEOSDEFORMACION</RefKeyName>
+      <RefTableName>NUCLEOSDEFORMACION</RefTableName>
+    </foreign-key>
+    <index id="650" parent="328" name="PK_MATERIAS">
+      <ColNames>IDMATERIA
+IDNUCLEODEFORMACION</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:31</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:31</ModifiedTimestamp>
+      <ObjectId>207771</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="651" parent="328" name="UQ_MATERIAS_IDMATERIA">
+      <ColNames>IDMATERIA</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:43</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:43</ModifiedTimestamp>
+      <ObjectId>207793</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="652" parent="328" name="UQ_MATERIAS_NOMBRE">
+      <ColNames>NOMBRE</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:43</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:43</ModifiedTimestamp>
+      <ObjectId>207792</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="653" parent="328" name="PK_MATERIAS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:31</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_MATERIAS</UnderlyingIndexName>
+    </key>
+    <key id="654" parent="328" name="UQ_MATERIAS_IDMATERIA">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:43</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_MATERIAS_IDMATERIA</UnderlyingIndexName>
+    </key>
+    <key id="655" parent="328" name="UQ_MATERIAS_NOMBRE">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:43</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_MATERIAS_NOMBRE</UnderlyingIndexName>
+    </key>
+    <trigger id="656" parent="328" name="TRG_VERIFICAR_CREDITOS_HORAS">
+      <CreatedTimestamp>2025-05-26.04:03:36</CreatedTimestamp>
+      <Events>IU</Events>
+      <ModifiedTimestamp>2025-05-26.04:03:36</ModifiedTimestamp>
+      <ObjectId>207742</ObjectId>
+      <SourceTextLength>425</SourceTextLength>
+      <Turn>before-row</Turn>
+    </trigger>
+    <check id="657" parent="329" name="CHK_TIDE">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:53</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="658" parent="329" name="CHK_TIDF">
+      <ColNames>IDMATERIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:54</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <column id="659" parent="329" name="IDESTUDIANTE">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="660" parent="329" name="IDMATERIA">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="661" parent="329" name="FK_MATPORES_EST">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:21</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_ESTUDIANTES</RefKeyName>
+      <RefTableName>ESTUDIANTES</RefTableName>
+    </foreign-key>
+    <foreign-key id="662" parent="329" name="FK_MATPORES_MAT">
+      <ColNames>IDMATERIA</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:21</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
+      <RefTableName>MATERIAS</RefTableName>
+    </foreign-key>
+    <index id="663" parent="329" name="PK_MATERIASPORESTUDIANTE">
+      <ColNames>IDESTUDIANTE
+IDMATERIA</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:33</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:33</ModifiedTimestamp>
+      <ObjectId>207778</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="664" parent="329" name="PK_MATERIASPORESTUDIANTE">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:33</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_MATERIASPORESTUDIANTE</UnderlyingIndexName>
+    </key>
+    <check id="665" parent="330" name="CHK_TIDAI">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:59</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="666" parent="330" name="CHK_TIDAH">
+      <ColNames>IDMATERIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:59</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="667" parent="330" name="CHK_TIDAG">
+      <ColNames>IDNOTA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:59</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idNota, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="668" parent="330" name="CHK_TEVAL">
+      <ColNames>TIPODEEVALUACION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:59</ModifiedTimestamp>
+      <Predicate>tipoDeEvaluacion IN (&apos;Parcial&apos;, &apos;Quiz&apos;, &apos;Actividad&apos;, &apos;Trabajo&apos;, &apos;Examen Final&apos;, &apos;Exposición&apos;)</Predicate>
+    </check>
+    <check id="669" parent="330" name="CHK_RANGO_NOTAS">
+      <ColNames>VALOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:00</ModifiedTimestamp>
+      <Predicate>valor &gt;= 0.0 AND valor &lt;= 5.0</Predicate>
+    </check>
+    <column id="670" parent="330" name="IDNOTA">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="671" parent="330" name="VALOR">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>NUMBER(3,1)|0s</StoredType>
+    </column>
+    <column id="672" parent="330" name="FECHAREGISTRO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="673" parent="330" name="TIPODEEVALUACION">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(15 byte)|0s</StoredType>
+    </column>
+    <column id="674" parent="330" name="IDMATERIA">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="675" parent="330" name="IDESTUDIANTE">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="676" parent="330" name="FK_NOTAS_MATERIA">
+      <ColNames>IDMATERIA</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:22</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
+      <RefTableName>MATERIAS</RefTableName>
+    </foreign-key>
+    <foreign-key id="677" parent="330" name="FK_NOTAS_ESTUDIANTE">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:20</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_ESTUDIANTES</RefKeyName>
+      <RefTableName>ESTUDIANTES</RefTableName>
+    </foreign-key>
+    <index id="678" parent="330" name="PK_NOTAS">
+      <ColNames>IDNOTA</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:31</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:31</ModifiedTimestamp>
+      <ObjectId>207772</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="679" parent="330" name="PK_NOTAS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:31</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_NOTAS</UnderlyingIndexName>
+    </key>
+    <check id="680" parent="331" name="CHK_TIDAB">
+      <ColNames>IDNOTIFICACION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:02</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idNotificacion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="681" parent="331" name="CHK_TESTADOB">
+      <ColNames>ESTADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:02</ModifiedTimestamp>
+      <Predicate>estado IN (&apos;Enviado&apos;, &apos;No enviado&apos;)</Predicate>
+    </check>
+    <column id="682" parent="331" name="IDNOTIFICACION">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="683" parent="331" name="MENSAJE">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="684" parent="331" name="FECHA">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="685" parent="331" name="ESTADO">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <index id="686" parent="331" name="PK_NOTIFICACIONES">
+      <ColNames>IDNOTIFICACION</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:34</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:34</ModifiedTimestamp>
+      <ObjectId>207781</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="687" parent="331" name="PK_NOTIFICACIONES">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:34</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_NOTIFICACIONES</UnderlyingIndexName>
+    </key>
+    <trigger id="688" parent="331" name="TRG_FECHA_NOTIFICACION">
+      <CreatedTimestamp>2025-05-26.04:03:37</CreatedTimestamp>
+      <Events>I</Events>
+      <ModifiedTimestamp>2025-05-26.04:03:37</ModifiedTimestamp>
+      <ObjectId>207745</ObjectId>
+      <SourceTextLength>37</SourceTextLength>
+      <Turn>before-row</Turn>
+    </trigger>
+    <check id="689" parent="332" name="CHK_TIDAF">
+      <ColNames>IDNUCLEOFORMACION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:59</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idNucleoFormacion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <column id="690" parent="332" name="IDNUCLEOFORMACION">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="691" parent="332" name="NOMBRE">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(35 byte)|0s</StoredType>
+    </column>
+    <index id="692" parent="332" name="PK_NUCLEOSDEFORMACION">
+      <ColNames>IDNUCLEOFORMACION</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:32</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:32</ModifiedTimestamp>
+      <ObjectId>207774</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="693" parent="332" name="UQ_NUCLEODEFORMACION_NOMBRE">
+      <ColNames>NOMBRE</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:44</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:44</ModifiedTimestamp>
+      <ObjectId>207795</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="694" parent="332" name="PK_NUCLEOSDEFORMACION">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:32</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_NUCLEOSDEFORMACION</UnderlyingIndexName>
+    </key>
+    <key id="695" parent="332" name="UQ_NUCLEODEFORMACION_NOMBRE">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:44</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_NUCLEODEFORMACION_NOMBRE</UnderlyingIndexName>
+    </key>
+    <column id="696" parent="333" name="ID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="697" parent="333" name="FECHA">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="698" parent="333" name="TOTAL">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(8,2)|0s</StoredType>
+    </column>
+    <column id="699" parent="333" name="ESTADO">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>CHAR(2 byte)|0s</StoredType>
+    </column>
+    <column id="700" parent="333" name="IDRESERVA">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <index id="701" parent="333" name="SYS_C00103632">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>119733</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="702" parent="333" name="SYS_C00103632">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C00103632</UnderlyingIndexName>
+    </key>
+    <column id="703" parent="334" name="ID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="704" parent="334" name="OBSERVACION">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
+    </column>
+    <column id="705" parent="334" name="IDITINERARIO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="706" parent="334" name="IDALOJAMIENTO">
+      <Position>4</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <index id="707" parent="334" name="SYS_C00103616">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>119727</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="708" parent="334" name="SYS_C00103616">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C00103616</UnderlyingIndexName>
+    </key>
+    <column id="709" parent="335" name="TIPODOCUMENTO">
+      <Position>1</Position>
+      <StoredType>CHAR(2 byte)|0s</StoredType>
+    </column>
+    <column id="710" parent="335" name="NUMERODOCUMENTO">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(15 byte)|0s</StoredType>
+    </column>
+    <column id="711" parent="335" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
+    </column>
+    <column id="712" parent="335" name="TELEFONO">
+      <Position>4</Position>
+      <StoredType>VARCHAR2(15 byte)|0s</StoredType>
+    </column>
+    <column id="713" parent="335" name="FECHANACIMIENTO">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="714" parent="335" name="LIDER">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>NUMBER(1)|0s</StoredType>
+    </column>
+    <check id="715" parent="336" name="CHK_TIDM">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:55</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="716" parent="336" name="CHK_TIDN">
+      <ColNames>IDMATERIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:56</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="717" parent="336" name="CHK_TIDL">
+      <ColNames>IDPREINSCRIPCION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:55</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idPreinscripcion, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="718" parent="336" name="CHK_TESTADO">
+      <ColNames>ESTADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:55</ModifiedTimestamp>
+      <Predicate>estado IN (&apos;Enviado&apos;, &apos;No enviado&apos;)</Predicate>
+    </check>
+    <column id="719" parent="336" name="IDPREINSCRIPCION">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="720" parent="336" name="FECHA">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="721" parent="336" name="ESTADO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <column id="722" parent="336" name="IDESTUDIANTE">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="723" parent="336" name="IDMATERIA">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="724" parent="336" name="FK_PREINS_EST">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:21</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_ESTUDIANTES</RefKeyName>
+      <RefTableName>ESTUDIANTES</RefTableName>
+    </foreign-key>
+    <foreign-key id="725" parent="336" name="FK_PREINS_MATERIA">
+      <ColNames>IDMATERIA</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:21</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
+      <RefTableName>MATERIAS</RefTableName>
+    </foreign-key>
+    <index id="726" parent="336" name="PK_PREINSCRIPCIONES">
+      <ColNames>IDPREINSCRIPCION</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:30</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:30</ModifiedTimestamp>
+      <ObjectId>207769</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="727" parent="336" name="PK_PREINSCRIPCIONES">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:30</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PREINSCRIPCIONES</UnderlyingIndexName>
+    </key>
+    <check id="728" parent="337" name="CHK_TIDZ">
+      <ColNames>IDMATERIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:58</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idMateria, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="729" parent="337" name="CHK_TIDAA">
+      <ColNames>IDMATERIAREQUISITO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:58</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idMateriaRequisito, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="730" parent="337" name="CK_NO_AUTO_REQUISITO">
+      <ColNames>IDMATERIA
+IDMATERIAREQUISITO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:36</ModifiedTimestamp>
+      <Predicate>idMateria != idMateriaRequisito</Predicate>
+    </check>
+    <column id="731" parent="337" name="IDMATERIA">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="732" parent="337" name="IDMATERIAREQUISITO">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="733" parent="337" name="FK_PREREQ_MATERIA">
+      <ColNames>IDMATERIA</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:22</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
+      <RefTableName>MATERIAS</RefTableName>
+    </foreign-key>
+    <foreign-key id="734" parent="337" name="FK_PREREQ_REQUISITO">
+      <ColNames>IDMATERIAREQUISITO</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:22</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>UQ_MATERIAS_IDMATERIA</RefKeyName>
+      <RefTableName>MATERIAS</RefTableName>
+    </foreign-key>
+    <index id="735" parent="337" name="PK_PREREQUISITOSMATERIAS">
+      <ColNames>IDMATERIA
+IDMATERIAREQUISITO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:33</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:33</ModifiedTimestamp>
+      <ObjectId>207777</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="736" parent="337" name="PK_PREREQUISITOSMATERIAS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:33</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PREREQUISITOSMATERIAS</UnderlyingIndexName>
+    </key>
+    <trigger id="737" parent="337" name="TRG_VALIDAR_PREREQUISITOS">
+      <CreatedTimestamp>2025-05-26.04:03:36</CreatedTimestamp>
+      <Events>IU</Events>
+      <ModifiedTimestamp>2025-05-26.04:03:36</ModifiedTimestamp>
+      <ObjectId>207743</ObjectId>
+      <SourceTextLength>169</SourceTextLength>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="738" parent="338" name="PRODUCTID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="739" parent="338" name="NAME">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="740" parent="338" name="COLOR">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="741" parent="338" name="LISTPRICE">
+      <Position>4</Position>
+      <StoredType>NUMBER(10,2)|0s</StoredType>
+    </column>
+    <column id="742" parent="338" name="SIZEP">
+      <Position>5</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="743" parent="338" name="WEIGHT">
+      <Position>6</Position>
+      <StoredType>NUMBER(10,2)|0s</StoredType>
+    </column>
+    <column id="744" parent="338" name="PRODUCTMODELID">
+      <Position>7</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="745" parent="338" name="PRODUCTCATEGORYID">
+      <Position>8</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <foreign-key id="746" parent="338" name="FK_PRODUCT_MODEL">
+      <ColNames>PRODUCTMODELID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:06</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_PRODUCTMODEL</RefKeyName>
+      <RefTableName>PRODUCTMODEL</RefTableName>
+    </foreign-key>
+    <foreign-key id="747" parent="338" name="FK_PRODUCT_CATEGORY">
+      <ColNames>PRODUCTCATEGORYID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:06</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_PRODUCTCATEGORY</RefKeyName>
+      <RefTableName>PRODUCTCATEGORY</RefTableName>
+    </foreign-key>
+    <index id="748" parent="338" name="PK_PRODUCT">
+      <ColNames>PRODUCTID</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:03</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:03</ModifiedTimestamp>
+      <ObjectId>99370</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="749" parent="338" name="PK_PRODUCT">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:03</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PRODUCT</UnderlyingIndexName>
+    </key>
+    <column id="750" parent="339" name="PRODUCTCATEGORYID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="751" parent="339" name="PARENTPRODUCTCATEGORYID">
+      <Position>2</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="752" parent="339" name="NAME">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="753" parent="339" name="FK_PRODUCTCATEGORY_PARENT">
+      <ColNames>PARENTPRODUCTCATEGORYID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:07</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_PRODUCTCATEGORY</RefKeyName>
+      <RefTableName>PRODUCTCATEGORY</RefTableName>
+    </foreign-key>
+    <index id="754" parent="339" name="PK_PRODUCTCATEGORY">
+      <ColNames>PRODUCTCATEGORYID</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:04</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <ObjectId>99372</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="755" parent="339" name="PK_PRODUCTCATEGORY">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PRODUCTCATEGORY</UnderlyingIndexName>
+    </key>
+    <column id="756" parent="340" name="PRODUCTDESCRIPTIONID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="757" parent="340" name="DESCRIPTION">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(255 byte)|0s</StoredType>
+    </column>
+    <index id="758" parent="340" name="PK_PRODUCTDESCRIPTION">
+      <ColNames>PRODUCTDESCRIPTIONID</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:04</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <ObjectId>99374</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="759" parent="340" name="PK_PRODUCTDESCRIPTION">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PRODUCTDESCRIPTION</UnderlyingIndexName>
+    </key>
+    <column id="760" parent="341" name="PRODUCTMODELID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="761" parent="341" name="NAME">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <index id="762" parent="341" name="PK_PRODUCTMODEL">
+      <ColNames>PRODUCTMODELID</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:04</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <ObjectId>99371</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="763" parent="341" name="PK_PRODUCTMODEL">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PRODUCTMODEL</UnderlyingIndexName>
+    </key>
+    <column id="764" parent="342" name="PRODUCTMODELID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="765" parent="342" name="PRODUCTDESCRIPTIONID">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="766" parent="342" name="CULTURE">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="767" parent="342" name="FK_PRODUCTMODELPRODUCTDESCRIPTION_MODEL">
+      <ColNames>PRODUCTMODELID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:07</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_PRODUCTMODEL</RefKeyName>
+      <RefTableName>PRODUCTMODEL</RefTableName>
+    </foreign-key>
+    <foreign-key id="768" parent="342" name="FK_PRODUCTMODELPRODUCTDESCRIPTION_DESCRIPTION">
+      <ColNames>PRODUCTDESCRIPTIONID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:07</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_PRODUCTDESCRIPTION</RefKeyName>
+      <RefTableName>PRODUCTDESCRIPTION</RefTableName>
+    </foreign-key>
+    <index id="769" parent="342" name="PK_PRODUCTMODELPRODUCTDESCRIPTION">
+      <ColNames>PRODUCTMODELID
+PRODUCTDESCRIPTIONID
+CULTURE</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:04</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <ObjectId>99373</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="770" parent="342" name="PK_PRODUCTMODELPRODUCTDESCRIPTION">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:04</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PRODUCTMODELPRODUCTDESCRIPTION</UnderlyingIndexName>
+    </key>
+    <check id="771" parent="343" name="CK_EXPERIENCIA_TIPO_CONTRATO">
+      <ColNames>EXPERIENCIAANOS
+TIPOCONTRATO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:02:35</ModifiedTimestamp>
+      <Predicate>NOT (tipoContrato = &apos;Catedra&apos; AND experienciaAnos &gt; 5)</Predicate>
+    </check>
+    <check id="772" parent="343" name="CHK_TIDD">
+      <ColNames>IDUSUARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:53</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idUsuario, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="773" parent="343" name="CHK_TCORREOC">
+      <ColNames>CORREO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:53</ModifiedTimestamp>
+      <Predicate>correo LIKE &apos;%@escuelaing.edu.co&apos; OR correo LIKE &apos;%@mail.escuelaing.edu.co&apos;</Predicate>
+    </check>
+    <check id="774" parent="343" name="CHK_TDIRECCIONC">
+      <ColNames>DIRECCION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:53</ModifiedTimestamp>
+      <Predicate>direccion LIKE &apos;Calle%&apos; OR direccion LIKE &apos;Carrera%&apos; OR direccion LIKE &apos;Avenida%&apos;&#xd;
+        OR direccion LIKE &apos;Transversal%&apos; OR direccion LIKE &apos;Diagonal%&apos; OR direccion LIKE &apos;Circular%&apos;</Predicate>
+    </check>
+    <check id="775" parent="343" name="CHK_TCONTRATO">
+      <ColNames>TIPOCONTRATO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:00:53</ModifiedTimestamp>
+      <Predicate>tipoContrato IN (&apos;Planta&apos;, &apos;Catedra&apos;)</Predicate>
+    </check>
+    <column id="776" parent="343" name="IDUSUARIO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="777" parent="343" name="NOMBRE">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="778" parent="343" name="CORREO">
+      <Position>3</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="779" parent="343" name="CONTRASENA">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="780" parent="343" name="TELEFONO">
+      <Position>5</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <column id="781" parent="343" name="DIRECCION">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="782" parent="343" name="FECHAREGISTRO">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="783" parent="343" name="EXPERIENCIAANOS">
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="784" parent="343" name="TIPOCONTRATO">
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+      <StoredType>VARCHAR2(10 byte)|0s</StoredType>
+    </column>
+    <index id="785" parent="343" name="PK_PROFESORES">
+      <ColNames>IDUSUARIO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:29</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:29</ModifiedTimestamp>
+      <ObjectId>207766</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="786" parent="343" name="UQ_PROFESORES_CORREO">
+      <ColNames>CORREO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:41</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:41</ModifiedTimestamp>
+      <ObjectId>207784</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="787" parent="343" name="UQ_PROFESORES_TELEFONO">
+      <ColNames>TELEFONO</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:41</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:41</ModifiedTimestamp>
+      <ObjectId>207785</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="788" parent="343" name="PK_PROFESORES">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:29</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PROFESORES</UnderlyingIndexName>
+    </key>
+    <key id="789" parent="343" name="UQ_PROFESORES_CORREO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:41</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_PROFESORES_CORREO</UnderlyingIndexName>
+    </key>
+    <key id="790" parent="343" name="UQ_PROFESORES_TELEFONO">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:41</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_PROFESORES_TELEFONO</UnderlyingIndexName>
+    </key>
+    <check id="791" parent="344" name="CHK_TIDAJ">
+      <ColNames>IDPROGRAMA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:00</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idPrograma, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <column id="792" parent="344" name="IDPROGRAMA">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="793" parent="344" name="NOMBRE">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(50 byte)|0s</StoredType>
+    </column>
+    <column id="794" parent="344" name="DURACIONSEMESTRES">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <index id="795" parent="344" name="PK_PROGRAMASACADEMICOS">
+      <ColNames>IDPROGRAMA</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:32</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:32</ModifiedTimestamp>
+      <ObjectId>207775</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <index id="796" parent="344" name="UQ_PROGRAMAACADEMICO_NOMBRE">
+      <ColNames>NOMBRE</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:44</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:44</ModifiedTimestamp>
+      <ObjectId>207796</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="797" parent="344" name="PK_PROGRAMASACADEMICOS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:32</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PROGRAMASACADEMICOS</UnderlyingIndexName>
+    </key>
+    <key id="798" parent="344" name="UQ_PROGRAMAACADEMICO_NOMBRE">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:44</ModifiedTimestamp>
+      <UnderlyingIndexName>UQ_PROGRAMAACADEMICO_NOMBRE</UnderlyingIndexName>
+    </key>
+    <check id="799" parent="345" name="CHK_TIDAL">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:00</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idEstudiante, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <check id="800" parent="345" name="CHK_TIDAK">
+      <ColNames>IDPROGRAMA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:00</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(idPrograma, &apos;^[A-Z]{4}[0-9]*$&apos;)</Predicate>
+    </check>
+    <column id="801" parent="345" name="IDPROGRAMA">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <column id="802" parent="345" name="IDESTUDIANTE">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="803" parent="345" name="FK_PROG_PROGRAMA">
+      <ColNames>IDPROGRAMA</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:21</ModifiedTimestamp>
+      <OnDelete>set-null</OnDelete>
+      <RefKeyName>PK_PROGRAMASACADEMICOS</RefKeyName>
+      <RefTableName>PROGRAMASACADEMICOS</RefTableName>
+    </foreign-key>
+    <foreign-key id="804" parent="345" name="FK_PROG_ESTUDIANTE">
+      <ColNames>IDESTUDIANTE</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:20</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_ESTUDIANTES</RefKeyName>
+      <RefTableName>ESTUDIANTES</RefTableName>
+    </foreign-key>
+    <index id="805" parent="345" name="PK_PROGRAMASPORESTUDIANTES">
+      <ColNames>IDPROGRAMA
+IDESTUDIANTE</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:33</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:33</ModifiedTimestamp>
+      <ObjectId>207779</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="806" parent="345" name="PK_PROGRAMASPORESTUDIANTES">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:33</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PROGRAMASPORESTUDIANTES</UnderlyingIndexName>
+    </key>
+    <column id="807" parent="346" name="NUMERO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="808" parent="346" name="FECHAINICIAL">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="809" parent="346" name="ESTADO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>CHAR(2 byte)|0s</StoredType>
+    </column>
+    <column id="810" parent="346" name="FECHAFINAL">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="811" parent="346" name="IDPAQUETE">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="812" parent="346" name="TIPODOCUSUARIO">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>CHAR(2 byte)|0s</StoredType>
+    </column>
+    <column id="813" parent="346" name="IDUUSARIO">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>VARCHAR2(15 byte)|0s</StoredType>
+    </column>
+    <index id="814" parent="346" name="SYS_C00103627">
+      <ColNames>NUMERO</ColNames>
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>119731</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="815" parent="346" name="SYS_C00103627">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C00103627</UnderlyingIndexName>
+    </key>
+    <column id="816" parent="347" name="SALESORDERID">
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="817" parent="347" name="SALESORDERDETAILID">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="818" parent="347" name="ORDERQTY">
+      <Position>3</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="819" parent="347" name="PRODUCTID">
+      <Position>4</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="820" parent="347" name="UNITPRICE">
+      <Position>5</Position>
+      <StoredType>NUMBER(10,2)|0s</StoredType>
+    </column>
+    <column id="821" parent="347" name="UNITPRICEDISCOUNT">
+      <Position>6</Position>
+      <StoredType>NUMBER(10,2)|0s</StoredType>
+    </column>
+    <foreign-key id="822" parent="347" name="FK_SALESORDERDETAIL_ORDER">
+      <ColNames>SALESORDERID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:06</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_SALESORDERHEADER</RefKeyName>
+      <RefTableName>SALESORDERHEADER</RefTableName>
+    </foreign-key>
+    <foreign-key id="823" parent="347" name="FK_SALESORDERDETAIL_PRODUCT">
+      <ColNames>PRODUCTID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:06</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_PRODUCT</RefKeyName>
+      <RefTableName>PRODUCT</RefTableName>
+    </foreign-key>
+    <index id="824" parent="347" name="PK_SALESORDERDETAIL">
+      <ColNames>SALESORDERDETAILID</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:03</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:03</ModifiedTimestamp>
+      <ObjectId>99369</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="825" parent="347" name="PK_SALESORDERDETAIL">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:03</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_SALESORDERDETAIL</UnderlyingIndexName>
+    </key>
+    <column id="826" parent="348" name="SALESORDERID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="827" parent="348" name="REVISIONNUMBER">
+      <Position>2</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="828" parent="348" name="ORDERDATE">
+      <Position>3</Position>
+      <StoredType>DATE|0s</StoredType>
+    </column>
+    <column id="829" parent="348" name="CUSTOMERID">
+      <Position>4</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="830" parent="348" name="BILLTOADDRESSID">
+      <Position>5</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="831" parent="348" name="SHIPTOADDRESSID">
+      <Position>6</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="832" parent="348" name="SHIPMETHOD">
+      <Position>7</Position>
+      <StoredType>VARCHAR2(100 byte)|0s</StoredType>
+    </column>
+    <column id="833" parent="348" name="SUBTOTAL">
+      <Position>8</Position>
+      <StoredType>NUMBER(10,2)|0s</StoredType>
+    </column>
+    <column id="834" parent="348" name="TAXAMT">
+      <Position>9</Position>
+      <StoredType>NUMBER(10,2)|0s</StoredType>
+    </column>
+    <column id="835" parent="348" name="FREIGHT">
+      <Position>10</Position>
+      <StoredType>NUMBER(10,2)|0s</StoredType>
+    </column>
+    <foreign-key id="836" parent="348" name="FK_SALESORDERHEADER_CUSTOMER">
+      <ColNames>CUSTOMERID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:05</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_CUSTOMER</RefKeyName>
+      <RefTableName>CUSTOMER</RefTableName>
+    </foreign-key>
+    <foreign-key id="837" parent="348" name="FK_SALESORDERHEADER_BILLTO">
+      <ColNames>BILLTOADDRESSID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:05</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_ADDRESS</RefKeyName>
+      <RefTableName>ADDRESS</RefTableName>
+    </foreign-key>
+    <foreign-key id="838" parent="348" name="FK_SALESORDERHEADER_SHIPTO">
+      <ColNames>SHIPTOADDRESSID</ColNames>
+      <ModifiedTimestamp>2025-03-24.15:38:05</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_ADDRESS</RefKeyName>
+      <RefTableName>ADDRESS</RefTableName>
+    </foreign-key>
+    <index id="839" parent="348" name="PK_SALESORDERHEADER">
+      <ColNames>SALESORDERID</ColNames>
+      <CreatedTimestamp>2025-03-24.15:38:03</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-24.15:38:03</ModifiedTimestamp>
+      <ObjectId>99368</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="840" parent="348" name="PK_SALESORDERHEADER">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-24.15:38:03</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_SALESORDERHEADER</UnderlyingIndexName>
+    </key>
+    <check id="841" parent="349" name="SYS_C0028142">
+      <ColNames>UNIDADES</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:23</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>unidades &gt; 0</Predicate>
+    </check>
+    <column id="842" parent="349" name="NOMBRE_PRODUCTO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="843" parent="349" name="NUMERO_FACTURA">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>NUMBER(5)|0s</StoredType>
+    </column>
+    <column id="844" parent="349" name="UNIDADES">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(3)|0s</StoredType>
+    </column>
+    <index id="845" parent="349" name="PK_SEPIDEN">
+      <ColNames>NOMBRE_PRODUCTO
+NUMERO_FACTURA</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:54</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>88695</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="846" parent="349" name="PK_SEPIDEN">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_SEPIDEN</UnderlyingIndexName>
+    </key>
+    <check id="847" parent="350" name="SYS_C0028146">
+      <ColNames>PRECIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-14.18:22:23</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>precio &gt; 0 AND MOD(precio, 100) = 0</Predicate>
+    </check>
+    <column id="848" parent="350" name="NOMBRE_ESTILO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="849" parent="350" name="NOMBRE_PRODUCTO">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(5 byte)|0s</StoredType>
+    </column>
+    <column id="850" parent="350" name="PRECIO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(9)|0s</StoredType>
+    </column>
+    <index id="851" parent="350" name="PK_SEVENDENEN">
+      <ColNames>NOMBRE_ESTILO
+NOMBRE_PRODUCTO</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:54</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <ObjectId>88696</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="852" parent="350" name="PK_SEVENDENEN">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:54</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_SEVENDENEN</UnderlyingIndexName>
+    </key>
+    <column id="853" parent="351" name="CEDULA_CLIENTE">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>NUMBER(15)|0s</StoredType>
+    </column>
+    <column id="854" parent="351" name="TELEFONO">
+      <Position>2</Position>
+      <StoredType>VARCHAR2(7 byte)|0s</StoredType>
+    </column>
+    <index id="855" parent="351" name="PK_TELEFONOS">
+      <ColNames>CEDULA_CLIENTE</ColNames>
+      <CreatedTimestamp>2025-03-19.16:00:53</CreatedTimestamp>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <ObjectId>88689</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="856" parent="351" name="PK_TELEFONOS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-03-19.16:00:53</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_TELEFONOS</UnderlyingIndexName>
+    </key>
+    <column id="857" parent="352" name="IDVUELO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>CHAR(3 byte)|0s</StoredType>
+    </column>
+    <column id="858" parent="352" name="IDITINERARIO">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>NUMBER(*)|0s</StoredType>
+    </column>
+    <column id="859" parent="352" name="ESCALA">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>NUMBER(1)|0s</StoredType>
+    </column>
+    <column id="860" parent="353" name="TITULO">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>VARCHAR2(60 byte)|0s</StoredType>
+    </column>
+    <column id="861" parent="353" name="IDPROFESOR">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(25 byte)|0s</StoredType>
+    </column>
+    <foreign-key id="862" parent="353" name="FK_TITULOS_PROFESOR">
+      <ColNames>IDPROFESOR</ColNames>
+      <ModifiedTimestamp>2025-05-26.04:03:23</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_PROFESORES</RefKeyName>
+      <RefTableName>PROFESORES</RefTableName>
+    </foreign-key>
+    <index id="863" parent="353" name="PK_TITULOS">
+      <ColNames>TITULO
+IDPROFESOR</ColNames>
+      <CreatedTimestamp>2025-05-26.04:01:32</CreatedTimestamp>
+      <ModifiedTimestamp>2025-05-26.04:01:32</ModifiedTimestamp>
+      <ObjectId>207776</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="864" parent="353" name="PK_TITULOS">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-05-26.04:01:32</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_TITULOS</UnderlyingIndexName>
+    </key>
+    <column id="865" parent="354" name="ID">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>CHAR(3 byte)|0s</StoredType>
+    </column>
+    <column id="866" parent="354" name="LUGARORIGEN">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
+    </column>
+    <column id="867" parent="354" name="LUGARDESTINO">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR2(30 byte)|0s</StoredType>
+    </column>
+    <index id="868" parent="354" name="SYS_C00103608">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2025-04-04.07:00:09</CreatedTimestamp>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>119722</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="869" parent="354" name="SYS_C00103608">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2025-04-04.07:00:09</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C00103608</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
