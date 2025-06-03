@@ -1,0 +1,133 @@
+Index: Seguridad/Persistencia/ActoresE.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>-- CICLO 1\r\n\r\n\r\n\r\n-- CICLO 2\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Seguridad/Persistencia/ActoresE.sql b/Seguridad/Persistencia/ActoresE.sql
+--- a/Seguridad/Persistencia/ActoresE.sql	(revision c4ab6dd065f76dea24a2cdd294b5a59a9bcf435c)
++++ b/Seguridad/Persistencia/ActoresE.sql	(date 1747972062511)
+@@ -1,7 +1,36 @@
+--- CICLO 1
++
++CREATE OR REPLACE PACKAGE PKG_DIRECTOR
++IS
++    -- Declaración de procedimientos y funciones para DIRECTOR
++    PROCEDURE gestionar_areas;
++    PROCEDURE asignar_docentes;
++END PKG_DIRECTOR;
++/
+ 
++CREATE OR REPLACE PACKAGE PKG_PROFESOR
++IS
++    -- Declaración de procedimientos y funciones para PROFESOR
++    PROCEDURE registrar_notas;
++    PROCEDURE consultar_materias;
++END PKG_PROFESOR;
++/
+ 
++CREATE OR REPLACE PACKAGE PKG_ESTUDIANTE
++IS
++    -- Declaración de procedimientos y funciones para ESTUDIANTE
++    PROCEDURE inscribir_materias;
++    PROCEDURE consultar_notas;
++END PKG_ESTUDIANTE;
++/
+ 
+--- CICLO 2
++CREATE OR REPLACE PACKAGE PKG_VICERRECTORIA
++IS
++    -- Declaración de procedimientos y funciones para VICERRECTORIA_ACADEMICA
++    PROCEDURE aprobar_programas;
++    PROCEDURE gestionar_cambios_curriculares;
++END PKG_VICERRECTORIA;
++/
++
++
+ 
+ 
+Index: Seguridad/Persistencia/ActoresI.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>-- CICLO 1\r\n\r\n\r\n\r\n-- CICLO 2\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Seguridad/Persistencia/ActoresI.sql b/Seguridad/Persistencia/ActoresI.sql
+--- a/Seguridad/Persistencia/ActoresI.sql	(revision c4ab6dd065f76dea24a2cdd294b5a59a9bcf435c)
++++ b/Seguridad/Persistencia/ActoresI.sql	(date 1747972062512)
+@@ -1,7 +1,28 @@
+--- CICLO 1
++CREATE OR REPLACE PACKAGE BODY
++IS
++    -- Implementación de los procedimientos y funciones del paquete PKG_DIRECTOR
++    PROCEDURE ejemplo_director IS
++    BEGIN
++        NULL; -- Implementación del procedimiento
++    END ejemplo_director;
+ 
++    -- Implementación de los procedimientos y funciones del paquete PKG_PROFESOR
++    PROCEDURE ejemplo_profesor IS
++    BEGIN
++        NULL; -- Implementación del procedimiento
++    END ejemplo_profesor;
+ 
++    -- Implementación de los procedimientos y funciones del paquete PKG_ESTUDIANTE
++    PROCEDURE ejemplo_estudiante IS
++    BEGIN
++        NULL; -- Implementación del procedimiento
++    END ejemplo_estudiante;
+ 
+--- CICLO 2
++    -- Implementación de los procedimientos y funciones del paquete PKG_VICERRECTORIA
++    PROCEDURE ejemplo_vicerrectoria IS
++    BEGIN
++        NULL; -- Implementación del procedimiento
++    END ejemplo_vicerrectoria;
+ 
+-
++END;
++/
+\ No newline at end of file
+Index: Seguridad/Persistencia/Seguridad.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>-- CICLO 1\r\n\r\n\r\n\r\n-- CICLO 2\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Seguridad/Persistencia/Seguridad.sql b/Seguridad/Persistencia/Seguridad.sql
+--- a/Seguridad/Persistencia/Seguridad.sql	(revision c4ab6dd065f76dea24a2cdd294b5a59a9bcf435c)
++++ b/Seguridad/Persistencia/Seguridad.sql	(date 1747972062513)
+@@ -1,6 +1,30 @@
+ -- CICLO 1
+ 
++-- Definición de roles
++CREATE ROLE DIRECTOR;
++CREATE ROLE PROFESOR;
++CREATE ROLE ESTUDIANTE;
++CREATE ROLE VICERRECTORIA_ACADEMICA;
++
++-- Asignación de permisos para 'DIRECTOR'
++GRANT EXECUTE
++    ON PKG_DIRECTOR
++    TO DIRECTOR;
+ 
++-- Asignación de permisos para 'PROFESOR'
++GRANT EXECUTE
++    ON PKG_PROFESOR
++    TO PROFESOR;
++
++-- Asignación de permisos para 'ESTUDIANTE'
++GRANT EXECUTE
++    ON PKG_ESTUDIANTE
++    TO ESTUDIANTE;
++
++-- Asignación de permisos para 'VICERRECTORIA_ACADEMICA'
++GRANT EXECUTE
++    ON PKG_VICERRECTORIA
++    TO VICERRECTORIA_ACADEMICA;
+ 
+ -- CICLO 2
+ 
