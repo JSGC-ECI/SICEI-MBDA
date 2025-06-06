@@ -1,8 +1,15 @@
-# 📘 Sistema de Gestión Educativa
+# 📌 Sistema de Gestión Educativa
 
-> ⚠️ Estado del proyecto: **EN DESARROLLO**
+> ⚠️ Estado del proyecto: **En desarrollo** Versión académica
+
+Sistema de información desarrollado para la gestión académica de estudiantes, materias y prerrequisitos en programas de pregrado. Permite visualizar el avance académico y validar inscripciones.
 
 [Archivos](https://pruebacorreoescuelaingeduco-my.sharepoint.com/:f:/g/personal/juan_guayazan-c_mail_escuelaing_edu_co/Etv4lqBIz-pJsi63lNPS-cAB3F7-KDzZXC_FTU3enMVlxw?e=YaTw2x)
+
+---
+
+## 👥 Autores
+
 
 LAURA CATALINA HERRERA CORREA y MARIA IRMA DIAZ ROZO
 - [JUAN SEBASTIÁN GUAYAZÁN CLAVIJO](https://github.com/JuanSebastianGuayazanClavijoECI) → <juan.guayazan-c@mail.escuelaing.edu.co>
@@ -12,57 +19,40 @@ Modelos y Bases de Datos (ISIS MBDA-2 y MBDA-201)
 Decanatura Ingeniería de Sistemas → Centro de Estudios de Ingeniería de Software   
 Ingeniería de Sistemas   
 Escuela Colombiana de Ingeniería Julio Garavito   
-2025-1  
+2025-1 
 
 ---
 
-## 🎯 Objetivos
+## 🧠 Índice
 
-- 📚 Diseñar e implementar una base de datos relacional orientada a la gestión académica.
-- 🧠 Desarrollar consultas SQL para:
-  - Visualizar promedios.
-  - Identificar materias inscritas.
-  - Verificar cumplimiento de prerrequisitos.
-- 🛠️ Proporcionar herramientas que ayuden al estudiante a tomar decisiones informadas sobre su carga académica.
-- 📈 Visualizar el avance académico y jerarquía del plan de estudios.
-
----
-
-## 📝 Descripción
-
-Muchos estudiantes carecen de una forma clara y eficiente para visualizar su progreso académico a través del tiempo, lo que conlleva errores en la inscripción de materias y dificultades en la planificación a futuro.
-
-Este sistema permite:
-
-- Registrar materias, notas y niveles jerárquicos del plan de estudios.
-- Consultar avances académicos y rendimiento.
-- Facilitar la toma de decisiones académicas con base en datos estructurados.
+- [📌 Nombre del Proyecto](#-sicei-mbda-sistema-de-gestión-educativa)
+- [🚀 Características](#🚀-características)
+- [⚙️ Tecnologías](#⚙️-tecnologías)
+- [📦 Instalación](#📦-instalación)
+- [▶️ Uso](#▶️-uso)
+- [🧪 Pruebas](#🧪-pruebas)
+- [📁 Estructura del Proyecto](#📁-estructura-del-proyecto)
+- [📌 TODOs / Funcionalidades Futuras](#📌-todos--funcionalidades-futuras)
+- [👥 Autores](#👥-autores)
+- [📄 Licencia](#📄-licencia)
 
 ---
 
-## 🧩 Estructura del Proyecto
+## 🚀 Características
 
-El repositorio está estructurado por carpetas que representan los distintos aspectos funcionales del sistema. Cada carpeta incluye su componente de persistencia (definición SQL) y pruebas asociadas.
-
-|                                       | Persistencia                                                                                                                                                                                           | Pruebas                                                                                                              |
-| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Estructura y Restricciones Declarativas** | - `Tablas` Creación de tablas<br>- `Atributos` Definición de restricciones para un único atributos (TIpos)<br>- `Primarias` Definición de claves primaria<br>- `Unicas` Definición de claves únicas<br>- `Foraneas` Definición de claves foraneas<br>- `XTablas` Eliminación de tablas<br> - `Consultas` Consulta SQL | - `PoblarOK` Ingreso de datos correctos. (Sin automatización)<br>- `PoblarNoOK` Intento de ingreso de datos erroneos protegidos por los tipos de datos, definición de nulidades y claves primarias, únicas y foraneas.<br>- `XPoblar` Eliminación de datos |
-| **Restricciones y Automatización**          | - `Tuplas` Definición de las restricciones que implican más de un atributo<br>- `Acciones` Definición de las acciones de referencia<br>- `Disparadores` Definición de disparadores<br>- `XDisparadores` Eliminación de disparadores                                    | - `TuplasOK` Ingreso de datos correctos con respecto a la restricciones de tuplas <br>- `TuplasNoOK`Intento de ingreso de datos incorrectos con respecto a las restricciones de tupla <br>- `AccionesOK` Casos que prueban las acciones de referencia <br>- `DisparadoresOK` Ingreso de datos usando la automatización definida en los disparadores <br>- `DisparadoresNoOK` Intento de ingreso de datos erroneos protegidos por las restricciones de los disparadores.                                         |
-| **Índices y Vistas**                        | - `Índices` Definición de índices<br>- `Vistas` Definición de vistas <br>- `XÍndicesVistas` Eliminación de vistas e índices                                                                  | - `IndicesVistasOK` Consultas que requieren los indices y las vistas definidos                                                                              |
-| **Componentes**            | - `CRUDE` Especificación de los paquetes de componentes <br>- `CRUDI` Implementación de los paquetes <br>- `XCRUD` Eliminación de los paquetes                                                                                           | - `CRUDOK` Ingreso de datos correctos usando los procedimientos de los paquetes<br>- `CRUDNoOK` Intento de ingreso de datos erroneos protegidos por los procedimientos                                                                   |
-| **Seguridad**                               | - `ActoresE` Especificación de los paquetes de actores <br>- `ActoresI` Implementación de dichos paquetes <br>- `Seguridad` Definición de roles y permisos <br>- `XSeguridad` Eliminación de paquetes de actores, roles y permisos.                                           | - `SeguridadOK` Ingreso de datos correctos usando los procedimientos de los paquetes                                                                              |
-| **Pruebas**                                 | - `Pruebas` Historias complementarias                                                                                                                       |                                                                                                                                |
-
-
-👉 Puedes consultar el [modelo entidad-relación](https://github.com/JuanSebastianGuayazanClavijoECI/SICEI-MBDA/blob/main/SIECI.asta) del sistema
+- ✅ Consulta del avance académico del estudiante.
+- ✅ Registro de materias, áreas, núcleos de formación y notas.
+- ✅ Verificación automática de prerrequisitos.
+- ✅ Restricciones con `CHECK`, `REGEXP_LIKE`, claves foráneas y triggers.
+- ✅ Compatible con Oracle SQL Developer y DataGrip.
 
 ---
 
+## ⚙️ Tecnologías
 
-## 🏛️ Organización
-
-**ECINotes**  
-Una iniciativa estudiantil orientada a digitalizar, organizar y analizar los resultados académicos para ayudar a los estudiantes en su vida universitaria.
+- Lenguaje(s): `SQL`
+- Herramientas: `Oracle SQL Developer`, `DataGrip`, `Astah`
+- Dependencias: Ninguna externa
 
 ---
 
@@ -86,6 +76,97 @@ git clone https://github.com/JuanSebastianGuayazanClavijoECI/SICEI-MBDA.git
 
 ---
 
-## 📌 Licencia
+## ▶️ Uso
 
-Este proyecto fue desarrollado con fines académicos y de aprendizaje. Puedes usarlo, modificarlo o ampliarlo con propósitos educativos.
+Ejecutar en el orden dispuesto en Estructura del Proyecto
+
+---
+
+## 🧪 Pruebas
+
+```bash
+# Validar inserción correcta de datos
+ejecutar PoblarOK.sql
+
+# Validar restricciones automáticas
+ejecutar PoblarNoOK.sql
+```
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+📦 SICEI-MBDA          
+┣ 📂 Estructura y Restricciones Declarativas          
+  ┣ 📂 Persistencia
+    ┣ 📜 Tablas.sql            # Creación de tablas
+    ┣ 📜 Atributos.sql         # Definición de restricciones para un único atributos (TIpos)
+    ┣ 📜 Primarias.sql         # Definición de claves primarias
+    ┣ 📜 Unicas.sql            # Definición de claves únicas
+    ┣ 📜 Foraneas.sql          # Definición de claves foraneas
+    ┣ 📜 XTablas.sql           # Eliminación de tablas
+    ┣ 📜 Consultas.sql         # Consulta SQL
+  ┣ 📂 Pruebas
+    ┣ 📜 PoblarOK.sql          # Ingreso de datos correctos. (Sin automatización)
+    ┣ 📜 PoblarNoOK.sql        # Intento de ingreso de datos erroneos protegidos por los tipos de datos, definición de nulidades y claves primarias, únicas y foraneas.
+    ┣ 📜 XPoblar.sql           # Eliminación de datos
+┣ 📂 Restricciones y Automatización
+  ┣ 📂 Persistencia
+    ┣ 📜 Tuplas.sql            # Definición de las restricciones que implican más de un atributo
+    ┣ 📜 Acciones.sql          # Definición de las acciones de referencia
+    ┣ 📜 Disparadores.sql      # Definición de disparadores
+    ┣ 📜 XDisparadores.sql     # Eliminación de disparadores
+  ┣ 📂 Pruebas
+    ┣ 📜 TuplasOK.sql          # Ingreso de datos correctos con respecto a la restricciones de tuplas
+    ┣ 📜 TuplasNoOK.sql        # Intento de ingreso de datos incorrectos con respecto a las restricciones de tupla
+    ┣ 📜 AccionesOK.sql        # Casos que prueban las acciones de referencia
+    ┣ 📜 DisparadoresOK.sql    # Ingreso de datos usando la automatización definida en los disparadores
+    ┣ 📜 DisparadoresNoO.sql   # Intento de ingreso de datos erroneos protegidos por las restricciones de los disparadores
+┣ 📂 Índices y Vistas
+  ┣ 📂 Persistencia
+    ┣ 📜 Indices.sql          # Definición de índices
+    ┣ 📜 Vistas.sql           # Definición de vistas
+    ┣ 📜 XIndicesVistas.sql   # Eliminación de vistas e indices
+  ┣ 📂 Pruebas
+    ┣ 📜 IndicesVistasOK.sql  # Consultas que requieren los indices y las vistas definidos
+┣ 📂 Componentes
+  ┣ 📂 Persistencia
+    ┣ 📜 CRUDE.sql            # Especificación de los paquetes de componentes
+    ┣ 📜 CRUDI.sql            # Implementación de los paquetes 
+    ┣ 📜 XCRUD.sql            # Eliminación de los paquetes
+  ┣ 📂 Pruebas
+    ┣ 📜 CRUDOK.sql           # Ingreso de datos correctos usando los procedimientos de los paquetes
+    ┣ 📜 CRUDNoOK.sql         # Intento de ingreso de datos erroneos protegidos por los procedimientos
+┣ 📂 Seguridad
+  ┣ 📂 Persistencia.sql
+    ┣ 📜 ActoresE.sql         # Especificación de los paquetes de actores
+    ┣ 📜 ActoresI.sql         # Implementación de dichos paquetes
+    ┣ 📜 Seguridad.sql        # Definición de roles y permisos
+    ┣ 📜 XSeguridad.sql       # Eliminación de paquetes de actores, roles y permisos
+  ┣ 📂 Pruebas
+    ┣ 📜 SeguridadOK.sql      # Ingreso de datos correctos usando los procedimientos de los paquetes
+┣ 📂 Pruebas
+  ┣ 📂 Pruebas
+    ┣ 📜 Pruebas.sql          # Historias complementarias
+┣ 📜 SIECI.asta          
+┣ 📜 README.md
+```
+
+👉 [Modelo Entidad-Relación](https://github.com/JuanSebastianGuayazanClavijoECI/SICEI-MBDA/blob/main/SIECI.asta)
+
+---
+
+## 📌 TODOs / Funcionalidades Futuras
+
+* [ ] Implementar interfaz gráfica para consultas
+* [ ] Agregar validación por semestre
+* [ ] Automatizar matrículas y horarios
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo propósitos académicos y educativos. Puedes consultar el archivo [LICENSE](./LICENSE) para más información.
+
+---
