@@ -1,6 +1,6 @@
 # 📌 Sistema de Gestión Educativa
 
-> ⚠️ Estado del proyecto: **En desarrollo** Versión académica
+> ⚠️ Estado: ***EN DESARROLLO*** Versión académica
 
 Sistema de información desarrollado para la gestión académica de estudiantes, materias y prerrequisitos en programas de pregrado. Permite visualizar el avance académico y validar inscripciones.
 
@@ -25,16 +25,16 @@ Escuela Colombiana de Ingeniería Julio Garavito
 
 ## 🧠 Índice
 
-- [📌 Nombre del Proyecto](#-sicei-mbda-sistema-de-gestión-educativa)
-- [🚀 Características](#🚀-características)
-- [⚙️ Tecnologías](#⚙️-tecnologías)
-- [📦 Instalación](#📦-instalación)
-- [▶️ Uso](#▶️-uso)
-- [🧪 Pruebas](#🧪-pruebas)
-- [📁 Estructura del Proyecto](#📁-estructura-del-proyecto)
-- [📌 TODOs / Funcionalidades Futuras](#📌-todos--funcionalidades-futuras)
-- [👥 Autores](#👥-autores)
-- [📄 Licencia](#📄-licencia)
+- [📌 Nombre del Proyecto](#-sistema-de-gestión-educativa)
+- [🚀 Características](#-características)
+- [⚙️ Tecnologías](#️-tecnologías)
+- [📦 Instalación y Requisitos](#-instalación-y-requisitos)
+- [▶️ Uso](#️-uso)
+- [🧪 Pruebas](#-pruebas)
+- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+- [📌 TODOs / Funcionalidades Futuras](#-todos--funcionalidades-futuras)
+- [👥 Autores](#-autores)
+- [📄 Licencia](#-licencia)
 
 ---
 
@@ -79,17 +79,14 @@ git clone https://github.com/JuanSebastianGuayazanClavijoECI/SICEI-MBDA.git
 ## ▶️ Uso
 
 Ejecutar en el orden dispuesto en Estructura del Proyecto
+De querer agregar mas tuplas (filas) hacer insercion en PoblarOK.sql
 
 ---
 
 ## 🧪 Pruebas
 
 ```bash
-# Validar inserción correcta de datos
-ejecutar PoblarOK.sql
-
-# Validar restricciones automáticas
-ejecutar PoblarNoOK.sql
+Ejecutar  y/o adicionar scripts dispuestos en las carpetasPruebas
 ```
 
 ---
@@ -99,56 +96,56 @@ ejecutar PoblarNoOK.sql
 ```
 📦 SICEI-MBDA          
 ┣ 📂 Estructura y Restricciones Declarativas          
-  ┣ 📂 Persistencia
-    ┣ 📜 Tablas.sql            # Creación de tablas
-    ┣ 📜 Atributos.sql         # Definición de restricciones para un único atributos (TIpos)
-    ┣ 📜 Primarias.sql         # Definición de claves primarias
-    ┣ 📜 Unicas.sql            # Definición de claves únicas
-    ┣ 📜 Foraneas.sql          # Definición de claves foraneas
-    ┣ 📜 XTablas.sql           # Eliminación de tablas
-    ┣ 📜 Consultas.sql         # Consulta SQL
-  ┣ 📂 Pruebas
-    ┣ 📜 PoblarOK.sql          # Ingreso de datos correctos. (Sin automatización)
-    ┣ 📜 PoblarNoOK.sql        # Intento de ingreso de datos erroneos protegidos por los tipos de datos, definición de nulidades y claves primarias, únicas y foraneas.
-    ┣ 📜 XPoblar.sql           # Eliminación de datos
+┃ ┣ 📂 Persistencia
+┃ ┃ ┣ 📜 Tablas.sql            # Creación de tablas
+┃ ┃ ┣ 📜 Atributos.sql         # Definición de restricciones para un único atributos (TIpos)
+┃ ┃ ┣ 📜 Primarias.sql         # Definición de claves primarias
+┃ ┃ ┣ 📜 Unicas.sql            # Definición de claves únicas
+┃ ┃ ┣ 📜 Foraneas.sql          # Definición de claves foraneas
+┃ ┃ ┣ 📜 XTablas.sql           # Eliminación de tablas
+┃ ┃ ┣ 📜 Consultas.sql         # Consulta SQL
+┃ ┣ 📂 Pruebas
+┃ ┃ ┣ 📜 PoblarOK.sql          # Ingreso de datos correctos. (Sin automatización)
+┃ ┃ ┣ 📜 PoblarNoOK.sql        # Intento de ingreso de datos erroneos protegidos por los tipos de datos, definición de nulidades y claves primarias, únicas y foraneas.
+┗ ┗ ┣ 📜 XPoblar.sql           # Eliminación de datos
 ┣ 📂 Restricciones y Automatización
-  ┣ 📂 Persistencia
-    ┣ 📜 Tuplas.sql            # Definición de las restricciones que implican más de un atributo
-    ┣ 📜 Acciones.sql          # Definición de las acciones de referencia
-    ┣ 📜 Disparadores.sql      # Definición de disparadores
-    ┣ 📜 XDisparadores.sql     # Eliminación de disparadores
-  ┣ 📂 Pruebas
-    ┣ 📜 TuplasOK.sql          # Ingreso de datos correctos con respecto a la restricciones de tuplas
-    ┣ 📜 TuplasNoOK.sql        # Intento de ingreso de datos incorrectos con respecto a las restricciones de tupla
-    ┣ 📜 AccionesOK.sql        # Casos que prueban las acciones de referencia
-    ┣ 📜 DisparadoresOK.sql    # Ingreso de datos usando la automatización definida en los disparadores
-    ┣ 📜 DisparadoresNoO.sql   # Intento de ingreso de datos erroneos protegidos por las restricciones de los disparadores
+┃ ┣ 📂 Persistencia
+┃ ┃ ┣ 📜 Tuplas.sql            # Definición de las restricciones que implican más de un atributo
+┃ ┃ ┣ 📜 Acciones.sql          # Definición de las acciones de referencia
+┃ ┃ ┣ 📜 Disparadores.sql      # Definición de disparadores
+┃ ┗ ┣ 📜 XDisparadores.sql     # Eliminación de disparadores
+┃ ┣ 📂 Pruebas
+┃ ┃ ┣ 📜 TuplasOK.sql          # Ingreso de datos correctos con respecto a la restricciones de tuplas
+┃ ┃ ┣ 📜 TuplasNoOK.sql        # Intento de ingreso de datos incorrectos con respecto a las restricciones de tupla
+┃ ┃ ┣ 📜 AccionesOK.sql        # Casos que prueban las acciones de referencia
+┃ ┃ ┣ 📜 DisparadoresOK.sql    # Ingreso de datos usando la automatización definida en los disparadores
+┗ ┗ ┣ 📜 DisparadoresNoO.sql   # Intento de ingreso de datos erroneos protegidos por las restricciones de los disparadores
 ┣ 📂 Índices y Vistas
-  ┣ 📂 Persistencia
-    ┣ 📜 Indices.sql          # Definición de índices
-    ┣ 📜 Vistas.sql           # Definición de vistas
-    ┣ 📜 XIndicesVistas.sql   # Eliminación de vistas e indices
-  ┣ 📂 Pruebas
-    ┣ 📜 IndicesVistasOK.sql  # Consultas que requieren los indices y las vistas definidos
+┃ ┣ 📂 Persistencia
+┃ ┃ ┣ 📜 Indices.sql          # Definición de índices
+┃ ┃ ┣ 📜 Vistas.sql           # Definición de vistas
+┃ ┃ ┣ 📜 XIndicesVistas.sql   # Eliminación de vistas e indices
+┃ ┣ 📂 Pruebas
+┗ ┗ ┣ 📜 IndicesVistasOK.sql  # Consultas que requieren los indices y las vistas definidos
 ┣ 📂 Componentes
-  ┣ 📂 Persistencia
-    ┣ 📜 CRUDE.sql            # Especificación de los paquetes de componentes
-    ┣ 📜 CRUDI.sql            # Implementación de los paquetes 
-    ┣ 📜 XCRUD.sql            # Eliminación de los paquetes
-  ┣ 📂 Pruebas
-    ┣ 📜 CRUDOK.sql           # Ingreso de datos correctos usando los procedimientos de los paquetes
-    ┣ 📜 CRUDNoOK.sql         # Intento de ingreso de datos erroneos protegidos por los procedimientos
+┃ ┣ 📂 Persistencia
+┃ ┃ ┣ 📜 CRUDE.sql            # Especificación de los paquetes de componentes
+┃ ┃ ┣ 📜 CRUDI.sql            # Implementación de los paquetes 
+┃ ┃ ┣ 📜 XCRUD.sql            # Eliminación de los paquetes
+┃ ┣ 📂 Pruebas
+┃ ┃ ┣ 📜 CRUDOK.sql           # Ingreso de datos correctos usando los procedimientos de los paquetes
+┗ ┗ ┣ 📜 CRUDNoOK.sql         # Intento de ingreso de datos erroneos protegidos por los procedimientos
 ┣ 📂 Seguridad
-  ┣ 📂 Persistencia.sql
-    ┣ 📜 ActoresE.sql         # Especificación de los paquetes de actores
-    ┣ 📜 ActoresI.sql         # Implementación de dichos paquetes
-    ┣ 📜 Seguridad.sql        # Definición de roles y permisos
-    ┣ 📜 XSeguridad.sql       # Eliminación de paquetes de actores, roles y permisos
-  ┣ 📂 Pruebas
-    ┣ 📜 SeguridadOK.sql      # Ingreso de datos correctos usando los procedimientos de los paquetes
+┃ ┣ 📂 Persistencia.sql
+┃ ┃ ┣ 📜 ActoresE.sql         # Especificación de los paquetes de actores
+┃ ┃ ┣ 📜 ActoresI.sql         # Implementación de dichos paquetes
+┃ ┃ ┣ 📜 Seguridad.sql        # Definición de roles y permisos
+┃ ┗ ┣ 📜 XSeguridad.sql       # Eliminación de paquetes de actores, roles y permisos
+┃ ┣ 📂 Pruebas
+┗   ┣ 📜 SeguridadOK.sql      # Ingreso de datos correctos usando los procedimientos de los paquetes
 ┣ 📂 Pruebas
-  ┣ 📂 Pruebas
-    ┣ 📜 Pruebas.sql          # Historias complementarias
+┃ ┣ 📂 Pruebas
+┗   ┣ 📜 Pruebas.sql          # Historias complementarias
 ┣ 📜 SIECI.asta          
 ┣ 📜 README.md
 ```
