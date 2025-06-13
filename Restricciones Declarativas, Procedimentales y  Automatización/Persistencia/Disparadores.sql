@@ -1,7 +1,7 @@
 -- CICLO 1
 
 -- Trigger para establecer la fecha de registro al insertar un nuevo estudiante
-CREATE TRIGGER trg_fecha_registro_estudiante
+CREATE OR REPLACE TRIGGER trg_fecha_registro_estudiante
     BEFORE INSERT ON Estudiantes
     FOR EACH ROW
 BEGIN
@@ -12,7 +12,7 @@ END;
 -- NOTA: La validación de que las notas no sean mayores a 5.0 se realiza mediante una restricción CHECK en Atributos.sql
 
 -- Trigger para establecer el presupuesto asignado al insertar un nuevo director
-CREATE TRIGGER trg_presupuesto_director
+CREATE OR REPLACE TRIGGER trg_presupuesto_director
     BEFORE INSERT ON Directores
     FOR EACH ROW
 BEGIN
