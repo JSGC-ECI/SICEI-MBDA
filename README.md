@@ -43,15 +43,13 @@ Escuela Colombiana de Ingeniería Julio Garavito
 - ✅ Consulta del avance académico del estudiante.
 - ✅ Registro de materias, áreas, núcleos de formación y notas.
 - ✅ Verificación automática de prerrequisitos.
-- ✅ Restricciones con `CHECK`, `REGEXP_LIKE`, claves foráneas y triggers.
-- ✅ Compatible con Oracle SQL Developer y DataGrip.
 
 ---
 
 ## ⚙️ Tecnologías
 
 - Lenguaje(s): `SQL`
-- Herramientas: `Oracle SQL Developer`, `DataGrip`, `Astah`
+- Herramientas: `Oracle SQL Developer`, `Astah`
 - Dependencias: Ninguna externa
 
 ---
@@ -86,7 +84,7 @@ De querer agregar mas tuplas (filas) hacer insercion en PoblarOK.sql
 ## 🧪 Pruebas
 
 ```bash
-Ejecutar  y/o adicionar scripts dispuestos en las carpetasPruebas
+Ejecutar  y/o adicionar scripts dispuestos en las carpetas Pruebas
 ```
 
 ---
