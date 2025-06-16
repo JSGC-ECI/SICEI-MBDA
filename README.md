@@ -4,8 +4,6 @@
 
 Sistema de información desarrollado para la gestión académica de estudiantes, materias y prerrequisitos en programas de pregrado. Permite visualizar el avance académico y validar inscripciones.
 
-[Archivos](https://pruebacorreoescuelaingeduco-my.sharepoint.com/:f:/g/personal/juan_guayazan-c_mail_escuelaing_edu_co/Etv4lqBIz-pJsi63lNPS-cAB3F7-KDzZXC_FTU3enMVlxw?e=YaTw2x)
-
 ---
 
 ## 👥 Autores
