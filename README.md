@@ -23,17 +23,17 @@ Escuela Colombiana de Ingeniería Julio Garavito
 
 ## 🧠 Índice
 
-- 📌 [Nombre del Proyecto](#-nombre-del-proyecto)
-- 👥 [Autores](#-autores)
-- 🚀 [Características](#-características)
-- ⚙️ [Tecnologías](#️-tecnologías)
-- 📦 [Instalación y Requisitos](#-instalación-y-requisitos)
-- ▶️ [Uso](#️-uso)
-- 🧪 [Pruebas](#-pruebas)
-- 📁 [Estructura del Proyecto](#-estructura-del-proyecto)
-- 📌 [TODOs / Funcionalidades Futuras](#-todos--funcionalidades-futuras)
+- [📌 Nombre del Proyecto](#-sistema-de-gestión-educativa)
+- [👥 Autores](#-autores)
+- [🚀 Características](#-características)
+- [⚙️ Tecnologías](#️-tecnologías)
+- [📦 Instalación y Requisitos](#-instalación-y-requisitos)
+- [▶️ Uso](#️-uso)
+- [🧪 Pruebas](#-pruebas)
+- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+- [📌 TODOs / Funcionalidades Futuras](#-todos--funcionalidades-futuras)
 - 📊 [Estadísticas del Repositorio](#-estadísticas-del-repositorio)
-- 📄 [Licencia](#-licencia)
+- [📄 Licencia](#-licencia)
 
 ---
 
