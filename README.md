@@ -23,16 +23,17 @@ Escuela Colombiana de Ingeniería Julio Garavito
 
 ## 🧠 Índice
 
-- [📌 Nombre del Proyecto](#-sistema-de-gestión-educativa)
-- [🚀 Características](#-características)
-- [⚙️ Tecnologías](#️-tecnologías)
-- [📦 Instalación y Requisitos](#-instalación-y-requisitos)
-- [▶️ Uso](#️-uso)
-- [🧪 Pruebas](#-pruebas)
-- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
-- [📌 TODOs / Funcionalidades Futuras](#-todos--funcionalidades-futuras)
-- [👥 Autores](#-autores)
-- [📄 Licencia](#-licencia)
+- 📌 [Nombre del Proyecto](#-nombre-del-proyecto)
+- 👥 [Autores](#-autores)
+- 🚀 [Características](#-características)
+- ⚙️ [Tecnologías](#️-tecnologías)
+- 📦 [Instalación y Requisitos](#-instalación-y-requisitos)
+- ▶️ [Uso](#️-uso)
+- 🧪 [Pruebas](#-pruebas)
+- 📁 [Estructura del Proyecto](#-estructura-del-proyecto)
+- 📌 [TODOs / Funcionalidades Futuras](#-todos--funcionalidades-futuras)
+- 📊 [Estadísticas del Repositorio](#-estadísticas-del-repositorio)
+- 📄 [Licencia](#-licencia)
 
 ---
 
@@ -46,7 +47,7 @@ Escuela Colombiana de Ingeniería Julio Garavito
 
 ## ⚙️ Tecnologías
 
-- Lenguaje(s): `SQL`
+- Lenguaje(s): `SQL`, `XML`
 - Herramientas: `Oracle SQL Developer`, `Astah`
 - Dependencias: Ninguna externa
 
@@ -74,8 +75,17 @@ git clone https://github.com/JuanSebastianGuayazanClavijoECI/SICEI-MBDA.git
 
 ## ▶️ Uso
 
-Ejecutar en el orden dispuesto en Estructura del Proyecto
-De querer agregar mas tuplas (filas) hacer insercion en PoblarOK.sql
+> \[!NOTE]
+> Ejecutar primero los scripts de creación de tablas antes de correr las consultas.
+
+> \[!WARNING]
+> Si usas `RESTRICT` al revocar privilegios, asegúrate que no existan dependencias activas.
+
+> \[!TIP]
+> Las vistas materializadas pueden mejorar el rendimiento, pero deben actualizarse periódicamente.
+
+> \[!IMPORTANT]
+> El XML debe validarse contra su DTD antes de ejecutar consultas XQuery.
 
 ---
 
@@ -155,6 +165,16 @@ Ejecutar  y/o adicionar scripts dispuestos en las carpetas Pruebas
 * [ ] Implementar interfaz gráfica para consultas
 * [ ] Agregar validación por semestre
 * [ ] Automatizar matrículas y horarios
+
+---
+
+## 📊 Estadísticas del Repositorio
+
+![Lenguaje principal](https://img.shields.io/github/languages/top/JSGC-ECI/SICEI-MBDA?style=flat-square)
+![Tamaño del repositorio](https://img.shields.io/github/repo-size/JSGC-ECI/SICEI-MBDA?style=flat-square)
+![Stars](https://img.shields.io/github/stars/JSGC-ECI/SICEI-MBDA?style=flat-square)
+![Forks](https://img.shields.io/github/forks/JSGC-ECI/SICEI-MBDA?style=flat-square)
+![Issues abiertas](https://img.shields.io/github/issues/JSGC-ECI/SICEI-MBDA?style=flat-square)
 
 ---
 
